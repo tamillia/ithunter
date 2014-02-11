@@ -9,114 +9,110 @@ categories: python
 
 Вместо использования цикла для задания списка
 
-<code class="python">
     >>> b = []
     >>> for x in range(10):
     b.append(10 * x)
     >>> b
     [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
-</code>
 
 можно использовать генератор списков
 
-<code class="python">
     >>> [10 * x for x in range(10)]
     [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
-</code>
 
 также Python 2.7 поддерживает генераторы словарей и множеств:
 
-<code>
     >>> {x: 10 * x for x in range(5)}
     {0: 0, 1: 10, 2: 20, 3: 30, 4: 40}
     >>> {10 * x for x in range(5)}
     set([0, 40, 10, 20, 30])
-</code>
 
 Интересные приёмы с zip.
 
 Транспонировать матрицу:
-```python
->>> l = [­[1, 2, 3], [4, 5, 6]]
->>> zip(*l)
-[(1, 4), (2, 5), (3, 6)]
-```
-Разделение списка на группы из n элементов:
-```python
->>> l = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8]
->>> zip(*([iter(l)] * 3))
-[(3, 1, 4), (1, 5, 9), (2, 6, 5), (3, 5, 8)]
-```
-А также:
-```python
->>> import this
-The Zen of Python, by Tim Peters
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one— and preferably only one —obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea — let's do more of those!
-```
+    >>> l = [­[1, 2, 3], [4, 5, 6]]
+    >>> zip(*l)
+    [(1, 4), (2, 5), (3, 6)]
+
+Разделение списка на группы из n элементов:
+
+    >>> l = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8]
+    >>> zip(*([iter(l)] * 3))
+    [(3, 1, 4), (1, 5, 9), (2, 6, 5), (3, 5, 8)]
+
+А также:
+
+    >>> import this
+    The Zen of Python, by Tim Peters
+
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one— and preferably only one —obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea — let's do more of those!
+
 Простой HTTP сервер может быть запущен за секунды:
 для python 2.7
-```python
->>>python -m SimpleHTTPServer
+
+    >>>python -m SimpleHTTPServer
+
 для python 3
->>>python -m http.server
-```
+
+    >>>python -m http.server
+
 Сервер запускается на порте 8080 по умолчанию, но это можно изменить. Пример использования: чтобы поделиться всей директорией с кем-нибудь через интернет, можно в командной строке линукса набрать cd *нужную директорию* и эту команду. Поделившись директорией, отправивший её делится своим IP-адресом. Директория может быть легко просматриваема и файлы из неё могут быть легко скачаны. Также можно мониторить запросы на доступ к директории через терминал.
 
 Найти самую длинную строчку в файле:
-```python
->>>max(open('test.txt'), key=len)
-```
+
+    >>>max(open('test.txt'), key=len)
+
 Сумма цифр беззнакового целого числа:
-```python
->>>sum(map(int, str(n)))
-```
+
+    >>>sum(map(int, str(n)))
+
 Искрографы можно строить с помощью https://gist.github.com/stefanv/1371985
 
 Примеры:
-```python
-spark 1,5,22,13,53
-▁▁▃▂▇
-spark 0 30 55 80 33 150 
-▁▂▃▅▂▇
-spark 0.1 0.2 0.9 -0.5
-▄▅█▁
-```
+
+    spark 1,5,22,13,53
+    ▁▁▃▂▇
+    spark 0 30 55 80 33 150 
+    ▁▂▃▅▂▇
+    spark 0.1 0.2 0.9 -0.5
+    ▄▅█▁
+
 Также можно задавать бесконечность в Python:
-```python
->>> my_inf = float('Inf')
->>> 99999999999 > my_inf
-False
->>> my_neg_inf = float('-Inf')
->>> my_neg_inf > -9999999999
-False
-```
+
+    >>> my_inf = float('Inf')
+    >>> 99999999999 > my_inf
+    False
+    >>> my_neg_inf = float('-Inf')
+    >>> my_neg_inf > -9999999999
+    False
+
 Попробуйте набрать эту строчку:
-```python
-import antigravity
-```
+
+    import antigravity
+
 Менять значения переменных между собой:
-```python
-a, b = b, a
-```
+
+    a, b = b, a
+
 Интуитивно понятные сравнения:
 ```python
 >>>x = 2
