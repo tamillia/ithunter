@@ -14,13 +14,10 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
   text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -46,7 +43,7 @@ a:visited { color: #0A1647; }
 .posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-size: 0.9em;
 }
 
 /*****************************************************************************/
@@ -56,11 +53,9 @@ a:visited { color: #0A1647; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 2em auto 2em;
-  padding: 1em;
+  width: 100%;
+  padding: 2em;
   line-height: 1.5em;
 }
 
@@ -72,7 +67,7 @@ a:visited { color: #0A1647; }
 .title {
   display: inline-block;
   margin-bottom: 2em;
-  font-size: 125%
+  font-size: 1.5em;
 }
 
 .title a {
