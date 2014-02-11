@@ -1,96 +1,13 @@
-<html>
-    <head>
-        <title>Artyom's webpage</title>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-        <style media="screen" type="text/css">
-            h2 {
-                text-align: center;
-            }
-            #menu {
-                margin: 0 auto;
-                width: 313px;
-            }
-            #main {
-                padding-top: 10px;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            .icons {
-                width: 100px;
-            }
-            #main a, #main a:visited {
-                text-decoration: none;
-                font-weight:bold;
-                color: #003B68;
-            }
-            #main a:hover {
-                text-decoration: underline;
-            }
-        </style>
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-        <!-- Put this script tag to the <head> of your page -->
-        <script type="text/javascript" src="//vk.com/js/api/openapi.js"; type="text/javascript" charset="windows-1251">></script>
-    </head>
-
-    <body>
-        <h2>Привет! Добро пожаловать на мой небольшой уголок в этих ваших интернетах.</h2>
-        <h2>Меня зовут Артём.</h2>
-        <div id="menu" class="pure-menu pure-menu-open pure-menu-horizontal">
-            <ul>
-                <li><a href="http://vk.com/id10903696">VK</a></li>
-                <li><a href="http://facebook.com/theasdr">FB</a></li>
-                <li><a href="http://github.com/theasder">Github</a></li>
-                <li><a href="http://www.lastfm.ru/user/art-drs">Last.fm</a></li>
-            </ul>
-        </div>
-    <div id="main" class="pure-g">
-        <div class="pure-u-2-3"> 
-            <h3>Обо мне.</h3>
-            Мне 19 лет, учусь на втором курсе ВМК МГУ, пытаюсь программировать, создаю всякие интересные проекты, веду всякие блоги в ВК.<br />
-            Иногда фотографирую, если вдруг появляется желание. <a href="http://www.flickr.com/photos/80064496@N02/">Здесь есть немного фотографий.</a>
-            <a href="http://instagram.com/theasder">И здесь.</a><br />
-            На этой странице вести личный блог пока не собираюсь, но кто знает. Пока что вот список мной администрируемых сообществ:<br />
-           <table class="pure-table" style="margin-top:15px;width:90%">
-                <tbody>
-                    <tr>
-                        <td><img src="img/knigi.jpg" class="icons"></td>
-                        <td><a href="http://vk.com/progliterature">Книги для программистов</a> <br />
-                            Несмотря на существование торрентов, у меня возникло желание предоставить пользователям скачивать книги напрямую, да еще и структурировать книги по тематике.
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><img src="img/code.jpg" class="icons"></td>
-                        <td><a href="http://vk.com/your_code">Pastebin</a> (это так называется сообщество, не сайт :) )<br />
-                            Сюда выкладывают интересные проекты или код для многократного использования, в том числе и свой.
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><img src="img/rozanov.jpg" class="icons"></td>
-                        <td><a href="http://vk.com/rozanov_v">Василий Розанов</a><br />
-                            Изредка выкладываю цитаты из творчества многими забытого философа.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <!-- Put this div tag to the place, where the Comments block will be -->
-            <script type="text/javascript">
-                VK.init({apiId:4158178, onlyWidgets: true});
-            </script>
-        </div>
-        <div class="pure-u-1-3">
-            <a href="skype:artdrs1?call"><img src="img/Skype-icon.png" style="width:20px" /><div style="margin-top:-20px;margin-left:25px">artdrs1</div></a><br />
-            <a class="twitter-timeline" href="https://twitter.com/theasdr" data-widget-id="429339582019018756">мой микробложик</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-    </div>
-    <div style="margin-top:10px; margin-left:10px">
-        <div id="vk_comments"></div>
-        <script type="text/javascript">
-            VK.Widgets.Comments("vk_comments", {limit: 5, width: "720", attach: "*"});
-        </script>
-    </div>
-    </body>
-</html>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
