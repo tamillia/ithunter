@@ -114,69 +114,68 @@ categories: python
     a, b = b, a
 
 Интуитивно понятные сравнения:
-```python
->>>x = 2
->>>3 > x == 1
-False
->>>1 < x < 3
-True
->>>10 < 10*x < 30 
-True
->>>10 < x**5 < 30 
-False
->>>100 < x*100 >= x**6 + 34 > x <= 2*x <5
-True
-```
+
+    >>>x = 2
+    >>>3 > x == 1
+    False
+    >>>1 < x < 3
+    True
+    >>>10 < 10*x < 30 
+    True
+    >>>10 < x**5 < 30 
+    False
+    >>>100 < x*100 >= x**6 + 34 > x <= 2*x <5
+    True
+
 Обратный порядок.
 Создать новый массив, элементы которого записаны в обратном порядке элементов старого массива
-```python
->>>mylist = [1,2,3]
->>>mylist.reverse()
->>>mylist
-[3,2,1]
-```
-Распечатать в обратном порядке:
-```python
->>>for element in reversed([1,2,3]): 
-print element
-3
-2
-1
-```
-Можно также для обратного порядка использовать [::-1]
-```python
->>> "Hello world"[::-1]
-'dlrow olleH'
->>> [1,2,3][::-1]
-[3, 2, 1]
-```
-Автоматическая распаковка данных.
-```python
->>> def foo(a, b, c):
-print a, b, c
 
->>> mydict = {'a':1, 'b':2, 'c':3}
->>> mylist = [10, 20, 30]
->>> foo(*mydict)
-a c b
->>> foo(** mydict)
-1 2 3
-```
+    >>>mylist = [1,2,3]
+    >>>mylist.reverse()
+    >>>mylist
+    [3,2,1]
+
+Распечатать в обратном порядке:
+
+    >>>for element in reversed([1,2,3]): 
+    print element
+    3
+    2
+    1
+
+Можно также для обратного порядка использовать [::-1]
+
+    >>> "Hello world"[::-1]
+    'dlrow olleH'
+    >>> [1,2,3][::-1]
+    [3, 2, 1]
+
+Автоматическая распаковка данных.
+
+    >>> def foo(a, b, c):
+    print a, b, c
+    >>> mydict = {'a':1, 'b':2, 'c':3}
+    >>> mylist = [10, 20, 30]
+    >>> foo(*mydict)
+    a c b
+    >>> foo(** mydict)
+    1 2 3
+
 Возможность пронумеровать элементы:
-```python
->>> class PlayerRanking:
-Bolt, Green, Johnson, Mom = range(4) 
->>> PlayerRanking.Mom
-3
->>> PlayerRanking.Bolt
-0
-```
+
+    >>> class PlayerRanking:
+    Bolt, Green, Johnson, Mom = range(4) 
+    >>> PlayerRanking.Mom
+    3
+    >>> PlayerRanking.Bolt
+    0
+
 Словарь(это такое название структуры данных) очень удобна для размещения переключателей частоиспользуемых операций. Например, можно сделать простенький калькулятор:
-```python
->>> calculator = {
-'plus': lambda x, y: x + y,
-'minus': lambda x, y: x - y
-}
->>> calculator['minus'](9,3)
-6
-```
+
+    >>> calculator = {
+    'plus': lambda x, y: x + y,
+    'minus': lambda x, y: x - y
+    }
+    >>> calculator['minus'](9,3)
+    6
+
