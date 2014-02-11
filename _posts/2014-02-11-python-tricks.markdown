@@ -85,7 +85,7 @@ categories: python
 
     >>> sum(map(int, str(n)))
 
-Искрографы можно строить с помощью [этой ссылки](https://gist.github.com/stefanv/1371985)
+Искрографы можно строить с помощью [кода, приведенного по ссылке](https://gist.github.com/stefanv/1371985)
 
 Примеры:
 
