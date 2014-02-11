@@ -8,7 +8,7 @@ categories: python
 Генератор списков и выражений.
 
 Вместо использования цикла для задания списка
-    ```python
+
     >>> b = []
     >>> for x in range(10):
     b.append(10 * x)
@@ -85,7 +85,7 @@ categories: python
 
     >>> sum(map(int, str(n)))
 
-Искрографы можно строить с помощью https://gist.github.com/stefanv/1371985
+Искрографы можно строить с помощью [этой ссылки](https://gist.github.com/stefanv/1371985)
 
 Примеры:
 
