@@ -6,12 +6,11 @@ date: 2014-02-14 19:42:00
 
 [http://regex101.com/](http://regex101.com/)
 
-Этот сервис позволяет тестировать ваши регулярные выражения на примере,
-но еще он выделяет другим цветом группы:
-![Alt](http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true)
+Этот сервис позволяет тестировать ваши регулярные выражения на примере, но еще он выделяет другим цветом группы:<br />
+![Alt](http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true)<br />
 
-Еще предоставляет полное объяснение о том, что происходит:
-![Alt](http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true)
+Еще предоставляет полное объяснение о том, что происходит:<br />
+![Alt](http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true)<br />
 
 Однако нужно держать в голове то, регулярные выражения в разных языках программирования будут иметь
 свои особенности(например, некоторые вещи не поддерживаются в каком-то языке). Есть веб-сервисы,
@@ -19,8 +18,8 @@ date: 2014-02-14 19:42:00
 программирования, но некоторые из них могут быть не всегда надежными.
 
 Рекомендуется сервис [http://regexplanet.com](http://regexplanet.com), он поддерживает следующие
-технологии:
-![Alt](http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true)
+технологии:<br />
+![Alt](http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true)<br />
 Можно убедиться в значительных различиях вот [здесь](http://www.regular-expressions.info/refflavors.html)
 Там достаточно кликнуть по ссылке в таблице содержаний, чтобы увидеть как поддерживается что-нибудь
 в разных языках программирования.
