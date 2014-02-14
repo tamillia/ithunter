@@ -2,6 +2,7 @@
 layout: post
 title: "Как отлаживать регулярные выражения"
 date: 2014-02-14 19:42:00
+category: regexp
 ---
 
 [http://regex101.com/](http://regex101.com/)
