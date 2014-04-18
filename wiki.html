@@ -46,6 +46,15 @@
                 document.getElementById("publ").value = "16108331";
             }
 
+            if(getCookie("wiki") != undefined)
+            {
+                document.getElementById("wiki").value = getCookie("wiki");
+            }
+            else
+            {
+                document.getElementById("wiki").value = getCookie("wiki");
+            }
+
             var button = document.getElementById("ok");
             button.onclick = function() 
             {
@@ -55,6 +64,7 @@
                 var answer = document.getElementById("answer");
                 answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki + "'>" + "Click to edit page</a>";
                 setCookie("publ", publ);
+                setCookie("wiki", wiki);
             };
         </script>
     </body>
