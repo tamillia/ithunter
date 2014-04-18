@@ -25,6 +25,21 @@
             }
         </style>
         <script type="text/javascript" src="cookie.js"></script>
+        <script type="text/javascript">
+
+            //print_url()
+            //button.onclick = function() 
+            function print_url()
+            {
+                var publ = document.getElementById("publ").value;
+                var wiki = document.getElementById("wiki").value;
+                wiki = wiki.replace(/\s+/g, "_");
+                var answer = document.getElementById("answer");
+                answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki + "'>" + "Click to edit page</a>";
+                setCookie("publ", publ);
+                setCookie("wiki", wiki);
+            };
+        </script>
     </head>
 
     <body>
@@ -32,8 +47,8 @@
                 Public ID <br />
                 <input type="text" id="publ"><br />
                 Wiki-page title <br />
-                <input type="text" id="wiki" value="Hello, World!"> <br />
-                <input type="submit" id="ok" value="Ready!">
+                <input type="text" id="wiki" value="Hello, World!" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
+                <input type="submit" id="ok" value="Ready!" onClick="print_url();">
                 <div id="answer"></div>
         </div>
         <script type="text/javascript">
@@ -45,7 +60,7 @@
             {
                 document.getElementById("publ").value = "16108331";
             }
-
+            
             if(getCookie("wiki") != undefined)
             {
                 document.getElementById("wiki").value = getCookie("wiki");
@@ -54,18 +69,6 @@
             {
                 document.getElementById("wiki").value = "Hello, World!";
             }
-
-            var button = document.getElementById("ok");
-            button.onclick = function() 
-            {
-                var publ = document.getElementById("publ").value;
-                var wiki = document.getElementById("wiki").value;
-                wiki = wiki.replace(/\s+/g, "_");
-                var answer = document.getElementById("answer");
-                answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki + "'>" + "Click to edit page</a>";
-                setCookie("publ", publ);
-                setCookie("wiki", wiki);
-            };
         </script>
     </body>
 </html>
