@@ -39,6 +39,20 @@
                 setCookie("publ", publ);
                 setCookie("wiki", wiki);
             };
+
+            function print_urls()
+            {
+                var cont = document.getElementById("mult").value;
+                //cont = cont.replace(/\n/g, "<br />");
+                cont = cont.split('\n');
+                var url_publ = document.getElementById("publ").value;
+                out = "";
+                for(var i = 0; i < cont.length; i++)
+                    out += "<a target='_blank' href='http://vk.com/pages?oid=-" + url_publ + "&p=" + cont[i] + "'>" + cont[i] + "</a> <br />";
+                links.innerHTML = out;
+                setCookie("publ", url_publ);
+                setCookie("menu", out);
+            };
         </script>
     </head>
 
@@ -49,7 +63,12 @@
                 Wiki-page title <br />
                 <input type="text" id="wiki" value="Hello, World!" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
                 <input type="submit" id="ok" value="Ready!" onClick="print_url();">
-                <div id="answer"></div>
+                <div id="answer"></div> <br />
+                Multiple wiki-pages <br /> <br />
+                <textarea rows="6" cols="45" id="mult"></textarea>
+                <!-- <input type="text" id="mult"> <br />
+                --><input type="submit" id="ok_mult" value="Ready now!" onClick="print_urls();">
+                <div id="links"></div> <br />    
         </div>
         <script type="text/javascript">
             if(getCookie("publ") != undefined)
@@ -69,6 +88,9 @@
             {
                 document.getElementById("wiki").value = "Hello, World!";
             }
+
+            if(getCookie("menu") != undefined)
+                document.getElementById("mult").value = getCookie("menu");
         </script>
     </body>
 </html>
