@@ -31,6 +31,10 @@
             {
                 margin-top: 10px;
             }
+            #fundamental
+            {
+                margin-top: 5px;
+            }
         </style>
         <script type="text/javascript" src="cookie.js"></script>
         <script type="text/javascript">
@@ -77,14 +81,16 @@
             VK.Widgets.Like("vk_like", {type: "button"}, );
             </script>
                 Нажав на кнопку "Готово!" сервис выводит на экран ссылку/ссылки и автоматически сохраняет
-                вывод в память браузера. Таким образом, после каждого захода на сервис сайт дополнительно выводит последние сгенерированные ссылки. <br /> <br />
+                вывод в память браузера. Таким образом, после каждого захода на сервис сайт дополнительно выводит последние сгенерированные ссылки.
+                <div id="fundamental">
                 ID паблика или группы <br /> 
                 <input type="text" id="publ"><br />
                 Название одной вики-страницы (закончить ввод можно через Enter)<br />
                 <input type="text" id="wiki" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
                 <input type="submit" id="ok" value="Готово!" onClick="print_url();">
                 <input type="submit" value="Удалить ссылку" onClick="document.getElementById('answer').innerHTML = '';deleteCookie('wiki');"> 
-                <div id="answer"></div> 
+                <div id="answer"></div>
+                </div>
                 <div id="extra">
                 Названия нескольких вики-страниц (записывать в столбик) <br />
                 <textarea rows="4" id="mult"></textarea>
