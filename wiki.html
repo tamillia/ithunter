@@ -56,20 +56,15 @@
                 setCookie("menu", out);
             };
         </script>
-
-        <script type="text/javascript" src="http://vk.com/js/api/openapi.js?95"></script>
+        <script type="text/javascript" src="http://vkontakte.ru/js/api/share.js?9" charset="windows-1251"></script>
     </head>
 
     <body>
-        <script type="text/javascript">
-            VK.init({apiId: 4323166, onlyWidgets: true});
-        </script>
         <div class="container">
             <h3> Генератор ссылок на вики-страницы для пабликов и групп </h3>
-            <!-- Put this div tag to the place, where the Like block will be -->
-            <div id="vk_like"></div>
+            
             <script type="text/javascript">
-            VK.Widgets.Like("vk_like", {type: "button"}, );
+                document.write(VK.Share.button());
             </script>
                 <div id="fundamental">
                 ID паблика или группы <br /> 
