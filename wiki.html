@@ -1,7 +1,7 @@
 <html>
     <head> 
         <title>
-            URL Generator for VK Public
+            Генератор ссылок на вики-страницы вк
         </title>
         <!-- Latest compiled and minified CSS -->
 
@@ -62,18 +62,18 @@
 
     <body>
         <div class="container">
-            <h3> Generating wiki-pages for public pages or groups </h3>
-                Public page or group ID <br />
+            <h3> Генератор вики-страниц для пабликов и групп </h3>
+                ID паблика или группы <br />
                 <input type="text" id="publ"><br />
-                Wiki-page title <br />
-                <input type="text" id="wiki" value="Hello, World!" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
-                <input type="submit" id="ok" value="Ready!" onClick="print_url();">
+                Название одной вики-страницы (закончить ввод можно через Enter)<br />
+                <input type="text" id="wiki" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
+                <input type="submit" id="ok" value="Готово!" onClick="print_url();">
                 <div id="answer"></div> <br />
-                Multiple wiki-pages <br /> <br />
+                Названия нескольких вики-страниц (записывать в столбик <br /> <br />
                 <textarea rows="6" id="mult"></textarea>
                 <!-- <input type="text" id="mult"> <br />
-                --><input type="submit" id="ok_mult" value="Ready now!" onClick="print_urls();">
-                <input type="submit" value="Delete links" onClick="document.getElementById('links').innerHTML = '';deleteCookie('menu');">
+                --><input type="submit" id="ok_mult" value="Готово!" onClick="print_urls();">
+                <input type="submit" value="Удалить ссылки" onClick="document.getElementById('links').innerHTML = '';deleteCookie('menu');">
                 <div id="links"></div> <br />    
         </div>
         <script type="text/javascript">
@@ -92,7 +92,7 @@
             }
             else
             {
-                document.getElementById("wiki").value = "Hello, World!";
+                document.getElementById("wiki").value = "";
             }
 
             if(getCookie("menu") != undefined)
