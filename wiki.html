@@ -63,10 +63,6 @@
     <body>
         <div class="container">
             <h3> Генератор ссылок на вики-страницы для пабликов и групп </h3>
-            <div id="vk"><script type="text/javascript">
-                document.write(VK.Share.button());
-                </script>
-            </div>
                 <div id="fundamental">
                 ID паблика или группы <br /> 
                 <input type="text" id="publ"><br />
@@ -81,6 +77,10 @@
                 Созданные в этом окне ссылки система будет помнить до ввода следующих.
                 </div>
         </div>
+            <div id="vk"><script type="text/javascript">
+                document.write(VK.Share.button());
+                </script>
+            </div>
         <script type="text/javascript">
             if(getCookie("publ") != undefined)
             {
