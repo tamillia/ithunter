@@ -39,17 +39,6 @@
         <script type="text/javascript" src="cookie.js"></script>
         <script type="text/javascript">
 
-            //print_url()
-            //button.onclick = function() 
-            function print_url()
-            {
-                var publ = document.getElementById("publ").value;
-                var wiki = document.getElementById("wiki").value;
-                var answer = document.getElementById("answer");
-                answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki.replace(/\s+/g, "_")  + "'>" + wiki  + "</a>";
-                setCookie("wiki", answer.innerHTML);
-                setCookie("publ", publ);
-            };
 
             function print_urls()
             {
@@ -80,25 +69,20 @@
             <script type="text/javascript">
             VK.Widgets.Like("vk_like", {type: "button"}, );
             </script>
-                Нажав на кнопку "Готово!" сервис выводит на экран ссылку/ссылки и автоматически сохраняет
-                вывод в память браузера. Таким образом, после каждого захода на сервис сайт дополнительно выводит последние сгенерированные ссылки.
                 <div id="fundamental">
                 ID паблика или группы <br /> 
                 <input type="text" id="publ"><br />
-                Название одной вики-страницы (закончить ввод можно через Enter)<br />
-                <input type="text" id="wiki" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
-                <input type="submit" id="ok" value="Готово!" onClick="print_url();">
-                <input type="submit" value="Удалить ссылку" onClick="document.getElementById('answer').innerHTML = '';deleteCookie('wiki');"> 
-                <div id="answer"></div>
                 </div>
                 <div id="extra">
-                Названия нескольких вики-страниц (записывать в столбик) <br />
+                Названия вики-страниц (записывать в столбик) <br />
                 <textarea rows="4" id="mult"></textarea>
                 <!-- <input type="text" id="mult"> <br />
                 --><input type="submit" id="ok_mult" value="Готово!" onClick="print_urls();">
                 <input type="submit" value="Удалить ссылки" onClick="document.getElementById('links').innerHTML = '';deleteCookie('menu');">
                 <div id="links"></div> <br />
                 </div>
+                <br />
+                Созданные в этом окне ссылки система будет помнить до ввода следующих.
         </div>
         <script type="text/javascript">
             if(getCookie("publ") != undefined)
@@ -109,16 +93,6 @@
             {
                 document.getElementById("publ").value = "54530371";
             }
-            
-            if(getCookie("wiki") != undefined)
-            {
-                document.getElementById("answer").innerHTML = getCookie("wiki");
-            }
-            else
-            {
-                document.getElementById("answer").innerHTML = "";
-            }
-
             if(getCookie("menu") != undefined)
                 document.getElementById("links").innerHTML = getCookie("menu");
         </script>
