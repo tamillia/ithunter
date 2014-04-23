@@ -42,10 +42,10 @@
             {
                 var publ = document.getElementById("publ").value;
                 var wiki = document.getElementById("wiki").value;
-                setCookie("wiki", wiki);
                 wiki = wiki.replace(/\s+/g, "_");
                 var answer = document.getElementById("answer");
                 answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki + "'>" + "Нажмите сюда для редактирования страницы" + "</a>";
+                setCookie("wiki", answer.innerHTML);
                 setCookie("publ", publ);
             };
 
@@ -84,6 +84,7 @@
                 Название одной вики-страницы (закончить ввод можно через Enter)<br />
                 <input type="text" id="wiki" onKeyUp="if(event.keyCode == 13) print_url();"> <br />
                 <input type="submit" id="ok" value="Готово!" onClick="print_url();">
+                <input type="submit" value="Удалить ссылки" onClick="document.getElementById('answer').innerHTML = '';deleteCookie('wiki');"> 
                 <div id="answer"></div> 
                 <div id="extra">
                 Названия нескольких вики-страниц (записывать в столбик) <br />
@@ -106,7 +107,7 @@
             
             if(getCookie("wiki") != undefined)
             {
-                document.getElementById("wiki").value = getCookie("wiki");
+                document.getElementById("answer").innerHTML = getCookie("wiki");
             }
             else
             {
