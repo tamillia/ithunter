@@ -42,9 +42,8 @@
             {
                 var publ = document.getElementById("publ").value;
                 var wiki = document.getElementById("wiki").value;
-                wiki = wiki.replace(/\s+/g, "_");
                 var answer = document.getElementById("answer");
-                answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki + "'>" + "Нажмите сюда для редактирования страницы" + "</a>";
+                answer.innerHTML = "<a target='_blank' href='http://vk.com/pages?oid=-" + publ + "&p=" + wiki.replace(/\s+/g, "_")  + "'>" + wiki  + "</a>";
                 setCookie("wiki", answer.innerHTML);
                 setCookie("publ", publ);
             };
