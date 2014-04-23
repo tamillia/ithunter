@@ -10,8 +10,8 @@
         <style type="text/css">
             .container
             {
-                width: 300px;
-                margin-top: 50px;
+                width: 400px;
+                margin-top: 30px;
             }
 
             .container input
@@ -20,6 +20,10 @@
             }
 
             .container input[type=text]
+            {
+                width: 100%;
+            }
+            .container textarea
             {
                 width: 100%;
             }
@@ -66,7 +70,7 @@
                 <input type="submit" id="ok" value="Ready!" onClick="print_url();">
                 <div id="answer"></div> <br />
                 Multiple wiki-pages <br /> <br />
-                <textarea rows="6" cols="45" id="mult"></textarea>
+                <textarea rows="6" id="mult"></textarea>
                 <!-- <input type="text" id="mult"> <br />
                 --><input type="submit" id="ok_mult" value="Ready now!" onClick="print_urls();">
                 <input type="submit" value="Delete links" onClick="document.getElementById('links').innerHTML = '';deleteCookie('menu');">
