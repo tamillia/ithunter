@@ -1,42 +1,157 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html lang="en">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <title>Библиотека программиста</title>
 
-    </head>
-    <body>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="http://vk.com/proglib" target="_blank">на паблик</a>
-          </div>
+    <!-- Add custom CSS here -->
+    <link href="css/blog-post.css" rel="stylesheet">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?112"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 4333687, onlyWidgets: true});
+    </script>
+</head>
 
-          {{ content }}
+<body>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                От создателя сообщества "Книги для программистов"<br />
-              </p>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php">Библиотека программиста</a>
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/theasder" target="_blank">github.com/theasder</a><br />
-                <a href="https://vk.com/id10903696" target="_blank">Связаться через ВК</a><br />
-              </p>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                        <li class="active"><a href="http://theasder.github.io/"><span class="glyphicon glyphicon-file"></span>  Статьи</a></li>
+                        <li><a target="_blank" href="http://vk.com/page-54530371_44620320"><span class="glyphicon glyphicon-book"></span>  Каталог книг</a></li>
+                        <li><a target="_blank" href="http://vk.com/page-54530371_46988280"><span class="glyphicon glyphicon-film"></span>  Видео-лекции</a></li>
+                        <li><a target="_blank" href="#"><span class="glyphicon glyphicon-star"></span>  Полезные ссылки</a></li>
+                </ul>
             </div>
-          </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>   
+        <div class="row">
+            <div class="col-lg-9">
+                {% for post in site.posts %}
+                    <a href="{{ post.url }}"><h3> {{ post.title }} </h3></a></li>
+                    <p><span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }} </p>
+                {% endfor %}
+                <!-- the actual blog post: title/author/date/content 
+                <h3>Lorem ipsum</h3>
+                <hr>
+                <p>
+                    <span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+                <hr>
+                <img src="http://placehold.it/900x300" class="img-responsive">
+                <hr>
+                <p class="lead">Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+                <p>You know, being a test pilot isn't always the healthiest business in the world.</p>
+                <p>Cookie jelly beans soufflé icing. Gummi bears tootsie roll powder chupa chups cheesecake chocolate jelly-o lollipop lollipop. Halvah applicake chupa chups. Marshmallow chocolate jujubes icing lollipop gummi bears chupa chups pudding bonbon. Jelly beans jelly soufflé jujubes. Sesame snaps lollipop icing donut lemon drops soufflé.</p>
+                <p>Donut caramels gingerbread. Sweet roll macaroon pastry cotton candy oat cake sesame snaps biscuit lemon drops dessert. Candy canes carrot cake danish carrot cake soufflé jelly chocolate cake muffin. Topping brownie donut. Oat cake marzipan dragée cheesecake. Donut chocolate cake jujubes tart dragée toffee.</p>
+                <p>Tilefish electric knifefish salmon shark southern Dolly Varden. Pacific argentine tope golden shiner ilisha barreleye loosejaw catla, dogteeth tetra catfish tenpounder nase scup Ragfish brotula." Codlet brook lamprey pleco, Japanese eel convict cichlid titan triggerfish, plownose chimaera topminnow Black scalyfin. Walleye pollock, blue shark Sacramento blackfish prickleback airbreathing catfish yellowfin cutthroat trout, goby southern sandfish. North Pacific daggertooth dorab cepalin weever flying gurnard.</p>-->
+                <!--<p><strong>Placeholder text by:</strong>
+                </p>
+                <ul>
+                    <li><a href="http://spaceipsum.com/">Space Ipsum</a>
+                    </li>
+                    <li><a href="http://cupcakeipsum.com/">Cupcake Ipsum</a>
+                    </li>
+                    <li><a href="http://tunaipsum.com/">Tuna Ipsum</a>
+                    </li>
+                </ul>
+
+                <hr>
+
+                 the comment box 
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                 the comments 
+                <h3>Start Bootstrap
+                    <small>9:41 PM on August 24, 2013</small>
+                </h3>
+                <p>This has to be the worst blog post I have ever read. It simply makes no sense. You start off by talking about space or something, then you randomly start babbling about cupcakes, and you end off with random fish names.</p>
+
+                <h3>Start Bootstrap
+                    <small>9:47 PM on August 24, 2013</small>
+                </h3>
+                <p>Don't listen to this guy, any blog with the categories 'dinosaurs, spaceships, fried foods, wild animals, alien abductions, business casual, robots, and fireworks' has true potential.</p>-->
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <div id="vk_groups"></div><br />
+                <script type="text/javascript">
+                    VK.Widgets.Group("vk_groups", {mode: 1, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 54530371);
+                </script>
+                <div id="social">
+
+                <div id="vk_like"></div>
+                <script type="text/javascript">
+                    VK.Widgets.Like("vk_like", {type: "button"});
+                </script>
+                <div class="fb-share-button" data-href="http://theasder.github.io/complexity" data-type="button_count"></div>
+                
+               <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://theasder.github.io/complexity" data-via="theasdr" data-lang="en">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
         </div>
 
-    </body>
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Company 2013</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
 </html>

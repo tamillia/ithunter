@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Статьи для программистов</title>
+        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
@@ -17,15 +17,11 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">Статьи для программистов</a></h1>
-            <a class="extra" href="http://vk.com/progliterature">на паблик</a>
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <a class="extra" href="http://vk.com/proglib" target="_blank">на паблик</a>
           </div>
 
-          <div id="home">
-  <ul class="posts">
-     
-  </ul>
-</div>
+          {{ content }}
 
           <div class="footer">
             <div class="contact">
@@ -35,8 +31,8 @@
             </div>
             <div class="contact">
               <p>
-                <a href="https://github.com/theasder">github.com/theasder</a><br />
-                <a href="https://vk.com/id10903696">vk.com/id10903696</a><br />
+                <a href="https://github.com/theasder" target="_blank">github.com/theasder</a><br />
+                <a href="https://vk.com/id10903696" target="_blank">Связаться через ВК</a><br />
               </p>
             </div>
           </div>
