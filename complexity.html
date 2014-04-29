@@ -26,10 +26,6 @@
             {
                 overflow-x: auto;
             }`
-            #social
-            {
-                width:200px;
-            }
         </style>
         <script type="text/javascript" src="//vk.com/js/api/openapi.js?112"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -140,7 +136,8 @@
                 </table>
             </div>
             <div id="vk">
-                <div class="row" id="social">   
+                <div class="row">
+                    <div class="col-md-6">
                     <div class="col-md-4"><div id="vk_like"></div>
                     <script type="text/javascript">
                         VK.Widgets.Like("vk_like", {type: "button"});
@@ -151,6 +148,7 @@
                     </div>
                     <div class="col-md-4"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://theasder.github.io/complexity" data-via="theasdr" data-lang="en">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
                     </div>
                 </div><br /><!-- VK Widget -->
             <div id="vk_groups"></div>
