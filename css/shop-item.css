@@ -12,6 +12,10 @@ body {
   padding-right: 10px;
 }
 
+.glyphicon {
+  margin-left: 5px;
+}
+
 .thumbnail {
   padding: 0;
 }
