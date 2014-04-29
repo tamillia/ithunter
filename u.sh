@@ -1,4 +1,4 @@
 git add *
-git commit -m "too lazy to write here anything"
+git commit -m "changed website"
 git push origin master
 
