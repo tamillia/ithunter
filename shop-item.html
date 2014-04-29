@@ -14,7 +14,7 @@
 
     <!-- Add custom CSS here -->
     <link href="css/shop-item.css" rel="stylesheet">
-
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?112"></script>
 </head>
 
 <body>
@@ -34,10 +34,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="http://theasder.github.io/"><span class="glyphicon glyphicon-file"></span>  Статьи</a></li>
-                    <li><a target="_blank" href="http://vk.com/page-54530371_44620320"><span class="glyphicon glyphicon-book"></span>  Каталог книг</a></li>
-                    <li><a target="_blank" href="http://vk.com/page-54530371_46988280"><span class="glyphicon glyphicon-film"></span>  Видео-лекции</a></li>
-                    <li><a target="_blank" href="#"><span class="glyphicon glyphicon-star"></span>  Полезные ссылки</a></li>
+                    <li class="active"><a href="http://theasder.github.io/"><span class="glyphicon glyphicon-file"></span>Статьи</a></li>
+                    <li><a target="_blank" href="http://vk.com/page-54530371_44620320"><span class="glyphicon glyphicon-book"></span>Каталог книг</a></li>
+                    <li><a target="_blank" href="http://vk.com/page-54530371_46988280"><span class="glyphicon glyphicon-film"></span>Видео-лекции</a></li>
+                    <li><a target="_blank" href="#"><span class="glyphicon glyphicon-star"></span>Полезные ссылки</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -51,11 +51,10 @@
 
             <div class="col-md-3">
                 <p class="lead">Статьи</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">Printable</a>
-                    <a href="#" class="list-group-item">Cupcake Wrappers</a>
-                    <a href="#" class="list-group-item">Authentic Dragon Bones</a>
-                </div>
+                <div id="vk_groups"></div>
+                <script type="text/javascript">
+                    VK.Widgets.Group("vk_groups", {mode: 1, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 54530371);
+                </script>
             </div>
 
             <div class="col-md-9">
