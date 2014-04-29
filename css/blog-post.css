@@ -8,17 +8,17 @@ body {
 }
 
 #vk_like {
-	position: left;
+	float: left;
 	margin-top: 7px;
 }
 
 .fb-share-button {
-	position: left;
+	float: left;
 	margin-top: 7px;
 }
 
 .twitter-share-button {
-	position: left;
+	float: left;
 	margin-top: 7px;
 }
 
