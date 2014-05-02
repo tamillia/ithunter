@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Интересные приёмы на языке программирования Python.
+title: Интересные приёмы на языке программирования Python
 date: {}
 categories: python
 published: true
 ---
 
-![](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+![Alt](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)<br />
 
 Генератор списков и выражений.
 
