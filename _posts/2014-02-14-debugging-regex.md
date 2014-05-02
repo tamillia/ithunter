@@ -6,7 +6,8 @@ category: regexp
 published: true
 ---
 
-<img src="http://cdn.howtogeek.com/wp-content/uploads/2011/08/banner-01.png"><br />[http://regex101.com/](http://regex101.com/)
+
+http://regex101.com/](http://regex101.com/)
 
 Этот сервис позволяет тестировать ваши регулярные выражения на примере, но еще он выделяет другим цветом группы:<br />
 ![Alt](http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true)<br />
