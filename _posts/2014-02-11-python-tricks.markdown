@@ -6,7 +6,7 @@ categories: python
 published: true
 ---
 
-![Alt](http://b.vimeocdn.com/ts/100/418/100418015_640.jpg)<br />
+![Alt](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)<br />
 
 Генератор списков и выражений.
 
