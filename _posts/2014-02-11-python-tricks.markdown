@@ -6,7 +6,7 @@ categories: python
 published: true
 ---
 
-![Alt](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)<br />
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)" class="img-responsive"><br />
 
 Генератор списков и выражений.
 
