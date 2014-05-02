@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Интересные приёмы на языке программирования Python."
-date:   2014-02-11 17:15:25
+title: Интересные приёмы на языке программирования Python.
+date: {}
 categories: python
+published: true
 ---
+
+![](/https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 Генератор списков и выражений.
 
@@ -178,5 +181,3 @@ categories: python
     }
     >>> calculator['minus'](9,3)
     6
-
-
