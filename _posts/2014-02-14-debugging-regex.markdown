@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Как отлаживать регулярные выражения"
-date: 2014-02-14 19:42:00
+title: Как отлаживать регулярные выражения
+date: {}
 category: regexp
+published: true
 ---
 
-[http://regex101.com/](http://regex101.com/)
+![](http://cdn.howtogeek.com/wp-content/uploads/2011/08/banner-01.png)[http://regex101.com/](http://regex101.com/)
 
 Этот сервис позволяет тестировать ваши регулярные выражения на примере, но еще он выделяет другим цветом группы:<br />
 ![Alt](http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true)<br />
@@ -35,5 +36,3 @@ category: regexp
 то удобным инструментом может быть [http://rubular.com/](http://rubular.com/). Там можно сохранить
 "пермалинк"(то есть ссылка на ваше регулярное выражение прямо внутри сервиса) и название пермалинка
 есть регулярное выражение, на которое пермалинк ссылается.
-
-
