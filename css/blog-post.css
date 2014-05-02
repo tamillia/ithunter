@@ -8,6 +8,10 @@ body {
     }
 }
 
+@media (min-width: 768px) {
+  .row { margin-right: 0; margin-left: 0; }
+}
+
 .glyphicon {
 	margin-left: 7px;
 	padding-right: 5px;
