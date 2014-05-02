@@ -2,6 +2,12 @@ body {
 	margin-top: 100px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 
+@media (min-width:1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
 .glyphicon {
 	margin-left: 7px;
 	padding-right: 5px;
