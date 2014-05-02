@@ -3,7 +3,7 @@ body {
 }
 
 @media (min-width:1200px) {
-    .container{
+    .container, .navbar{
         max-width: 970px;
     }
 }
