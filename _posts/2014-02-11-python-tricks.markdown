@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Интересные приёмы на языке программирования Python.
+title: Интересные приёмы на языке программирования Python
 date: {}
 categories: python
 published: true
