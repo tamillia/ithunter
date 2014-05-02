@@ -6,7 +6,7 @@ category: regexp
 published: true
 ---
 
-![Alt](/_posts/regex.jpg)
+![Alt](/_posts/regex.jpg)<br />
 
 [http://regex101.com/](http://regex101.com/)
 
