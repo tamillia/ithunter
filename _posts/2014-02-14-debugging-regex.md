@@ -6,15 +6,15 @@ category: regexp
 published: true
 ---
 
-<img src="http://s020.radikal.ru/i720/1405/75/0d1d3e5514c3.png" class="img-responsive" /> <br />
+<a target="_blank" href="http://s020.radikal.ru/i720/1405/75/0d1d3e5514c3.png"><img src="http://s020.radikal.ru/i720/1405/75/0d1d3e5514c3.png" class="img-responsive" /></a> <br />
 
 [http://regex101.com/](http://regex101.com/)
 
 Этот сервис позволяет тестировать ваши регулярные выражения на примере, но еще он выделяет другим цветом группы:<br />
-<img src="http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true" class="img-responsive" /><br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true" class="img-responsive" /></a><br />
 
 Еще предоставляет полное объяснение о том, что происходит:<br />
-<img src="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true" class="img-responsive" /><br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true" class="img-responsive" /></a><br />
 
 Однако нужно держать в голове то, регулярные выражения в разных языках программирования будут иметь
 свои особенности(например, некоторые вещи не поддерживаются в каком-то языке). Есть веб-сервисы,
@@ -23,7 +23,7 @@ published: true
 
 Рекомендуется сервис [http://regexplanet.com](http://regexplanet.com), он поддерживает следующие
 технологии:<br />
-<img src="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true" class="img-responsive" /><br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true" class="img-responsive" /></a><br />
 Можно убедиться в значительных различиях вот [здесь](http://www.regular-expressions.info/refflavors.html)
 Там достаточно кликнуть по ссылке в таблице содержаний, чтобы увидеть как поддерживается что-нибудь
 в разных языках программирования.
