@@ -23,7 +23,7 @@ published: true
 
 Рекомендуется сервис [http://regexplanet.com](http://regexplanet.com), он поддерживает следующие
 технологии:<br />
-<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true" class="img-responsive" /></a><br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true" class="img-responsive" /></a><br />
 Можно убедиться в значительных различиях вот [здесь](http://www.regular-expressions.info/refflavors.html)
 Там достаточно кликнуть по ссылке в таблице содержаний, чтобы увидеть как поддерживается что-нибудь
 в разных языках программирования.
