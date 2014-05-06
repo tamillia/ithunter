@@ -25,7 +25,10 @@ body {
 
 .plus
 {
-    margin-top: 7px;
+    float: left;
+    clear: both;
+    width: 1px;
+    height: 7px;
 }
 
 #social {
