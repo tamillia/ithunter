@@ -23,26 +23,9 @@ body {
 	clear: both;
 }
 
-div.g-plusone a
+.plus
 {
-  position: absolute;
-  width: 32px;
-  height: 56px;
-  top: 7px;
-  left: 4px;
-  background-image: url('images/google-plus.png');
-  background-repeat: no-repeat;
-}
-
-div.g-plusone a:hover
-{
-  position: absolute;
-  width: 32px;
-  height: 56px;
-  top: 0;
-  left: 4px;
-  background-image: url('images/google-plus.png');
-  background-repeat: no-repeat;
+    margin-top: 7px;
 }
 
 #social {
