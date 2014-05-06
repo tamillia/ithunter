@@ -6,7 +6,7 @@ category: regexp
 published: true
 ---
 
-<a target="_blank" href="http://studioad.ru/_bl/0/17396.jpg"><img src="http://studioad.ru/_bl/0/17396.jpg" class="img-responsive" /></a> <br />
+<img src="http://i.piccy.info/i7/eb81480d8311cba9bce9f4266eaf0e17/4-67-114/4639962/unknown.jpg" class="img-responsive" /> <br />
 
 [http://regex101.com/](http://regex101.com/)
 
