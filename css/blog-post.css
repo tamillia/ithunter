@@ -17,14 +17,32 @@ body {
     width: 100% !important;
 }
 
-#vk_like, .g-plusone, .fb-like, .twitter-share-button{
+#vk_like, .fb-like, .twitter-share-button{
 	float: left;
 	margin-top: 7px;
 	clear: both;
 }
 
-.g-plusone {
-    margin-top: 20px;
+div.gplus a
+{
+  position: absolute;
+  width: 32px;
+  height: 56px;
+  top: 7px;
+  left: 4px;
+  background-image: url('images/google-plus.png');
+  background-repeat: no-repeat;
+}
+
+div.gplus a:hover
+{
+  position: absolute;
+  width: 32px;
+  height: 56px;
+  top: 0;
+  left: 4px;
+  background-image: url('images/google-plus.png');
+  background-repeat: no-repeat;
 }
 
 #social {
