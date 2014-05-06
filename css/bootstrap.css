@@ -8,10 +8,14 @@
 
 @font-face {
     font-family: PT_Sans;
-    src: url('http://theasder.github.io/fonts/PTC75F.ttf');
+    src: url('http://theasder.github.io/fonts/PTC75F.eot');
     src: local(PT_Sans), url('http://theasder.github.io/fonts/PTC75F.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: Scada;
+    src: url('http://theasder.github.io/fonts/Scada-Regular.eot');
+    src: local(Scada), url('http://theasder.github.io/fonts/Scada-Regular.ttf') format('opentype');
 
 html {
   font-family: sans-serif;
