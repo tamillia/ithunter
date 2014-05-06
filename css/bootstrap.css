@@ -23,7 +23,7 @@
     src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
 }
 
-.class, .comm {
+.time, .comm {
     font-family: PT_Sans_reg;
 }
 
