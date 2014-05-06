@@ -35,6 +35,9 @@ body {
 	margin-left: 7px;
 }
 
+#comm {
+    margin-top: -10px;
+}
 
 footer {
 	margin: 50px 0;
