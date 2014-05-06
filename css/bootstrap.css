@@ -5,6 +5,14 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+@font-face {
+    font-family: PT_Sans;
+    src: url('http://theasder.github.io/fonts/PTC75F.ttf');
+    src: local(PT_Sans), url('http://theasder.github.io/fonts/PTC75F.ttf') format('opentype');
+}
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -362,7 +370,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: PT_Sans;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
