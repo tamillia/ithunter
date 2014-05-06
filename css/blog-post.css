@@ -23,6 +23,10 @@ body {
 	clear: both;
 }
 
+.g-plusone {
+    margin-top: 20px;
+}
+
 #social {
 	margin-left: 7px;
 }
