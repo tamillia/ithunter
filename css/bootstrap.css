@@ -255,6 +255,7 @@ th {
   }
   .navbar {
     display: none;
+    font-family: PT_Sans;
   }
   .table td,
   .table th {
