@@ -9,6 +9,13 @@ body {
 	margin-left: 7px;
 	padding-right: 5px;
 }
+#fb-root {
+    display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
 
 #vk_like, .fb-like, .twitter-share-button{
 	float: left;
