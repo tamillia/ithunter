@@ -23,7 +23,7 @@ body {
 	clear: both;
 }
 
-div.gplus a
+div.g-plusone a
 {
   position: absolute;
   width: 32px;
@@ -34,7 +34,7 @@ div.gplus a
   background-repeat: no-repeat;
 }
 
-div.gplus a:hover
+div.g-plusone a:hover
 {
   position: absolute;
   width: 32px;
