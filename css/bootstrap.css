@@ -16,9 +16,10 @@
     font-family: Scada;
     src: url('http://theasder.github.io/fonts/Scada-Regular.eot');
     src: local(Scada), url('http://theasder.github.io/fonts/Scada-Regular.ttf') format('opentype');
+}
 
 html {
-  font-family: sans-serif;
+  font-family: Scada;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
