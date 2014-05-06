@@ -255,8 +255,11 @@ th {
   }
   .navbar {
     display: none;
+  }
+  .navbar a {
     font-family: PT_Sans;
   }
+
   .table td,
   .table th {
     background-color: #fff !important;
