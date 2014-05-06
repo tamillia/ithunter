@@ -23,6 +23,10 @@
     src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
 }
 
+.navbar-nav li a {
+    font-family: PT_Sans_reg;
+}
+
 @font-face {
     font-family: Scada;
     src: url('http://theasder.github.io/fonts/Scada-Regular.eot');
