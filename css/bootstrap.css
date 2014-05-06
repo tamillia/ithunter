@@ -13,13 +13,19 @@
 }
 
 @font-face {
+    font-family: PT_Sans_reg;
+    src: url('http://theasder.github.io/fonts/PTS55F.eot');
+    src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
+}
+
+@font-face {
     font-family: Scada;
     src: url('http://theasder.github.io/fonts/Scada-Regular.eot');
     src: local(Scada), url('http://theasder.github.io/fonts/Scada-Regular.ttf') format('opentype');
 }
 
 html {
-  font-family: Scada;
+  font-family: PT_Sans_reg;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -286,7 +292,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Scada, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: PT_Sans_reg, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
