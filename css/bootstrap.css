@@ -23,6 +23,10 @@
     src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
 }
 
+.class, .comm {
+    font-family: PT_Sans_reg;
+}
+
 .navbar-nav li a {
     font-family: PT_Sans_reg;
 }
