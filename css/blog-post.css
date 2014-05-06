@@ -10,7 +10,7 @@ body {
 	padding-right: 5px;
 }
 
-#vk_like, .fb-share-button, .twitter-share-button{
+#vk_like, .fb-like, .twitter-share-button{
 	float: left;
 	margin-top: 7px;
 	clear: both;
