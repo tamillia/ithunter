@@ -131,6 +131,9 @@ hr {
 pre {
   overflow: auto;
 }
+code{
+    overflow-x:scroll;
+}
 code,
 kbd,
 pre,
