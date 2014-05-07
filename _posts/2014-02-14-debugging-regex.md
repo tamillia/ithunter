@@ -3,6 +3,7 @@ layout: post
 title: "Как отлаживать регулярные выражения"
 date: 2014-02-14 19:42:00
 category: regexp
+tags: [сервисы]
 published: true
 ---
 
