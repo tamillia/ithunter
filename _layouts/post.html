@@ -14,7 +14,10 @@ layout: default
         s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
         var h=d[g]('body')[0];
         h.appendChild(s);
-      }})();</script>
+        }})();</script>
+      {% for keyword in page.keywords %}
+        <span class="label label-primary">keyword</span>
+      {% endfor %}
       <h4>Поделиться статьей</h4>
     <div class="pluso" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="vkontakte,facebook,twitter,google"></div>
 
