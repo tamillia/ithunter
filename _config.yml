@@ -3,6 +3,11 @@ markdown: redcarpet
 pygments: true
 url: http://theasder.github.io/
 sitemap: 
+	file: "/sitemap.xml"
+	exclude:
+		- "/index.html"
     include_posts: 
-        - "wiki.html" 
-        - "comlexity.html"
+        - "/wiki.html" 
+        - "/comlexity.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
