@@ -6,7 +6,7 @@ title: Библиотека программиста
 <div id="home">
     {% for post in site.posts %}
         <a href="{{ post.url }}"><h3> {{ post.title }} </h3></a></li>
-        <p class="time"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
+        {{ post.category }} <p class="time"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
         {{ post.excerpt }} 
         <div class="comm">
             <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}#disqus_thread">Comments supposed to be here.</a>
