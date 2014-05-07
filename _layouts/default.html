@@ -65,27 +65,16 @@
                     VK.Widgets.Group("vk_groups", {mode: 1, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 54530371);
                 </script>
                 <div id="social">
-                    <div id="vk_like"></div>
-                    <script type="text/javascript">
-                        VK.Widgets.Like("vk_like", {type: "button"});
-                    </script>
-                    <!--<div class="fb-like" data-href="http://theasder.github.io" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
-                    --><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://theasder.github.io/" data-via="theasdr" data-lang="en">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                   <!-- Поместите этот тег туда, где должна отображаться кнопка +1. -->
-                   <br />
-                   <div class="plus"></div>
-                    <div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://theasder.github.io"></div>
-                    <!-- Поместите этот тег за последним тегом виджета кнопка +1. -->
-                    <script type="text/javascript">
-                        window.___gcfg = {lang: 'ru'};
-
-                        (function() {
-                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                        po.src = 'https://apis.google.com/js/platform.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                        })();
-                    </script> 
+               <script type="text/javascript">(function() {
+  if (window.pluso)if (typeof window.pluso.start == "function") return;
+  if (window.ifpluso==undefined) { window.ifpluso = 1;
+    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+    var h=d[g]('body')[0];
+    h.appendChild(s);
+  }})();</script>
+<div class="pluso" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="vkontakte,odnoklassniki,facebook,twitter,google,email" data-url="http://theasder.github.io" data-title="Библиотека программиста"></div> 
                 </div>
             </div>
         </div>
