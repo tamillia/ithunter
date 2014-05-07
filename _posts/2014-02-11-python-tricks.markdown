@@ -2,7 +2,7 @@
 layout: post
 title: "Интересные приёмы на языке программирования Python"
 date: 2014-02-11 17:15:25
-categories: python
+category: python
 published: true
 ---
 
