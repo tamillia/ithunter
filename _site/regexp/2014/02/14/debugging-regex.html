@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=latin,cyrillic,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Как отлаживать регулярные выражения</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--
+    <link href="http://theasder.github.io/css/complexity.css" rel="stylesheet">
+    -->
+    <link href="http://theasder.github.io/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="http://theasder.github.io/css/blog-post.css" rel="stylesheet">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?112"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 4340751, onlyWidgets: true});
+    </script>
+</head>
+
+<body>
+    <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://theasder.github.io">Библиотека программиста</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                        <li class="active"><a href="http://theasder.github.io/"><span class="glyphicon glyphicon-file"></span>  Статьи</a></li>
+                        <li><a target="_blank" href="http://vk.com/page-54530371_44620320"><span class="glyphicon glyphicon-book"></span>  Каталог книг</a></li>
+                        <li><a target="_blank" href="http://vk.com/page-54530371_46988280"><span class="glyphicon glyphicon-film"></span>  Видео-лекции</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                    <h3>Как отлаживать регулярные выражения</h3>
+<p class="time"><span class="label label-default">regexp</span> <span class="glyphicon glyphicon-time"></span> 14/02/2014 </p>
+
+<div class="post">
+<p><img src="http://cs616319.vk.me/v616319696/a117/sUQMZ3Ms-MA.jpg" class="img-responsive" /> <br /></p>
+
+<p><a href="http://regex101.com/">http://regex101.com/</a></p>
+
+<p>Этот сервис позволяет тестировать ваши регулярные выражения на примере, но еще он выделяет другим цветом группы:<br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-ae64948db789ce154ab7804daa242fae?convert_to_webp=true" class="img-responsive" /></a><br /></p>
+
+<p>Еще предоставляет полное объяснение о том, что происходит:<br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-61225b629452cf3e345c45e2db762d32?convert_to_webp=true" class="img-responsive" /></a><br /></p>
+
+<p>Однако нужно держать в голове то, регулярные выражения в разных языках программирования будут иметь
+свои особенности(например, некоторые вещи не поддерживаются в каком-то языке). Есть веб-сервисы,
+позволяющие переводить ваше регулярное выражение так, чтобы оно поддерживалось в определенном языке
+программирования, но некоторые из них могут быть не всегда надежными.</p>
+
+<p>Рекомендуется сервис <a href="http://regexplanet.com">http://regexplanet.com</a>, он поддерживает следующие
+технологии:<br />
+<a target="_blank" href="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true"><img src="http://qph.is.quoracdn.net/main-qimg-3d70886b7dca6b96f25e3b53de5a86dc?convert_to_webp=true" class="img-responsive" /></a><br />
+Можно убедиться в значительных различиях вот <a href="http://www.regular-expressions.info/refflavors.html">здесь</a>
+Там достаточно кликнуть по ссылке в таблице содержаний, чтобы увидеть как поддерживается что-нибудь
+в разных языках программирования.</p>
+
+<p>Если вы хотите веб-сервис для большей визуальной отладки, то можно попробовать вот этот ресурс:
+<a href="http://www.debuggex.com/">http://www.debuggex.com/</a>.</p>
+
+<p>Но этот сервис не поддерживает глобальный поиск, то есть вы можете находить подходящую под шаблон строку
+только один раз.</p>
+
+<p>Если вас интересует сервис, который на ходу отмечает те подстроки, которые соответствуют шаблону,
+то удобным инструментом может быть <a href="http://rubular.com/">http://rubular.com/</a>. Там можно сохранить
+&quot;пермалинк&quot;(то есть ссылка на ваше регулярное выражение прямо внутри сервиса) и название пермалинка
+есть регулярное выражение, на которое пермалинк ссылается.</p>
+
+    <script type="text/javascript">(function() {
+      if (window.pluso)if (typeof window.pluso.start == "function") return;
+      if (window.ifpluso==undefined) { window.ifpluso = 1;
+        var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+        s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+        s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+        var h=d[g]('body')[0];
+        h.appendChild(s);
+      }})();</script>
+      <h4>Поделиться статьей</h4>
+    <div class="pluso" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="vkontakte,facebook,twitter,google"></div>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'proglibru'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+            </div>
+
+            <div class="col-lg-3">
+                <h4>Другие страницы сайта</h4>
+                <ul class="list-group">
+                    <li class="list-group-item"><a target="_blank" href="http://theasder.github.io/categories">Каталог постов по категориям</a></li>
+                    <li class="list-group-item"><a target="_blank" href="http://theasder.github.io/complexity">Шпаргалка по сложности алгоритмов и структур данных</a></li>
+                    <li class="list-group-item"><a target="_blank" href="http://theasder.github.io/wiki">Генератор wiki-страниц для пабликов и групп вк</a></li>
+                </ul>
+                        </li>
+                <div id="vk_groups"></div><br />
+                <script type="text/javascript">
+                    VK.Widgets.Group("vk_groups", {mode: 1, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 54530371);
+                </script>
+                <div id="social">
+                    <h4>Расскажите о нашем сайте</h4>
+                        <script type="text/javascript">(function() {
+                            if (window.pluso)if (typeof window.pluso.start == "function") return;
+                            if (window.ifpluso==undefined) { window.ifpluso = 1;
+                            var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                            s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                            s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+                            var h=d[g]('body')[0];
+                            h.appendChild(s);
+                        }})();</script>
+                    <div class="pluso" data-background="none;" data-options="medium,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="vkontakte,facebook,twitter,google" data-url="http://theasder.github.io" data-title="Библиотека программиста"></div> 
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=24910340&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/24910340/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:24910340,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter24910340 = new Ya.Metrika({id:24910340,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/24910340" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+            </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Библиотека программиста, 2014 г.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="http://theasder.github.io/js/jquery-1.10.2.js"></script>
+    <script src="http://theasder.github.io/js/bootstrap.js"></script>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</body>
+
+</html>
