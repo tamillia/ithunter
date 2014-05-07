@@ -13,14 +13,13 @@
     src: local(PT_Sans), url('http://theasder.github.io/fonts/PTC75F.ttf') format('opentype');
 }
 
-.navbar-brand {
-    font-family: PT_Sans;
-}
-
 @font-face {
     font-family: PT_Sans_reg;
     src: url('http://theasder.github.io/fonts/PTS55F.eot');
     src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
+}
+.navbar-brand {
+    font-family: PT_Sans_reg;
 }
 
 .time, .comm {
