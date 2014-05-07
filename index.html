@@ -9,7 +9,7 @@ title: Библиотека программиста
         <p class="time"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
         {{ post.excerpt }} 
         <div class="comm">
-            <a href="{{ post.url }}#disqus_thread">Comments supposed to be here.</a>
+            <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}#disqus_thread">Comments supposed to be here.</a>
         </div><br />
     {% endfor %}
 </div>
