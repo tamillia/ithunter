@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+$("pre code").each(function() {
+    $(this).parent().css("overflow-x","auto");
+    $(this).css("word-wrap","normal").css("white-space","pre");
+});
+
 if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript requires jQuery') }
 
 /* ========================================================================
