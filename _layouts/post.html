@@ -2,7 +2,7 @@
 layout: default
 ---
 <h3>{{ page.title }}</h3>
-<p class="time"><span class="glyphicon glyphicon-time"></span> {{ page.date | date: "%d/%m/%Y" }} </p>
+<p class="time"><span class="label label-default">{{ post.category }}</span> <span class="glyphicon glyphicon-time"></span> {{ page.date | date: "%d/%m/%Y" }} </p>
 
 <div class="post">
 {{ content }}
