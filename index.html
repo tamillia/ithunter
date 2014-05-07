@@ -14,7 +14,7 @@ title: Библиотека программиста
     {% endfor %}
 </div>
 
-  <script type="text/javascript">
+<script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'proglibru'; // required: replace example with your forum shortname
 
@@ -25,4 +25,6 @@ title: Библиотека программиста
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
-    </script>
+</script>
+
+<?php comments_number(_r('0'), _r('1'), _r('%'));?>
