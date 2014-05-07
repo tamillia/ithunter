@@ -1,8 +1,8 @@
 name: Библиотека программиста 
 markdown: redcarpet
 pygments: true
-url: http://theasder.github.io
+url: http://theasder.github.io/
 sitemap: 
     include_posts: 
-        - "/wiki.html" 
-        - "/comlexity.html"
+        - "wiki.html" 
+        - "comlexity.html"
