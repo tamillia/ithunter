@@ -1,4 +1,5 @@
 jekyll build
+rm sitemap.xml
 cp _site/sitemap.xml sitemap.xml
 cd _site
 rm -r *
