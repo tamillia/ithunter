@@ -68,10 +68,11 @@
                     VK.Widgets.Group("vk_groups", {mode: 1, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 54530371);
                 </script>
                 <div id="social">
+                    {% if site.url == "http://theasder.github.io" %}
                     <h4>Расскажите о нашем сайте</h4>
                     <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
                     <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter,gplus" data-yashareTheme="counter"></div>
-
+                    {% endif %}
                     <br /><!-- Yandex.Metrika informer -->
                     <a href="https://metrika.yandex.ru/stat/?id=24910340&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/24910340/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:24910340,lang:'ru'});return false}catch(e){}"/></a>
                     <!-- /Yandex.Metrika informer -->
