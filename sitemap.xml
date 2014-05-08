@@ -15,6 +15,19 @@ layout: nil
     <priority>1.0</priority>
   </url>
   {% endfor %}
+    <url>
+      <loc>http://theasder.github.io/categories</loc>
+      <lastmod>2014-05-08T17:44:21+00:00</lastmod>
+    </url>
+    <url>
+      <loc>http://theasder.github.io/complexity</loc>
+      <lastmod>2014-05-08T17:44:21+00:00</lastmod>
+    </url>
+    <url>
+      <loc>http://theasder.github.io/wiki</loc>
+      <lastmod>2014-05-08T17:44:21+00:00</lastmod>
+    </url>
+
   {% for page in site.pages %}
   {% if page.sitemap != null and page.sitemap != empty %}
   <url>
