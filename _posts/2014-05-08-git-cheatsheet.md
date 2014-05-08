@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+title: "Работа с git"
+tags: [разработка в команде, версионный контроль, must-know]
+category: git
+date: 2014-05-08 19:12:00
+published: true
 ---
 
 <img src="http://s020.radikal.ru/i715/1405/ce/70481228976e.jpg" class="img-responsive" /><br />
