@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>
+        Шпаргалка по сложности алгоритмов сортировки и структур данных
+        </title>
+        <!-- Latest compiled and minified CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        -->
+        <style type="text/css">
+            thead
+            {
+                font-weight: bold;
+            }
+            .col-md-1
+            {
+                padding: 5px;
+            }
+            .table-responsive
+            {
+                overflow-x: auto;
+            }`
+        </style>
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?112"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            VK.init({apiId: 4333687, onlyWidgets: true});
+        </script>
+    </head>
+
+    <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>        
+        
+        <div class="container-fluid">
+            
+            <h2> Шпаргалка по сложности алгоритмов сортировки и структур данных </h2>
+            <p class="lead">Логарифм со звездочкой &mdash; это минимальное число раз, которое надо взять логарифм от n, чтобы получить число, меньшее 1.
+            </p>
+                <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="active">
+                            <td>Сложность</td>
+                            <td>Алгоритмы</td>
+                            <td>Структуры данных</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>log n</td>
+                            <td>бинарный поиск, тернарный поиск, алгоритм Евклида, алгоритм быстрого возведения в степень</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>n, n log log n, n log* n</td>
+                            <td>решето Эратосфена, топологическая сортировка, поразрядная сортировка, set intersection, алгоритм Кнута-Морриса-Прата, Эйлеров цикл,
+                                алгоритм Тарьяна, следующая перестановка
+                            </td>
+                            <td>система непересекающихся множеств, префиксное дерево, хэш-таблица, кольцевой хэш</td>
+                        </tr>
+                        <tr>
+                            <td>n log n</td>
+                            <td>сортировка(слиянием, расческой, пирамидальная, быстрая(среднее время), терпеливая), 
+                                "разделяй и властвуй", sweep line, алгоритм Крускала, Дейкстры</td>
+                            <td>куча, дерево отрезков, range trees, декартово дерево, дерево Фенвика,
+                                суффиксный массив,
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>n log<sup>2</sup>n</td>
+                            <td>"разделяй и властвуй"</td>
+                            <td>2d range tree</td>
+                        </tr>
+                        <tr>
+                            <td>n<sup>1.585</sup>, n sqrt n</td>
+                            <td>алгоритм Карацубы, быстрый обратный корень</td>
+                            <td>двухуровневое дерево</td>
+                        </tr>
+                        <tr>
+                            <td>n<sup>2</sup></td>
+                            <td>алгоритм Дейкстры, алгоритм Прима(на плотном графе) </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>n<sup>3</sup></td>
+                            <td>перемножение матриц(по определению), наибольшая сумма подматрицы,
+                            закон о порядке перемножения матриц</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>n<sup>m</sup></td>
+                            <td>прямое произведение m множеств</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>2<sup>n/2</sup></td>
+                            <td>алгоритм meet-in-the-middle или встреча посередине</td>
+                            <td>хэш-таблицы (для пересечения множеств)</td>
+                        </tr>
+                        <tr>
+                            <td>2<sup>n</sup></td>
+                            <td>subset enumeration, полный перебор(brute force)</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>n<sup>2</sup> 2<sup>n</sup></td>
+                            <td> </td>
+                            <td>битовая карта</td>
+                        </tr>
+                        <tr>
+                            <td>n!</td>
+                            <td>перебор, поиск с возвратом</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>n<sup>n</sup></td>
+                            <td>перебор</td>
+                            <td> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="vk">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="col-md-4"><div id="vk_like"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Like("vk_like", {type: "button"});
+                    </script>
+                    <br /></div>
+                    <div class="col-md-4">
+                        <div class="fb-share-button" data-href="http://theasder.github.io/complexity" data-type="button_count"></div>
+                        <br />
+                    </div>
+                    <div class="col-md-4"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://theasder.github.io/complexity" data-via="theasdr" data-lang="en">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                    </div>
+                </div><br /><!-- VK Widget -->
+            <div id="vk_groups"></div>
+            <script type="text/javascript">
+                VK.Widgets.Group("vk_groups", {mode: 1, width: "220", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 54530371);
+            </script>
+            </div>
+        </div>
+        <br />
+
+    </body>
+</html>
