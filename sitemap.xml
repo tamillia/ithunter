@@ -16,11 +16,13 @@ layout: nil
   </url>
   {% endfor %}
   {% for page in site.pages %}
-  <url>
-    <loc>{{ site.baseurl }}{{ page.url }}</loc>
-    <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-    <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-    <priority>{{ page.sitemap.priority }}</priority>
-  </url>
+    {% if page.url != "//sitemap.xml" and page.url != "//pages.html" and page.url != "//index.html" %}
+        <url>
+            <loc>{{ site.baseurl }}{{ page.url }}</loc>
+            <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+            <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+            <priority>{{ page.sitemap.priority }}</priority>
+        </url>
+    {% endif %}
   {% endfor %}
 </urlset>
