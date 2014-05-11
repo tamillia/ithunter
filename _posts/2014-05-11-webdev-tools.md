@@ -1,6 +1,13 @@
 ---
-published: false
+layout: post
+title: "Инструментарий веб-разработчика"
+date: 2014-05-11 19:55:00
+category: сервисы
+tags: [webdev, front-end, back-end]
+published: true
 ---
+
+<img src="http://s43.radikal.ru/i101/1405/91/fec215f6bd86.jpg" class="img-responsive" /> <br />
 
 - сервис по проверке на наличие битых ссылок. Например,  [http://home.snafu.de/tilman/xenulink.html](http://home.snafu.de/tilman/xenulink.html)
 - хорошие плагины [Sass](http://ru.wikipedia.org/wiki/Sass) и [CoffeeScript](http://ru.wikipedia.org/wiki/CoffeeScript) для вашей IDE(интегрированной среды разработки)
