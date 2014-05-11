@@ -2,7 +2,7 @@
 layout: post
 title: "Инструментарий веб-разработчика"
 date: 2014-05-11 19:55:00
-category: сервисы
+category: tools
 tags: [webdev, front-end, back-end]
 published: true
 ---
