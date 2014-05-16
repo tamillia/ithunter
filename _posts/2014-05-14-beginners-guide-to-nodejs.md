@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+title: "Руководство для начинающих в Node.js"
+date: 2014-05-16 22:22:00
+category: tutorial
+tags: [webdev, back-end, javascript]
+published: true
 ---
 
 <img src="http://s51.radikal.ru/i131/1405/97/3d49fddee8e9.png" class="img-responsive" /><br />
