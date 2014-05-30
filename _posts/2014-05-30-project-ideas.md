@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+title: "Интересные проекты, которые можно разработать за одну или две недели для добавления в резюме для летней стажировки"
+date: 2014-05-30 22:55:00
+category: projects
+tags: [стажировка, лето, разработка]
+published: true
 ---
 
 <img src="http://s43.radikal.ru/i101/1405/52/10d160a4b5a7.jpg" class="img-responsive"><br />
