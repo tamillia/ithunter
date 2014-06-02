@@ -7,7 +7,7 @@ tags: [языки программирования, must-know, кросспла�
 published: true
 ---
 
-<img src="http://qph.cr.quoracdn.com/main-qimg-69dab6e643f80d8e42dfed17d6df48a0" class="img-responsive"><br/>
+<img src="http://s020.radikal.ru/i717/1406/a9/7785637e5a8a.png" class="img-responsive"><br/>
 
 Этим языком является JavaScript. Почему? Вот, в чем причины:
 1. JavaScript будет важным, пока люди используют браузер, то есть всегда.
