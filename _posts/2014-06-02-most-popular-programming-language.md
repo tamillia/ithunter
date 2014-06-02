@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+title: "Самый широко используемый язык программирования сейчас и в ближайшем будущем"
+date: 2014-06-03 01:00:00
+category: technology
+tags: [языки программирования, must-know, кроссплатформенность]
+published: true
 ---
 
 <img src="http://qph.cr.quoracdn.com/main-qimg-69dab6e643f80d8e42dfed17d6df48a0" class="img-responsive"><br/>
@@ -12,7 +17,7 @@ published: false
 
 Всё ещё неубедительно?
 
-JavaScript -- №1 среди используемых языков программирования в новых репозиториях на Github.
+JavaScript &mdash; №1 среди используемых языков программирования в новых репозиториях на Github.
 
 [Поиск по Github: репозитории с более чем 5000 звездочек](https://github.com/search?o=desc&q=stars%3A%3E5000&ref=searchresults&s=stars&type=Repositories)
 
