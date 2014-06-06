@@ -1,6 +1,13 @@
 ---
-published: false
+layout: post
+title: "Командная строка cmd"
+date: 2014-06-06 18:42:00
+category: tools
+tags: [windows, cmd, power user]
+published: true
 ---
+
+<img src="http://cs14108.vk.me/c540107/v540107391/4181/OJFYTGVhx-I.jpg" class="img-responsive"><br />
 
 Как управлять компьютером без мышки? Для этого можно запустить командную строку Windows cmd с помощью комбинации клавиш `win+r` а затем набрать в появившейся консоли `cmd` и нажать `Enter`.
 
