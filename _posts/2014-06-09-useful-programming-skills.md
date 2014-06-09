@@ -8,7 +8,7 @@ published: true
 ---
 <img src="http://cs616329.vk.me/v616329696/bbd0/pY3lzEamW1c.jpg" class="img-responsive"><br/>
 
-- Контроль версий: Git, GitHub and SVN 
+- Контроль версий: Git, GitHub и SVN 
 - [Регулярные выражения](http://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%B5_%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F) 
 - [AWK](https://ru.wikipedia.org/wiki/AWK) 
 - [sed](http://ru.wikipedia.org/wiki/Sed) 
