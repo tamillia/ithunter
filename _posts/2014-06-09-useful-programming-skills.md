@@ -1,7 +1,11 @@
 ---
-published: false
+layout: post
+title: "Полезные программистские навыки, которые можно получить за несколько дней или меньше"
+date: 2014-06-09 18:42:00
+category: skills
+tags: [linux, git, computer science, statistics, common skills, python, javascript]
+published: true
 ---
-
 <img src="http://cs616329.vk.me/v616329696/bbd0/pY3lzEamW1c.jpg" class="img-responsive"><br/>
 
 - Контроль версий: Git, GitHub and SVN 
