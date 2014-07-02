@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+title: "Советы по тому, как нужно учиться"
+date: 2014-07-02 19:55:00
+category: learning
+tags: [common, time-management]
+published: true
 ---
 
 <img src="http://s019.radikal.ru/i616/1407/b6/ea4c41c3b509.jpg" class="img-responsive" /><br />
