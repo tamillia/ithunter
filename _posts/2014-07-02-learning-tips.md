@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Советы по тому, как нужно учиться"
+title: "Полезные рекомендации по изучению"
 date: 2014-07-02 19:55:00
 category: learning
 tags: [common, time-management]
