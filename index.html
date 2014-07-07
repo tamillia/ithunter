@@ -5,8 +5,8 @@ published: true
 ---
 
 <div id="home">
-    <a href="http://theasder.github.io/categories">Все посты</a>
-    <h1>Последние добавленные посты</h1>
+    <a href="http://theasder.github.io/categories">Посмотреть каталог статей</a>
+    <h2>Последние добавленные посты</h2>
     {% for post in site.posts %}
         <a href="{{ post.url }}"><h3> {{ post.title limit:5}} </h3></a></li>
         <p class="time"><span class="label label-default">{{ post.category }}</span> <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
