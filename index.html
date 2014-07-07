@@ -7,8 +7,8 @@ published: true
 <div id="home">
     <h5><a href="http://theasder.github.io/categories">Посмотреть каталог статей</a></h5>
     <h2>Последние добавленные статьи</h2>
-    {% for post in site.posts %}
-        <a href="{{ post.url }}"><h3> {{ post.title limit:5}} </h3></a></li>
+    {% for post in site.posts  limit:5%}
+        <a href="{{ post.url }}"><h3> {{ post.title}} </h3></a></li>
         <p class="time"><span class="label label-default">{{ post.category }}</span> <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
         {{ post.excerpt }} 
         <div class="comm">
