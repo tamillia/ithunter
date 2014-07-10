@@ -5,8 +5,15 @@ published: true
 ---
 
 <div id="home">
+<<<<<<< HEAD
     {% for post in site.posts limit:5 %}
         <a href="{{ post.url }}"><h3> {{ post.title }} </h3></a></li>
+=======
+    <h5><a href="http://theasder.github.io/categories">Посмотреть каталог статей</a></h5>
+    <h2>Последние добавленные статьи</h2>
+    {% for post in site.posts  limit:5%}
+        <a href="{{ post.url }}"><h3> {{ post.title}} </h3></a></li>
+>>>>>>> 07cd7006dfdd35893deea53abb64d7ecdfbe9be3
         <p class="time"><span class="label label-default">{{ post.category }}</span> <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
         {{ post.excerpt }} 
         <div class="comm">
