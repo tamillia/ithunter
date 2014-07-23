@@ -22,61 +22,61 @@ API ВКонтакте предоставляет достаточно мног�
 
 Напомним, что адресом поста будет два последних числа из ссылки на него (например, `-35193970_951`). У нас есть функция `urlopen` библиотеки `urllib2`, позволяющая скачать все содержание страницы, а также метод `read`, позволяющий записать все содержание в одну переменную:
 
-    {% highlight python linenos %}
-    #!/usr/bin/python
-    # -*- coding: utf-8 -*-
-    import urllib2
-    import ast
-    import re
+{% highlight python linenos %}
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+import urllib2
+import ast
+import re
  
-    def get_items_of_post(address):
-        url = "https://api.vk.com/method/wall.getById?posts=" + address + "&extended=1&copy_history_depth=2"
-        response = urllib2.urlopen(url)
-        text = response.read()
-    {% endhighlight %}
+def get_items_of_post(address):
+    url = "https://api.vk.com/method/wall.getById?posts=" + address + "&extended=1&copy_history_depth=2"
+    response = urllib2.urlopen(url)
+    text = response.read()
+{% endhighlight %}
 
 Итак, в переменной `text` у нас записано содержание вывода метода `wall.getById` в виде строки(ее можно увидеть на [странице метода в документации](http://vk.com/dev/wall.getById)). Со строкой работать неудобно, её можно преобразовать в словарь с помощью функции `literal_eval` библиотеки `ast`. Пишем:
 
 {% highlight python linenos %}
-    post_info = ast.literal_eval(text)
+post_info = ast.literal_eval(text)
 {% endhighlight %}
 
 Функция будет вовращать массив с всеми прикрепленными файлами в записи. Если записи не существует, то пустой массив:
     
 {% highlight python linenos %}
-    if post_info['response']['wall'] == []:
-        return []
-    else:
-        return post_info['response']['wall'][0]['attachments']
+if post_info['response']['wall'] == []:
+    return []
+else:
+    return post_info['response']['wall'][0]['attachments']
 {% endhighlight %}
 
 Дальше пишем то, что будем выполняться программой при ее запуске:
 
 {% highlight python linenos %}
-    address = raw_input("Enter string of two right numbers of url of post\n") # ввод адреса
-    music = get_items_of_post(address)
+address = raw_input("Enter string of two right numbers of url of post\n") # ввод адреса
+music = get_items_of_post(address)
 {% endhighlight %}
    
 Дальше мы должны просмотреть каждый из прикреплений к записи и, если это аудиозапись, мы должны обработать ссылку на нее, скачать содержимое файла и записать его в новый файл, который будет находиться там же, где и программа.
 
 {% highlight python linenos %}
-    for attachment in music:
-	    type_of_attachment = attachment['type']
-	    if type_of_attachment != 'audio':
-		    pass
-	    else:
-		    artist = attachment[type_of_attachment]['artist']
-		    title = attachment[type_of_attachment]['title']
-		    name_of_file = artist + ' - ' + title + '.mp3'
-		    url = attachment[type_of_attachment]['url']
-		    if url == '': # предусмотрен случай, когда аудиозапись удалена из общего доступа
-			    print name_of_file + " was removed from public access"
-			    continue
-		    url = re.sub('\\\\\/', '/', url) # вместо простых слэшей изначально записываются `\\/`, поэтому нужно их заменить на просто слэши во всей строке
-		    url = re.sub('\?.*', '', url) # убираем все символы после расширения `.mp3`, они нам не нужны
-		    response = urllib2.urlopen(url)
-		    f = open(name_of_file, 'w')
-		    f.write(response.read())
-		    print name_of_file + " was downloaded" # оповещаем о том, что файл успешно скачался
+for attachment in music:
+	type_of_attachment = attachment['type']
+	if type_of_attachment != 'audio':
+		pass
+	else:
+		artist = attachment[type_of_attachment]['artist']
+		title = attachment[type_of_attachment]['title']
+		name_of_file = artist + ' - ' + title + '.mp3'
+		url = attachment[type_of_attachment]['url']
+		if url == '': # предусмотрен случай, когда аудиозапись удалена из общего доступа
+			print name_of_file + " was removed from public access"
+			continue
+		url = re.sub('\\\\\/', '/', url) # вместо простых слэшей изначально записываются `\\/`, поэтому нужно их заменить на просто слэши во всей строке
+		url = re.sub('\?.*', '', url) # убираем все символы после расширения `.mp3`, они нам не нужны
+		response = urllib2.urlopen(url)
+		f = open(name_of_file, 'w')
+		f.write(response.read())
+		print name_of_file + " was downloaded" # оповещаем о том, что файл успешно скачался
 {% endhighlight %}
 
