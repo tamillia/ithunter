@@ -52,7 +52,7 @@ published: true
 <img src="http://s017.radikal.ru/i408/1407/2d/2007453e79f9.png" class="img-responsive" /><br />
 ####А вот несколько полезных статей и руководств о новых функциях CSS3. 
 ###10. [Полное руководство по Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-Подробнаяа статья о новых "гибких" контейнерах (так называемых "флексбоксах" — flexbox). Флексбоксы — это новый способ вёрстки страниц в CSS. Это удобное средство для изменения ширины, высоты и расположения HTML-элементов на странице. Если лень читать на английском много, можно прочесть [краткую шпаргалку](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html).<br />
+Подробная статья о новых "гибких" контейнерах (так называемых "флексбоксах" — flexbox). Флексбоксы — это новый способ вёрстки страниц в CSS. Это удобное средство для изменения ширины, высоты и расположения HTML-элементов на странице. Если лень читать на английском много, можно прочесть [краткую шпаргалку](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html).<br />
 
 <img src="http://s56.radikal.ru/i151/1407/87/08b15f2d7fed.png" class="img-responsive" /><br />
 ###11. [Яркое выпадающее меню на CSS3](http://tutorialzine.com/2012/10/css3-dropdown-menu/)
