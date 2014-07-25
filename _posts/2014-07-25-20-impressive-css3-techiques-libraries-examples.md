@@ -7,7 +7,7 @@ tags: [css, css3, front-end, techniques, libraries]
 published: true
 ---
 
-<img src="http://s008.radikal.ru/i304/1407/5b/abf25d071989.jpg" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/20-impressive-css3-techniques-libraries-examples.jpg" class="img-responsive" /><br />
 ###1. [Меню в размытии](http://tympanus.net/Tutorials/BlurMenu/index.html)
 Прекрасно исполненная версия меню на чистом CSS. На самом деле здесь представлено целых семь разных вариантов, в каждом из которых используются новые функции перехода в CSS3 и с умом применяются селекторы для создания безупречного эффекта размытия. Посмотреть на код можно [здесь](http://tympanus.net/codrops/2011/10/19/blur-menu-with-css3-transitions/).<br />
 
