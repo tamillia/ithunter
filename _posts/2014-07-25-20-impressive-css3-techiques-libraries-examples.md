@@ -4,6 +4,7 @@ title: "20 потрясающих CSS3 техник, библиотек и пр�
 date: 2014-07-25 19:55:00
 category: tools
 tags: [css, css3, front-end, techniques, libraries]
+author: Люся Ширшова
 published: true
 ---
 
