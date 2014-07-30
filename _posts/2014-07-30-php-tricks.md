@@ -70,6 +70,7 @@ print $buffer; // Распечатает "thisthat".
 [Функции контроля вывода](http://php.net/manual/ru/ref.outcontrol.php)
 
 Есть удобные функции, проверяющие на наличие в строке тех или иных типов символов:
+
 1. `ctype_alnum` — Проверяет на наличие буквенно-цифровых символов 
 2. `ctype_alpha` — Проверяет на наличие буквенных символов
 3. `ctype_cntrl` — Проверяет на наличие управляющих символов
@@ -78,6 +79,7 @@ print $buffer; // Распечатает "thisthat".
 [Читать документацию.](http://php.net/manual/ru/book.ctype.php)
 
 В PHP много интересных строковых функций:
+
 1. [levenshtein](http://php.net/manual/ru/function.levenshtein.php) -- смотрим насколько схожи по написанию строки
 2. [soundex](http://php.net/manual/ru/function.soundex.php) -- смотрим насколько схожи по звучанию строки
 3. [similar_text](http://php.net/manual/ru/function.similar-text.php) -- проверяем текст на схожесть
