@@ -4564,7 +4564,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   color: #fff;
   font-family: 'LitteraPlainBook';
-  background: url('http:theasder.github.io/infoznak/img/bg.jpg') no-repeat center center fixed; 
+  background: url('http://theasder.github.io/infoznak/img/bg.jpg') no-repeat center center fixed; 
   background-size: 100% 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
