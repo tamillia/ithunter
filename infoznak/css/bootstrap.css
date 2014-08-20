@@ -18,9 +18,9 @@
 }
 
 @font-face {
-    font-family: 'BanderaPro';
-    src: url('fonts/BanderaPro.otf');
-    src: url('fonts/BanderaPro.eot');
+    font-family: 'OfficinaSerifMediumC';
+    src: url('http://theasder.github.io/infoznak/fonts/OfficinaSerifMediumC.otf');
+    src: url('http://theasder.github.io/infoznak/fonts/OfficinaSerifMediumC.eot');
 }
 
 html {
@@ -912,7 +912,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "BanderaPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'OfficinaSerifMediumC', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
   color: #333;
