@@ -8,13 +8,19 @@
 
 @font-face {
     font-family: 'LitteraPlainBook';
-    src: url('http:theasder.github.io/fonts/LitteraPlainBook.otf');
-    src: url('http:theasder.github.io/fonts/LitteraPlainBook.eot');
+    src: url('http://theasder.github.io/fonts/LitteraPlainBook.otf');
+    src: url('http://theasder.github.io/fonts/LitteraPlainBook.eot');
 }
 @font-face {
     font-family: 'LitteraPlainBold';
-    src: url('http:theasder.github.io/fonts/LitteraPlainBold.otf');
-    src: url('http:theasder.github.io/fonts/LitteraPlainBold.eot');
+    src: url('http://theasder.github.io/fonts/LitteraPlainBold.otf');
+    src: url('http://theasder.github.io/fonts/LitteraPlainBold.eot');
+}
+
+@font-face {
+    font-family: 'Aldine401BT-Regular';
+    src: url('http://theasder.github.io/fonts/Aldine401BT-Regular.otf');
+    src: url('http://theasder.github.io/fonts/Aldine401BT-Regular.eot');
 }
 
 html {
@@ -908,7 +914,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -4570,6 +4576,15 @@ a.list-group-item.active > .badge,
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 0 0 29px rgba(0,0,0,0.66) ;
 }
 .jumbotron h1,
 .jumbotron .h1 {
