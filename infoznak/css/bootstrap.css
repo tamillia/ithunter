@@ -1008,7 +1008,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'LitteraPlainBold';
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1089,19 +1089,19 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 30px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 24px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 16px;
 }
 h5,
 .h5 {
