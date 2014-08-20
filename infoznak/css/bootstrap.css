@@ -16,10 +16,11 @@
     src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.otf');
     src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.eot');
 }
+
 @font-face {
     font-family: 'BanderaPro';
-    src: url('http://theasder.github.io/infoznak/fonts/BanderaPro.otf');
-    src: url('http://theasder.github.io/infoznak/fonts/BanderaPro.eot');
+    src: url('fonts/BanderaPro.otf');
+    src: url('fonts/BanderaPro.eot');
 }
 
 html {
