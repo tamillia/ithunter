@@ -8,19 +8,19 @@
 
 @font-face {
     font-family: 'LitteraPlainBook';
-    src: url('http://theasder.github.io/fonts/LitteraPlainBook.otf');
-    src: url('http://theasder.github.io/fonts/LitteraPlainBook.eot');
+    src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.otf');
+    src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.eot');
 }
 @font-face {
     font-family: 'LitteraPlainBold';
-    src: url('http://theasder.github.io/fonts/LitteraPlainBold.otf');
-    src: url('http://theasder.github.io/fonts/LitteraPlainBold.eot');
+    src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.otf');
+    src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.eot');
 }
 
 @font-face {
-    font-family: 'SkolarCyrillic_Regular';
-    src: url('http://theasder.github.io/fonts/SkolarCyrillic_Regular.otf');
-    src: url('http://theasder.github.io/fonts/SkolarCyrillic_Regular.eot');
+    font-family: 'SkolarCyrillicRegular';
+    src: url('http://theasder.github.io/infoznak/fonts/SkolarCyrillicRegular.otf');
+    src: url('http://theasder.github.io/infoznak/fonts/SkolarCyrillicRegular.eot');
 }
 
 html {
@@ -909,11 +909,10 @@ th {
 }
 html {
   font-size: 10px;
-
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "SkolarCyrillic_Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SkolarCyrillicRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
   color: #333;
