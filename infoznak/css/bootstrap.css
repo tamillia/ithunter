@@ -31,6 +31,13 @@
          url('http://theasder.github.io/infoznak/fonts/litteraplainbold-webfont.svg#littera_plainbold') format('svg');
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'littera_plainbold';
+        src: url('http://theasder.github.io/infoznak/fonts/litteraplainbold-webfont.svg#littera_plainbold') format('svg');
+    }
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
