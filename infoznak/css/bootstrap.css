@@ -8,11 +8,18 @@
 
 @font-face {
     font-family: 'littera_plainbook';
-    src: url(http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot);
-    src: url(http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot?#iefix) format('embedded-opentype'),
-         url(http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.woff) format('woff'),
-         url(http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.ttf) format('truetype'),
-         url(http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.svg#littera_plainbook) format('svg');
+    src: url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot');
+    src: url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.woff') format('woff'),
+         url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.ttf') format('truetype'),
+         url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.svg#littera_plainbook') format('svg');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'littera_plainbook';
+        src: url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.svg#littera_plainbook') format('svg');
+    }
 }
 
 @font-face {
