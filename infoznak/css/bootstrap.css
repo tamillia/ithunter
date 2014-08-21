@@ -11,6 +11,18 @@
     src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.eot') format('embedded-opentype');
 }
 
+@font-face {
+    font-family: 'littera_plainbook';
+    src: url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot');
+    src: url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.woff') format('woff'),
+         url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.ttf') format('truetype'),
+         url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.svg#littera_plainbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
