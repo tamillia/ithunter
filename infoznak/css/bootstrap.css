@@ -7,18 +7,6 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 
 @font-face {
-    font-family: PT_Sans;
-    src: url('http://theasder.github.io/fonts/PTC75F.eot');
-    src: local(PT_Sans), url('http://theasder.github.io/fonts/PTC75F.ttf') format('opentype');
-}
-
-@font-face {
-    font-family: PT_Sans_reg;
-    src: url('http://theasder.github.io/fonts/PTS55F.eot');
-    src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
-}
-
-@font-face {
   font-family: littera_plainbook;
   src: url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot');
   src: local(littera_plainbook), url('http://theasder.github.io/infoznak/fonts/litteraplainbook-webfont.eot?#iefix') format('embedded-opentype'),
