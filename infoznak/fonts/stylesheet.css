@@ -7,7 +7,7 @@
     src: url('litteraplainbook-webfont.eot');
     src: url('litteraplainbook-webfont.eot?#iefix') format('embedded-opentype'),
          url('litteraplainbook-webfont.woff') format('woff'),
-         url('litteraplainbook-webfont.ttf') format('truetype'),
+         url('litteraplainbook-webfont.otf') format('truetype'),
          url('litteraplainbook-webfont.svg#littera_plainbook') format('svg');
     font-weight: normal;
     font-style: normal;
