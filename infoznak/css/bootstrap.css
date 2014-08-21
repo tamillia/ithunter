@@ -9,17 +9,26 @@
 @font-face {
   font-family: littera_plainbook;
   src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.eot');
-  src: local(littera_plainbook), url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.eot?#iefix') format('embedded-opentype'),
-  url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.otf') format('truetype'),
+  src: local(littera_plainbook), url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.otf') format('opentype'),
 }
 
 @font-face {
   font-family: littera_plainbold;
   src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.eot');
-  src: local(littera_plainbook), url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.eot?#iefix') format('embedded-opentype'),
-  url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.otf') format('truetype'),
+  src: local(littera_plainbold), url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.otf') format('opentype'),
 }
 
+@font-face {
+    font-family: PT_Sans;
+    src: url('http://theasder.github.io/fonts/PTC75F.eot');
+    src: local(PT_Sans), url('http://theasder.github.io/fonts/PTC75F.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: PT_Sans_reg;
+    src: url('http://theasder.github.io/fonts/PTS55F.eot');
+    src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
+}
 
 html {
   font-family: sans-serif;
@@ -1012,7 +1021,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: littera_plainbold;
+  font-family: PT_Sans;
   line-height: 1.1;
   color: inherit;
 }
@@ -4108,7 +4117,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   font-size: 18px;
-  font-family: littera_plainbook;
+  font-family: PT_Sans_reg;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -4566,7 +4575,7 @@ a.list-group-item.active > .badge,
   padding: 20px;
   margin-bottom: 30px;
   color: #fff;
-  font-family: littera_plainbook;
+  font-family: PT_Sans_reg;
   background: url('http://theasder.github.io/infoznak/img/bg.jpg') no-repeat center center fixed; 
   background-size: 100% 100%;
   -webkit-background-size: cover;
@@ -4586,7 +4595,7 @@ a.list-group-item.active > .badge,
 .jumbotron h1,
 .jumbotron .h1 {
   color: #fff;
-  font-family: littera_plainbold;
+  font-family: PT_Sans;
 }
 .jumbotron p {
   margin-bottom: 15px;
