@@ -4099,7 +4099,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   font-size: 18px;
-  font-family: 'LitteraPlainBook';
+  font-family: 'littera_plainbook';
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -4557,7 +4557,7 @@ a.list-group-item.active > .badge,
   padding: 20px;
   margin-bottom: 30px;
   color: #fff;
-  font-family: 'LitteraPlainBook';
+  font-family: 'littera_plainbook';
   background: url('http://theasder.github.io/infoznak/img/bg.jpg') no-repeat center center fixed; 
   background-size: 100% 100%;
   -webkit-background-size: cover;
