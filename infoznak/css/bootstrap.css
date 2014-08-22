@@ -4577,6 +4577,7 @@ a.list-group-item.active > .badge,
   margin-bottom: 30px;
   color: #fff;
   font-family: PT_Sans_reg;
+  background-color: #0b0300;
   background: url('http://theasder.github.io/infoznak/img/bg.jpg') no-repeat center center fixed; 
   background-size: 100% 100%;
   -webkit-background-size: cover;
