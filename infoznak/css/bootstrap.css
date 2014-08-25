@@ -1021,7 +1021,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: PT_Sans;
+  font-family: PT_Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -4118,7 +4118,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   font-size: 18px;
-  font-family: PT_Sans_reg;
+  font-family: PT_Sans_reg, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -4576,7 +4576,7 @@ a.list-group-item.active > .badge,
   padding: 20px;
   margin-bottom: 30px;
   color: #fff;
-  font-family: PT_Sans_reg;
+  font-family: PT_Sans_reg, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #0b0300;
   background-image: url('http://theasder.github.io/infoznak/img/bg.jpg'); 
   background-size: 100% 100%;
@@ -4598,7 +4598,7 @@ a.list-group-item.active > .badge,
 .jumbotron h1,
 .jumbotron .h1 {
   color: #fff;
-  font-family: PT_Sans;
+  font-family: PT_Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .jumbotron p {
   margin-bottom: 15px;
