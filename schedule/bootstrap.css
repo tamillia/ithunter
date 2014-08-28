@@ -85,7 +85,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .1em 0;
+  margin: .67em 0;
   font-size: 2em;
 }
 mark {
@@ -1023,7 +1023,7 @@ h6,
 .h6 {
   font-family: PT_Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  line-height: 1.0;
+  line-height: 1.1;
   color: inherit;
 }
 h1 small,
@@ -1060,8 +1060,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h1 small,
 .h1 small,
@@ -1102,11 +1102,11 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 24px;
+  font-size: 30px;
 }
 h2,
 .h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 h3,
 .h3 {
@@ -2099,7 +2099,7 @@ th {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  padding: 6px;
+  padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
