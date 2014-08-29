@@ -7,7 +7,7 @@ tags: [приемы, языки программирования]
 published: true
 ---
 
-<img src="http://s019.radikal.ru/i610/1407/70/508ee057e4c2.png" class="img-responsive" />
+<img src="img/508ee057e4c2.png" class="img-responsive" />
 
 Начиная с версии PHP 5.3 поддерживается более короткая версия тернарного оператора.
 
