@@ -7,7 +7,7 @@ tags: [python, vk, api]
 published: true
 ---
 
-<img src="img/8387270418a6.png" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/8387270418a6.png" class="img-responsive" /><br />
 
 Для всех нетерпеливых есть [ссылка](https://gist.github.com/theasder/73c3f0a9270ebe611a80) на скрипт. UPD: была предложена версия для Python 3, вот [ссылка](http://pastebin.com/Px81WfEe). Чтобы его запустить требуется интерпретатор языка Python 3, и нужно написать в консоли `python3 название_скрипта.py`
 

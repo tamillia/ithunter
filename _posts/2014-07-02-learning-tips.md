@@ -7,7 +7,7 @@ tags: [common, time-management]
 published: true
 ---
 
-<img src="img/ea4c41c3b509.jpg" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/ea4c41c3b509.jpg" class="img-responsive" /><br />
 
 Всего два вида исследований, показавших интересные результаты по теме статьи: первый -- это график, связанный с человеческой памятью и второй -- промежуток активности человеческого внимания.
 

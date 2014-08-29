@@ -7,7 +7,7 @@ tags: [machine learning, artificial intelligence, hard-core]
 published: true
 ---
 
-<img src="img/a88afb6d2c89.png" class="img-responsive">
+<img src="http://theasder.github.io/img/a88afb6d2c89.png" class="img-responsive">
 
 Есть репозиторий на гитхабе, которая поможет вам начать изучение. В ней содержится библиотеки фреймворки, связанные с машинным обучением. [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
