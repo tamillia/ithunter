@@ -7,7 +7,7 @@ tags: [algorithms, graphs, contests]
 published: true
 ---
 
-<img src="http://www.acmgnyr.org/icpclogo_big.png" class="img-responsive" /><br />
+<img src="http://s52.radikal.ru/i138/1410/4d/3029aed25a16.png" class="img-responsive" /><br />
 
 - Решето Эратосфена или другое решето простых чисел
 - поиск в глубину
