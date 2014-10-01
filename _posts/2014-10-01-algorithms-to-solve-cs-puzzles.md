@@ -4,7 +4,7 @@ title: "Алгоритмы, которые нужно знать для реше
 date: 2014-10-01 13:55:00
 category: learning
 tags: [algorithms, graphs, contests]
-published: false
+published: true
 ---
 
 <img src="http://www.acmgnyr.org/icpclogo_big.png" class="img-responsive" /><br />
