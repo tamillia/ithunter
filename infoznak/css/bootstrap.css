@@ -6,29 +6,7 @@
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 
-@font-face {
-  font-family: littera_plainbook;
-  src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.eot');
-  src: local(littera_plainbook), url('http://theasder.github.io/infoznak/fonts/LitteraPlainBook.otf') format('opentype'),
-}
-
-@font-face {
-  font-family: littera_plainbold;
-  src: url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.eot');
-  src: local(littera_plainbold), url('http://theasder.github.io/infoznak/fonts/LitteraPlainBold.otf') format('opentype'),
-}
-
-@font-face {
-    font-family: PT_Sans;
-    src: url('http://theasder.github.io/fonts/PTC75F.eot');
-    src: local(PT_Sans), url('http://theasder.github.io/fonts/PTC75F.ttf') format('opentype');
-}
-
-@font-face {
-    font-family: PT_Sans_reg;
-    src: url('http://theasder.github.io/fonts/PTS55F.eot');
-    src: local(PT_Sans_reg), url('http://theasder.github.io/fonts/PTS55F.ttf') format('opentype');
-}
+@import "http://webfonts.ru/import/ptsans.css";
 
 html {
   font-family: sans-serif;
@@ -1021,7 +999,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: PT_Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Caption';
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -4118,7 +4096,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   font-size: 18px;
-  font-family: PT_Sans_reg, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Caption';
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -4576,7 +4554,7 @@ a.list-group-item.active > .badge,
   padding: 20px;
   margin-bottom: 30px;
   color: #fff;
-  font-family: PT_Sans_reg, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Caption';
   background-color: #0b0300;
   background-image: url('http://theasder.github.io/infoznak/img/bg.jpg'); 
   background-size: 100% 100%;
@@ -4598,7 +4576,7 @@ a.list-group-item.active > .badge,
 .jumbotron h1,
 .jumbotron .h1 {
   color: #fff;
-  font-family: PT_Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans Caption';
 }
 .jumbotron p {
   margin-bottom: 15px;
