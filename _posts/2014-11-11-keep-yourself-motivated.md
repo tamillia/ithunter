@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Как оставаться мотивированным?"
+title: "Какой лучший способ оставаться мотивированным?"
 date: 2014-11-11 19:55:00
 category: learning
 tags: [motivation, routine, procrastination]
