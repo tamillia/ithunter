@@ -2,7 +2,7 @@
 layout: post
 title: "Как быстро разобраться в незнакомом коде? Советы от опытных разработчиков"
 date: 2014-11-12 17:15:25
-category: software development
+category: development
 tags: [командная разработка, опенсорс, код]
 published: true
 ---
