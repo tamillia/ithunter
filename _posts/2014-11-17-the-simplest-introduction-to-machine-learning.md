@@ -7,7 +7,7 @@ tags: [machine learning, artificial intelligence, novice]
 published: true
 ---
 
-<img src="http://theasder.github.io/img/a88afb6d2c89.png" class="img-responsive">
+<img src="http://theasder.github.io/img/neurons.jpg" class="img-responsive">
 
 Тысячи людей с удовольствием и умным видом рассуждают о машинном обучении, но ни бельмеса в этом не понимают. Если вы сами хоть раз пытались открыть статью в Википедии о машинном обучении, попытались её прочитать и в унынии закрыли, осознав, что вы тоже ничего в этом не понимаете и не поймёте, это руководство — для вас.
 
