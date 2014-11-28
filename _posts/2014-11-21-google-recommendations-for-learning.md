@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Машинное обучение для самых маленьких. Самое простое в мире введение в машинное обучение"
+date: 2014-11-17 17:15:25
+category: learning
+tags: [machine learning, artificial intelligence, novice]
+published: false
+---
+
 # Guide for Technical Development
 
 Having a solid foundation in Computer Science is important in being a successful Software Engineer. This guide is a suggested path for University students to develop their technical skills academically and non-academically through self paced hands-on learning. You may use this guide to determine courses to take but please make sure you are taking courses required for your major or faculty in order to graduate. The online resources provided in this guide are not meant to replace courses available at your University. However, they may help supplement your learnings or provide an introduction to the topic.
