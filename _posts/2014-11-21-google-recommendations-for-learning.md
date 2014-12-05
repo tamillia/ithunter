@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Машинное обучение для самых маленьких. Самое простое в мире введение в машинное обучение"
+title: "Рекомендации Google по изучению."
 date: 2014-11-17 17:15:25
 category: learning
-tags: [machine learning, artificial intelligence, novice]
+tags: [employment, google, guide, computer science]
 published: false
 ---
 
