@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Рекомендации Google по изучению."
+title: "Рекомендации Google по изучению"
 date: 2014-12-06 17:15:25
 category: learning
 tags: [employment, google, guide, computer science]
