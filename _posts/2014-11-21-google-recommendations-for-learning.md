@@ -4,94 +4,114 @@ title: "Рекомендации Google по изучению."
 date: 2014-11-17 17:15:25
 category: learning
 tags: [employment, google, guide, computer science]
-published: false
+published: true
 ---
 
-# Guide for Technical Development
+<img src="http://theasder.github.io/img/google.jpg" class="img-responsive"><br />
 
-Having a solid foundation in Computer Science is important in being a successful Software Engineer. This guide is a suggested path for University students to develop their technical skills academically and non-academically through self paced hands-on learning. You may use this guide to determine courses to take but please make sure you are taking courses required for your major or faculty in order to graduate. The online resources provided in this guide are not meant to replace courses available at your University. However, they may help supplement your learnings or provide an introduction to the topic.
+Крепкая база знаний в сфере Computer Science особенно важна для успешного разработчика ПО. Это руководство позволит студентам вузов приступить к самостоятельному развитию своих технических навыков. Его можно использовать, чтобы найти подходящие для себя курсы, но будьте внимательны при их выборе: убедитесь в том, что вы выбираете курсы по своей специальности. Онлайн-курсы, перечисленные в этом руководстве, не заменяют учебную программу вашего вуза. Тем не менее, они станут прекрасным дополнительным инструментом для вашего самообучения или для ознакомления с конкретной дисциплиной.  
 
-Using this guide:
+Использование руководства:
 
-- Please use this guide at your discretion
-- There may be other things you want to learn or do outside of this guide - go for it!
-- Checking off all items in this guide does not guarantee a job at Google
-- This guide will evolve or change - check back for updates
-Follow our [Google for Students +Page](https://plus.google.com/u/0/+GoogleStudents/posts) to get additional tips, resources, and other students interested in development.
+- Используйте руководство по своему усмотрению 
+- Есть множество вещей, не перечисленных здесь, которые стоит изучить — вперёд! 
+- Даже если вы изучите это руководство вдоль и поперёк, это не гарантирует вам трудоустройство в Google 
+- Руководство постоянно пополняется — проверяйте обновления 
+ 
+Следите за страницей [Google+ для студентов](https://plus.google.com/u/0/+GoogleStudents/posts), на которой публикуются дополнительные советы и ресурсы, и где можно пообщаться с другими заинтересованными студентами. 
 
-## Recommendations for Academic Learnings
+## Рекомендации для теоретического изучения
 
-- **Introduction to CS Course**
+- **Познакомьтесь с вводным курсом Computer Science**
 
-Notes: Introduction to Computer Science Course that provides instructions on coding 
+Примечание: Прослушайте начальный курс Computer Science, в котором представлены основы программирования. 
 
-Online Resources: [Udacity - intro to CS course](https://www.udacity.com/course/cs101), [Coursera - Computer Science 101](https://www.coursera.org/course/cs101)
+Онлайн-ресурсы: [Udacity — Введение в Computer Science](https://www.udacity.com/course/cs101), [Coursera —  Computer Science 101](https://www.coursera.org/course/cs101) 
 
-- **Code in at least one object oriented programming language: C++, Java, or Python**
+- **Попробуйте программировать хотя бы на одном объектно-ориентированном языке: C++, Java или Python**
 
-Beginner Online Resources: [Coursera - Learn to Program: The Fundamentals](https://www.coursera.org/course/programming1), [MIT Intro to Programming in Java](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm), [Google's Python Class](https://developers.google.com/edu/python/), [Coursera - Introduction to Python](https://www.coursera.org/course/interactivepython), [Python Open Source E-Book](http://www.openbookproject.net/thinkcs/python/english2e/)
+Онлайн-ресурсы для новичков: [Coursera — Учимся программировать: Основы](https://www.coursera.org/course/programming1), [Введение от МТИ в программирование на Java](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/index.htm), [Урок по Python от Google](https://developers.google.com/edu/python/), [Coursera — Введение в Python](https://www.coursera.org/course/interactivepython), [Электронная книга по Python в открытом доступе](http://www.openbookproject.net/thinkcs/python/english2e/)
 
-Intermediate Online Resources: [Udacity's Design of Computer Programs](https://www.udacity.com/course/cs212), [Coursera - Learn to Program: Crafting Quality Code, Coursera - Programming Languages](https://www.coursera.org/course/programming2), [Brown University - Introduction to Programming Languages](https://www.coursera.org/course/proglang)
+От нас: подборки по [C++](https://vk.com/page-54530371_48770640), [Java](https://vk.com/page-54530371_48776757), [Python](https://vk.com/page-54530371_48786262)
 
-- **Learn other Programming Languages**
+Онлайн-ресурсы для продолжающих изучение: [Udacity: Проектирование компьютерных программ](https://www.udacity.com/course/cs212), [Coursera — Учимся программировать: Пишем качественный код](https://www.coursera.org/course/programming2), [Coursera — Языки программирования](https://www.coursera.org/course/proglang), [Университет Брауна — Введение в языки программирования](https://www.coursera.org/course/proglang)
 
-Notes: Add to your repertoire - Java Script, CSS, HTML, Ruby, PHP, C, Perl, Shell. Lisp, Scheme.
+- **Изучите другие языки программирования**
 
-Online Resources: [w3school.com - HTML Tutorial](http://www.w3schools.com/), [CodeAcademy.com](http://www.codecademy.com/learn)
+Примечание: Добавьте в свой репертуар JavaScript, CSS, HTML, Ruby, PHP, C, Perl, Shell, Lisp, Scheme.
 
-- **Test Your Code**
+Онлайн-ресурсы: [Руководство по HTML от w3school.com](http://www.w3schools.com/), [CodeAcademy.com](http://www.codecademy.com/learn)
 
-Notes: Learn how to catch bugs, create tests, and break your software
+От нас: [каталог книг](https://vk.com/page-54530371_44620320), [видеолекции](https://vk.com/page-54530371_46988280)
 
-Online Resources: [Udacity - Software Testing Methods](https://www.udacity.com/course/cs258), [Udacity - Software Debugging](https://www.udacity.com/course/cs259)
+- **Тестируйте свой код**
 
-- **Develop logical reasoning and knowledge of discrete math**
+Примечание: Научитесь отыскивать баги, создавать тесты и взламывать собственное ПО.
 
-Online Resources: [MIT Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm), Coursera - Introduction to Logic, Coursera - Linear and Discrete Optimization, Coursera - Probabilistic Graphical Models, Coursera - Game Theory
+Онлайн-ресурсы: [Udacity — Методы тестирования ПО](https://www.udacity.com/course/cs258), [Udacity — Дебаггинг ПО](https://www.udacity.com/course/cs259)
 
-- **Develop strong understanding of Algorithms and Data Structures**
+- **Развивайте логическое мышление и изучите дискретную математику**
 
-Notes: Learn about fundamental data types (stack, queues, and bags), sorting algorithms (quicksort, mergesort, heapsort), and data structures (binary search trees, red-black trees, hash tables), Big O.
+Онлайн-ресурсы: [Математика для Computer Science от МТИ](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm), [Coursera — Введение в логику](https://www.coursera.org/course/intrologic), [Coursera — Линейная и дискретная оптимизация](https://www.coursera.org/epfl), [Coursera — Графические вероятностные модели](https://www.coursera.org/course/pgm), [Coursera — Теория игр](https://www.coursera.org/course/gt)
 
-Online Resources: [MIT Introduction to Algorithms](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/index.htm), Coursera Introduction to Algorithms [Part 1](https://www.coursera.org/course/algs4partI) & [Part 2](https://www.coursera.org/course/algs4partII), [List of Algorithms](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%B2), [List of Data Structures](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/%D0%A1%D0%BF%D0%B8%D1%81%D0%BA%D0%B8/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85), Book: [The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/ref=sr_1_5?s=books&ie=UTF8&qid=1360133842&sr=1-5&keywords=algorithms)
+- **Развивайте сильное понимание алгоритмов и структур данных**
 
-- **Develop a strong knowledge of operating systems**
+Примечание: Изучите фундаментальные типы данных (массивы, записи, кортежи), сортировочные алгоритмы (быстрая сортировка, сортировка слиянием, пирамидальная сортировка) и структуры данных (бинарные древа поиска, красно-чёрные деревья, таблицы хеширования), большое «О». 
 
-Online Resources: [UC Berkeley Computer Science 162](http://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)
+Онлайн-ресусры: [Введение в алгоритмы от МТИ](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008/index.htm), Coursera — Введение в алгоритмы: [Часть 1](https://www.coursera.org/course/algs4partI) и [Часть 2](https://www.coursera.org/course/algs4partII), [Список алгоритмов](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%BE%D0%B2), [Список структур данных](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82:%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/%D0%A1%D0%BF%D0%B8%D1%81%D0%BA%D0%B8/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85), Книга: [Руководство по разработке алгоритмов](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/ref=sr_1_5?s=books&ie=UTF8&qid=1360133842&sr=1-5&keywords=algorithms)
 
-- **Learn Artificial Intelligence Online Resources:**
+От нас: [подборка материалов по алгоритмам, структурам данных и дискретной математике](https://vk.com/page-54530371_48797085)
 
-Stanford University - [Introduction to Robotics](http://see.stanford.edu/see/courseinfo.aspx?coll=86cc8662-f6e4-43c3-a1be-b30d1d179743), [Natural Language Processing](http://see.stanford.edu/see/courseinfo.aspx?coll=63480b48-8819-4efd-8412-263f1a472f5a), [Machine Learning](http://see.stanford.edu/see/courseinfo.aspx?coll=348ca38a-3a6d-4052-937d-cb017338d7b1)
+- **Развивайте свои знания операционных систем**
 
-Learn how to build compilers
-Online Resources: [Coursera - Compilers](https://www.coursera.org/course/compilers)
+Онлайн-ресурсы: [Computer Science вместе с университетом Беркли](http://www.youtube.com/watch?v=XgQo4JkN4Bw&list=PL3289DD0D0F0CD4A3)
 
-Learn cryptography
-Online Resources: [Coursera - Cryptography](https://www.coursera.org/course/crypto), [Udacity - Applied Cryptography](https://www.udacity.com/course/cs387)
+- **Изучите онлайн-ресурсы по искусственному интеллекту**
 
-Learn Parallel Programming
-Online Resources: [Coursera - Heterogeneous Parallel Programming](https://www.coursera.org/course/hetero)
+Стэнфордский университет: [Введение в робототехнику](http://see.stanford.edu/see/courseinfo.aspx?coll=86cc8662-f6e4-43c3-a1be-b30d1d179743), [Обработка естественных языков](http://see.stanford.edu/see/courseinfo.aspx?coll=63480b48-8819-4efd-8412-263f1a472f5a), [Машинное обучение](http://see.stanford.edu/see/courseinfo.aspx?coll=348ca38a-3a6d-4052-937d-cb017338d7b1)
 
-Recommendations for Non-Academic Learnings
+- **Научитесь строить компиляторы**
 
-Work on project outside of the classroom.
-Notes: Create and maintain a website, build your own server, or build a robot.
-Online Resources: Apache List of Projects, Google Summer of Code, Google Developer Group
+Онлайн-ресурсы: [Coursera — Компиляторы](https://www.coursera.org/course/compilers)
 
-Work on a small piece of a large system (codebase), read and understand existing code, track down documentation, and debug things.
-Notes: Github is a great way to read other people’s code or contribute to a project.
-Online Resources: Github, Kiln
+- **Изучите криптографию**
 
-Work on project with other programmers.
-Notes: This will help you improve your ability to work well in a team and enable you to learn from others.
+Онлайн-ресурсы: [Coursera — Криптография](https://www.coursera.org/course/crypto), [Udacity — Прикладная криптография](https://www.udacity.com/course/cs387)
 
-Practice your algorithmic knowledge and coding skills
-Notes: Practice your algorithmic knowledge through coding competitions like CodeJam or ACM’s International Collegiate Programming Contest.
-Online Resources: CodeJam, ACM ICPC
+- **Изучите параллельное программирование**
 
-Become a Teaching Assistant
-Notes: Helping to teach other students will help enhance your knowledge in the subject matter.
+Онлайн-ресурсы: [Coursera — Гетерогенное параллельное программирование](https://www.coursera.org/course/hetero)
 
-Internship experience in software engineering
-Notes: Make sure you apply for internships well in advance of the period internships take place. In the US, internships take place during the summer, May-September, and applications are usually open several months in advance.
-Online Resources: google.com/jobs
+##Рекомендации для практического изучения
+
+- **Поработайте над своим проектом**
+
+Примечание: создайте и обеспечьте работоспособность сайта, сервера или, например, постройте простого робота.
+
+Онлайн-ресурсы: [Список проектов Apache](http://www.google.com/edu/tools-and-solutions/guide-for-technical-development/index.html), [Лето кода от Google](http://www.google.com/edu/tools-and-solutions/guide-for-technical-development/index.html), [Сообщество разработчиков Google](https://developers.google.com/)
+
+- **Поработайте над небольшим модулем большой системы (базой кода), прочитайте и поймите существующий код, ознакомьтесь с документацией и проведите дебаггинг**
+
+Примечание: Github — отличный способ читать код других людей или внести вклад в существующий проект.
+
+Онлайн-ресурсы: [Github](https://github.com/), [Kiln](http://www.fogcreek.com/kiln/)
+
+- **Поработайте над проектом с другими программистами**
+
+Примечание: Это улучшит ваши навыки работы в команде и поможет вам научиться учиться у других.
+
+- **Практикуйте свои знания алгоритмов и программирования**
+
+Примечание: Знание алгоритмов отлично тренируется в соревнованиях по программированию. 
+
+Онлайн-ресурсы: [CodeJam](https://code.google.com/codejam/), [ACM ICPC](http://icpc.baylor.edu/)
+
+- **Научите чему-нибудь других**
+
+Примечание: Помогая учиться другим, вы углубляете свои собственные знания.
+
+- **Станьте участником программы стажировки**
+
+Примечание: Старайтесь подавать заявки на программы стажировки заранее. Как правило, заявки начинают приниматься за несколько месяцев до начала программы.
+
+Онлайн-ресурсы: [Вакансии Google](http://www.google.com/about/careers/)
