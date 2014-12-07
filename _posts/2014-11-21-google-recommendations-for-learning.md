@@ -52,7 +52,7 @@ published: true
 
 - **Развивайте логическое мышление и изучите дискретную математику**
 
-Онлайн-ресурсы: [Математика для Computer Science от МТИ](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm), [Coursera — Введение в логику](https://www.coursera.org/course/intrologic), [Coursera — Линейная и дискретная оптимизация](https://www.coursera.org/epfl), [Coursera — Графические вероятностные модели](https://www.coursera.org/course/pgm), [Coursera — Теория игр](https://www.coursera.org/course/gt)
+Онлайн-ресурсы: [Математика для Computer Science от МТИ](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm), [Coursera — Введение в логику](https://www.coursera.org/course/intrologic), [Coursera — Линейная и дискретная оптимизация](https://www.coursera.org/epfl), [Coursera — Вероятностные графовые модели](https://www.coursera.org/course/pgm), [Coursera — Теория игр](https://www.coursera.org/course/gt)
 
 - **Развивайте сильное понимание алгоритмов и структур данных**
 
