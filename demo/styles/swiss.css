@@ -1,7 +1,8 @@
 @import "http://webfonts.ru/import/bitter.css";
+@import "http://webfonts.ru/import/clearsans.css";
 
 .deck-container {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: 'Clear Sans', "Helvetica Neue", sans-serif;
   font-size: 1.75em;
   background: #fff;
 }
