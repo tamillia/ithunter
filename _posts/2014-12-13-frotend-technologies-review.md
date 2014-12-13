@@ -117,7 +117,7 @@ published: true
 
 *Подпись: Какой шаблонный движок или синтаксис вы предпочитаете использовать?* 
 
-Ну и график от Google Trends для развлечения :) 
+Ну и график от Google Trends для наглядности :) 
 
 <img src="http://s015.radikal.ru/i330/1412/33/ab63f8954983.png" class="img-responsive"><br />
 
