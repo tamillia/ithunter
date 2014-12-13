@@ -1,9 +1,10 @@
-@import "http://webfonts.ru/import/bitter.css";
+@import "http://webfonts.ru/import/lato.css";
 @import "http://webfonts.ru/import/clearsans.css";
 
 .deck-container {
-  font-family: 'Clear Sans', "Helvetica Neue", sans-serif;
+  font-family: 'Lato', "Helvetica Neue", sans-serif;
   font-size: 1.75em;
+  font-weight: normal;
   background: #fff;
 }
 .deck-container .slide {
