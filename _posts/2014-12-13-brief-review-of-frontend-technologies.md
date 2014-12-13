@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Обзор используемых фронт-енд технологий"
-date: 2014-12-13 22:22:00
+date: 2014-12-13 10:22:00
 category: tools
 tags: [webdev, front-end, survey, review, technogies]
 published: true
