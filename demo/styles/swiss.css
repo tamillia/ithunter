@@ -44,8 +44,8 @@
   color: #888;
 }
 .deck-container .slide ::-moz-selection {
-  background: #c00;
-  color: #fff;
+  /*background: #c00;
+  color: #fff;*/
 }
 .deck-container .slide ::selection {
   background: #c00;
