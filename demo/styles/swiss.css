@@ -50,8 +50,8 @@
   color: #fff;*/
 }
 .deck-container .slide ::selection {
-  background: #c00;
-  color: #fff;
+  /*background: #c00;
+  color: #fff;*/
 }
 .deck-container .slide a, .deck-container .slide a:hover, .deck-container .slide a:focus, .deck-container .slide a:active, .deck-container .slide a:visited {
   color: #c00;
