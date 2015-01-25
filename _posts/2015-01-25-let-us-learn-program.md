@@ -69,7 +69,7 @@ published: true
 Участвуйте в конкурсах, олимпиадах, хакатонах. Найдите то, что вас вдохновляет именно вас. Но, пожалуй, с чего не стоит начинать новичкам, так это с C++. Это не тот язык, который может вдохновить на подвиги человека, который до этого никак не был связан с изучением информатики и математики. 
 
 Чтобы посмотреть полностью, нажмите на картинку.<br>
-<a href="http://i003.radikal.ru/1501/09/3d408cd0e08e.jpg"><img src="http://i003.radikal.ru/1501/09/3d408cd0e08e.jpg " class="img-responsive" target="_blank"></a><br>
+<a href="http://i003.radikal.ru/1501/09/3d408cd0e08e.jpg" target="_blank"><img src="http://i003.radikal.ru/1501/09/3d408cd0e08e.jpg " class="img-responsive"></a><br>
 
 Возможно, вы заметили, что многие пути в этой инфографике ведут к Python. На это есть несколько причин. Одна из основных состоит вовсе не в том, что в Python какое-то невообразимое количество классных функций. Основной секрет того, что Python действительно хорош для новичков состоит в том, что Python позволяет быстро приступить к практике. 
 
@@ -84,9 +84,9 @@ published: true
 И напоследок небольшое сравнение различных популярных языков программирование по аналогии с героями и персонажами «Властелина колец». 
 
 Чтобы посмотреть полностью, нажмите на картинку.<br>
-<a href="http://s017.radikal.ru/i404/1501/bf/16502647f0b1.jpg"><img src="http://s017.radikal.ru/i404/1501/bf/16502647f0b1.jpg" class="img-responsive" target="_blank"></a><br>
+<a href="http://s017.radikal.ru/i404/1501/bf/16502647f0b1.jpg" target="_blank"><img src="http://s017.radikal.ru/i404/1501/bf/16502647f0b1.jpg" class="img-responsive" target="_blank"></a><br>
 
-<a href="http://s016.radikal.ru/i335/1501/ec/c479fde63de2.jpg"><img src="http://s016.radikal.ru/i335/1501/ec/c479fde63de2.jpg " class="img-responsive" target="_blank"></a><br>
+<a href="http://s016.radikal.ru/i335/1501/ec/c479fde63de2.jpg" target="_blank"><img src="http://s016.radikal.ru/i335/1501/ec/c479fde63de2.jpg " class="img-responsive" target="_blank"></a><br>
 
-<a href="http://s017.radikal.ru/i412/1501/45/4e6896a7390c.jpg"><img src="http://s017.radikal.ru/i412/1501/45/4e6896a7390c.jpg " class="img-responsive" target="_blank"></a><br>
+<a href="http://s017.radikal.ru/i412/1501/45/4e6896a7390c.jpg" target="_blank"><img src="http://s017.radikal.ru/i412/1501/45/4e6896a7390c.jpg " class="img-responsive" target="_blank"></a><br>
 *Инфографика: [Карл Чео](http://carlcheo.com/startcoding); советы: [Quora](http://www.quora.com/How-do-I-learn-to-code-1)* 
