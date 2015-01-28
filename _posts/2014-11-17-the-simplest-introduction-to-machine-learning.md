@@ -240,7 +240,7 @@ published: true
  
 *Огромное спасибо Adam Geitgey [за прекрасный пост на Medium](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)*
  
- 
+ <b>Перевод написан Люсей Ширшовой.</b>
  
  
 

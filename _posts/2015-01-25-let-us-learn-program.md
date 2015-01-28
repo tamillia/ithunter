@@ -90,3 +90,5 @@ published: true
 
 <a href="http://s017.radikal.ru/i412/1501/45/4e6896a7390c.jpg" target="_blank"><img src="http://s017.radikal.ru/i412/1501/45/4e6896a7390c.jpg " class="img-responsive" target="_blank"></a><br>
 *Инфографика: [Карл Чео](http://carlcheo.com/startcoding); советы: [Quora](http://www.quora.com/How-do-I-learn-to-code-1)* 
+
+<b>Перевод написан Люсей Ширшовой.</b>
