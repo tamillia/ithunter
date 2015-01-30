@@ -71,6 +71,17 @@ app.controller('cntntAppCtrl', ['$scope', '$http', '$sce', function (scope, http
     http.get('54530371.json').success(function(data) {
         scope.posts = data;
     });
+
+    scope.query = '';
+    scope.queryMatch = '';
+    scope.queryNotMatch = '';
+
+    scope.submit = function() {
+        scope.query = scope.querySub;
+        scope.queryMatch = scope.queryMatchSub;
+        scope.queryNotMatch = scope.queryNotMatchSub;
+    };
+
     scope.renderHtml = function(obj)
     {
         var text = obj.text;

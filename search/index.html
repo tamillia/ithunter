@@ -45,21 +45,29 @@
         <h1>Библиотека программиста v2.0</h1>
         <div ng-app="app">
             <div ng-controller="cntntAppCtrl">
-                <div class="row">
-                  <div class="col-lg-6">
-                      <input type="text" ng-model="query" class="form-control" placeholder="Вводите строковый запрос, по которому должно проходить">
-                  </div>
-                  <div class="col-lg-6">
-                      <input type="text" ng-model="queryMatch" class="form-control" placeholder="А сюда в виде регулярного выражения(без указания флагов и слешей)">
-                  </div>
-                </div>
-                <br>
-                <div class="row">
-                  <div class="col-lg-6"></div>
-                  <div class="col-lg-6">
-                      <input type="text" ng-model="queryNotMatch" class="form-control" placeholder="Регулярное выражение, по которому не должно проходить">
-                  </div>
-                </div>
+                <form ng-submit="submit()">
+                    <div class="row">
+                      <div class="col-lg-6">
+                          <input type="text" ng-model="querySub" class="form-control" placeholder="Вводите строковый запрос, по которому должно проходить">
+                      </div>
+                      <div class="col-lg-6">
+                          <input type="text" ng-model="queryMatchSub" class="form-control" placeholder="А сюда в виде регулярного выражения(без указания флагов и слешей)">
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-6"></div>
+                      <div class="col-lg-6">
+                          <input type="text" ng-model="queryNotMatchSub" class="form-control" placeholder="Регулярное выражение, по которому не должно проходить">
+                      </div>
+                    </div><br>
+                    <div class="row">
+                      <div class="col-lg-6"></div>
+                      <div class="col-lg-6">
+                          <button type="submit" class="btn btn-primary" value="Submit">Готово!</button>
+                      </div>
+                    </div>
+                </form>
 
                 <br>
                 
