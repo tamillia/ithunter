@@ -89,23 +89,25 @@ app.controller('cntntAppCtrl', ['$scope', '$http', '$sce', function (scope, http
         var attch = obj.attachments;
         var images_url = [];
         var img_url;
-        for(var i = 0; i < attch.length; i++) {
-            if(attch[i].photo !== undefined) {
-                img_url = attch[i].photo.src_big;
-                images_url.push(img_url);
-                // text += "<br><br><img src='" + img_url + "' class='img-responsive'>";
+        if(attch !== undefined) {
+            for(var i = 0; i < attch.length; i++) {
+                if(attch[i].photo !== undefined) {
+                    img_url = attch[i].photo.src_big;
+                    images_url.push(img_url);
+                    // text += "<br><br><img src='" + img_url + "' class='img-responsive'>";
+                }
             }
-        }
-        if(images_url !== undefined) {
-            if(images_url.length == 1)
-                text += "<br><br><img src='" + images_url[0] + "' class='img-responsive'>";
-            else if(images_url.length == 2)
-                text += "<br><br><div class='row'><div class='col-lg-6'><img src='" + images_url[0] + "' class='img-responsive'></div> \
-                                      <div class='col-lg-6'><img src='" + images_url[1] + "' class='img-responsive'></div></div>";  
-            else if(images_url.length == 3)
-                text += "<br><br><div class='row'><div class='col-lg-6'><img src='" + images_url[0] + "' class='img-responsive'></div> \
-                                      <div class='col-lg-6'><img src='" + images_url[1] + "' class='img-responsive'> \
-                                      <img src='" + images_url[2] + "' class='img-responsive'></div></div>";
+            if(images_url !== undefined) {
+                if(images_url.length == 1)
+                    text += "<br><br><img src='" + images_url[0] + "' class='img-responsive'>";
+                else if(images_url.length == 2)
+                    text += "<br><br><div class='row'><div class='col-lg-6'><img src='" + images_url[0] + "' class='img-responsive'></div> \
+                                          <div class='col-lg-6'><img src='" + images_url[1] + "' class='img-responsive'></div></div>";  
+                else if(images_url.length == 3)
+                    text += "<br><br><div class='row'><div class='col-lg-6'><img src='" + images_url[0] + "' class='img-responsive'></div> \
+                                          <div class='col-lg-6'><img src='" + images_url[1] + "' class='img-responsive'> \
+                                          <img src='" + images_url[2] + "' class='img-responsive'></div></div>";
+            }
         }
 
             // if(attch[i].page !== undefined)
