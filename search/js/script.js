@@ -67,6 +67,19 @@ app.filter('byRegExNot', function () {
     };
 });
 
+app.filter('pagination', function()
+{
+    return function(items, start) {
+        start = +start;
+        if(items !== undefined)
+            return items.slice(start);
+        else
+            return 0;
+    };
+});
+
+
+
 app.controller('cntntAppCtrl', ['$scope', '$http', '$sce', function (scope, http, sce){
     http.get('54530371.json').success(function(data) {
         scope.posts = data;
@@ -82,6 +95,36 @@ app.controller('cntntAppCtrl', ['$scope', '$http', '$sce', function (scope, http
         scope.queryNotMatch = scope.queryNotMatchSub;
     };
 
+    scope.curPage = 0;
+    scope.pageSize = 5;
+
+    scope.submitPage = function() {
+        scope.curPage = scope.curPageInd - 1;
+    };
+
+    scope.numberOfPages = function() {
+        if(scope.posts !== undefined)
+            return Math.ceil(scope.posts.length / scope.pageSize);
+        else
+            return 0;
+    };
+
+    scope.menus = [
+        {title: "Все подряд", query: "", queryMatch: "", queryMatchNot: ""},
+        {title: "Алгоритмы и структуры данных", query: "", queryMatch: "(Алгоритм|структуры данных)", queryMatchNot: ""},
+        {title: "Дискретная математика", query: "", queryMatch: "(Дискрет|[ ]Граф(ах|ы| |ов))", queryMatchNot: ""},
+        {title: "Информационная безопасность", query: "", queryMatch: "([ ]крипто|защищ|безопасност|хакинг)", queryMatchNot: ""},
+        {title: "C++", query: "", queryMatch: "(С\\+\\+|C\\+\\+|С\\+\\+11|C\\+\\+11|cpp|cpp11)", queryMatchNot: "(Node|на языке Java|языка программирования Java|\.NET)"},
+        {title: "C", query: "", queryMatch: "([ ]Си[ \/]|язык С[\+]|язык программирования C[^\+\#]|#си|#c[ ]|#с[ ]|Программирование на Си|язык программирования С[^\+#])", queryMatchNot: ""},
+        {title: "Java", query: "Java", queryMatch: "", queryMatchNot: ""},
+        {title: "Python", query: "Python", queryMatch: "", queryMatchNot: ""},
+        {title: "PHP", query: "PHP", queryMatch: "", queryMatchNot: ""},
+        {title: "Ruby & Ruby On Rails", query: "Ruby", queryMatch: "", queryMatchNot: ""},
+        {title: "JavaScript", query: "", queryMatch: "(JavaScript|js)", queryMatchNot: "([ ]1С|OC Windows Server|jsp)"},
+        {title: "Разработка для Android", query: "", queryMatch: "(Android|Андройд|Андроид)", queryMatchNot: ""}, 
+        {title: "Разработка для Apple", query: "", queryMatch: "(Swift|Objective-C)", queryMatchNot: "Spider"}
+    ];
+
     scope.renderHtml = function(obj)
     {
         var text = obj.text;
@@ -89,6 +132,7 @@ app.controller('cntntAppCtrl', ['$scope', '$http', '$sce', function (scope, http
         var attch = obj.attachments;
         var images_url = [];
         var img_url;
+
         if(attch !== undefined) {
             for(var i = 0; i < attch.length; i++) {
                 if(attch[i].photo !== undefined) {
@@ -109,7 +153,6 @@ app.controller('cntntAppCtrl', ['$scope', '$http', '$sce', function (scope, http
                                           <img src='" + images_url[2] + "' class='img-responsive'></div></div>";
             }
         }
-
             // if(attch[i].page !== undefined)
             //     if(regex.test(attch[i].page.title)) {var str = attch[i].page.title; /*console.log(str.match(regex), id, i, "page");*/ return true;}
             // if(attch[i].video !== undefined)
