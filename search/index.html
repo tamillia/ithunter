@@ -51,7 +51,7 @@
                         <h4>Популярные темы</h4>
                         <input type="text" ng-model="cls" ng-init="cls=menus[0].title;" style="display: none;">
                         <ul class="nav nav-pills nav-stacked">
-                            <li ng-repeat="menu in menus" role="presentation" ng-click="curPage = 0;" ng-class="cls==menu.title? 'active': ''"> <a href="#" ng-click="$parent.cls=menu.title;$parent.query = menu.query;$parent.queryMatch = menu.queryMatch;$parent.queryNotMatch = menu.queryMatchNot;">{{ menu.title }}</a></li>
+                            <li ng-repeat="menu in menus" role="presentation" ng-click="curPage = 0;" ng-class="cls==menu.title? 'active': ''"> <a href="#" ng-click="$parent.cls=menu.title;$parent.query = menu.query;$parent.queryMatch = menu.queryMatch;$parent.queryNotMatch = menu.queryMatchNot;$parent.curPage = 0;">{{ menu.title }}</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-9">
