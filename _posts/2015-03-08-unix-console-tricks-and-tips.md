@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 интересных приемов для консоли Unix"
+title: "10 полезных приемов для консоли Unix"
 date: 2015-03-08 17:15:25
 category: tools
 tags: [приемы, super user, unix, terminal, console]
