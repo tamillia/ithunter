@@ -7,7 +7,7 @@ tags: [приемы, super user, unix, terminal, console]
 published: true
 ---
 
-<img src="https://theasder.github.io/img/terminal_icon.png" /><br />
+<img src="https://theasder.github.io/img/terminal_icon.png"  class="img-responsive" /><br />
 
 Найти все файлы, размером большие 100 Мб и отобразить их размер в читабельном для человека виде
 
