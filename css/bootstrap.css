@@ -1,5 +1,5 @@
 @import "http://webfonts.ru/import/ptsans.css"
-.navbar-brand{font-family: 'PT Sans';}
+.navbar-brand{font-family: 'PT Sans', 'Helvetica Neue', Helvetica}
 .time, .comm{font-family: 'PT Sans';}
 .navbar-nav li a{font-family: 'PT Sans';}
 html{font-family: 'PT Sans';-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
@@ -98,7 +98,7 @@ h2,
 h3{page-break-after:avoid;}
 select{background:#fff !important;}
 .navbar{display:none;}
-.navbar a{font-family: 'PT Sans';}
+.navbar a{font-family: 'PT Sans', 'Helvetica Neue', Helvetica}
 .table td,
 .table th{background-color:#fff !important;}
 .btn > .caret,
@@ -144,7 +144,7 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6{font-family: 'PT Sans';font-weight:bold;line-height:1.1;color:inherit;}
+.h6{font-family: 'PT Sans', 'Helvetica Neue', Helvetica;font-weight:bold;line-height:1.1;color:inherit;}
 h1 small,
 h2 small,
 h3 small,
