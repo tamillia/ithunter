@@ -1,5 +1,5 @@
 @import "http://webfonts.ru/import/ptsans.css"
-.navbar-brand{font-family: 'PT Sans', 'Helvetica Neue', Helvetica}
+.navbar-brand{font-family: 'PT Sans';}
 .time, .comm{font-family: 'PT Sans';}
 .navbar-nav li a{font-family: 'PT Sans';}
 html{font-family: 'PT Sans';-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
