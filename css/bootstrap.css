@@ -1,6 +1,9 @@
 @import "http://webfonts.ru/import/ptsans.css"
-.navbar-brand{font-family: 'Helvetica Neue', Helvetica;}
+
+.navbar-brand {font-family: 'Helvetica Neue', Helvetica;}
 .time, .comm{font-family: 'Helvetica Neue', Helvetica;}
+
+.navbar-brand a {font-family: 'Helvetica Neue', Helvetica;}
 .navbar-nav li a{font-family: 'Helvetica Neue', Helvetica;}
 html{font-family: 'Helvetica Neue', Helvetica;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 body{margin:0;}
