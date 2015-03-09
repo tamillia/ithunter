@@ -1,8 +1,8 @@
 @import "http://webfonts.ru/import/ptsans.css"
 
-.navbar-brand {font-family: 'Helvetica Neue', Helvetica;}
+body{font-family:Georgia, serif;font-size:15px;line-height:1.42857143;color:#333;background-color:#fff;}
 .time, .comm{font-family: 'Helvetica Neue', Helvetica;}
-
+.navbar-brand {font-family: 'Helvetica Neue', Helvetica;}
 .navbar-brand a {font-family: 'Helvetica Neue', Helvetica;}
 .navbar-nav li a{font-family: 'Helvetica Neue', Helvetica;}
 html{font-family: 'Helvetica Neue', Helvetica;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
@@ -115,7 +115,6 @@ select{background:#fff !important;}
 *:before,
 *:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 html{font-size:62.5%;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
-body{font-family:Georgia, serif;font-size:15px;line-height:1.42857143;color:#333;background-color:#fff;}
 input,
 button,
 select,
