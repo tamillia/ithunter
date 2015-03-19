@@ -25,7 +25,7 @@ for i in range(1, len(arguments)):
     if iscat and arguments[i][0] != '-':
         cat = cat + arguments[i]
 
-    if arguments[i] == '-name':
+    if arguments[i] == '-name' or arguments[i] == '-title':
         isname = True
         istags = False
         iscat = False
