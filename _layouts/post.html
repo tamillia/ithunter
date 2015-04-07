@@ -17,6 +17,14 @@ layout: default
 </script>
 <div class="post">
 {{ content }}
+<div class="time">Ключевые слова:
+      {% for keyword in page.tags %}
+      <span class="label label-primary">{{ keyword }}</span>
+       {% endfor %} </div>
+      <h4>Поделиться статьей</h4>
+      <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+      <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter,gplus" data-yashareTheme="counter"></div> 
+
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
