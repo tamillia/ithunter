@@ -4,7 +4,7 @@ title: "Список идей для начинающих программист
 date: 2015-04-17 17:54:25
 category: projects
 tags: [games, novice, ideas, gamedev]
-published: false
+published: true
 ---
 <img src="https://theasder.github.io/img/" class="img-responsive" /><br />
 
