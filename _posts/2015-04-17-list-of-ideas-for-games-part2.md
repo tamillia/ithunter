@@ -6,7 +6,7 @@ category: projects
 tags: [games, novice, ideas, gamedev]
 published: true
 ---
-<img src="https://theasder.github.io/img/bejeweled.jpg" class="img-responsive" /><br />
+<img src="https://theasder.github.io/img/tic-tac-toe.jpg" class="img-responsive" /><br />
 
 В этом материале продолжаем анализировать, какие клоны популярных игр можно повторить в своих продуктах и преуспеть при этом.
 
