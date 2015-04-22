@@ -8,6 +8,8 @@ published: true
 ---
 <img src="https://theasder.github.io/img/tic-tac-toe.jpg" class="img-responsive" /><br />
 
+[Первая часть](http://theasder.github.io/projects/2015/04/17/list-of-ideas-for-games.html)
+
 В этом материале продолжаем анализировать, какие клоны популярных игр можно повторить в своих продуктах и преуспеть при этом.
 
 ##**10. Flood It**
