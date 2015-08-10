@@ -1,0 +1,92 @@
+/*Фильтр блогов на странице просмотра блога*/
+.sortThemes{
+	font-size:12px;
+	position:relative;
+    padding-left: 40px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.sortThemes a{
+	float:left;
+	color:#67abc2;
+	padding: 0 5px;
+	height: 16px;
+	margin-right: 9px;
+	text-decoration: none;
+	border: 1px solid #67abc2;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	position:relative;
+	background:#fff;
+    margin-bottom: 5px;
+}
+.sortThemes a:hover{
+	border-color:#2d6071;
+}
+.sortThemes a.active{
+    border: 1px solid #2C7284;
+    background: none repeat scroll 0 0 #E1E7E8;
+}
+
+.sortThemes a.active:hover{
+    border-color: #67ABC2;
+}
+
+/*Привязка топика к блогам*/
+div .group{
+   border: 1px solid orange;
+   padding: 5px 5px 2px;
+   margin: 5px 0 0 0;
+}
+
+/* Дерево блогов в сайд баре (блок)*/
+ul.treeblogs {list-style: none outside none;overflow: hidden;}
+ul.treeblogs li{float: left;margin-right: 3px;}
+
+.menutree {}
+.menutree ul.regular {display: none;}
+.menutree ul.active {display: block; background: white; border-top: 6px solid hsl(180, 40%, 60%); margin:0; padding:15px 0 0 0; list-style: none; }
+
+.menutree ul.active li ul.active {display: block; margin:0;  padding:0 0 0 5px; list-style:none; border:none; }
+
+.menutree ul.active li ul.active li a { user-select: none; position: relative;font-size: 1em; color:#333 }
+
+.menutree ul.active li ul.active li a {  padding:0 0 0 15px; }
+.menutree ul.active li ul.active li a.active, .menutree ul.active li ul.active li a:hover { background-image: url(../images/sidebar-li.png); background-repeat:no-repeat; background-position:0 6px; padding:0 0 0 15px; }
+
+.menutree li.level0 {margin-left:0;}
+.menutree li {	list-style-type: none; list-style: none;
+	/*relative positioning for list items along with overflow hidden to contain the overflowing ripple*/
+	position: relative;
+	overflow: hidden; margin:0; padding:0;}
+
+.menutree li a {color: hsl(180, 40%, 40%);
+	display: block; padding: 0;
+	text-decoration: none;
+	cursor: pointer; /*since the links are dummy without href values*/
+	/*prevent text selection*/
+	user-select: none;
+	/*static positioned elements appear behind absolutely positioned siblings(.ink in this case) hence we will make the links relatively positioned to bring them above .ink*/     font-size: 1.5em;
+	position: relative;}
+	
+	.menutree li a:hover {color: #e9637c;  }
+.menutree a.active{color: #e9637c;}
+
+.menutree a.regular{color: hsl(180, 40%, 40%);}
+
+.menutree div{cursor: pointer;float: left;width: 12px;height:12px;padding-right: 2px;}
+.menutree div.regular{background-image: url(../images/ico_plus.gif);}
+.menutree div.active{background-image: url(../images/ico_minus.gif);}
+.menutree div.end {background-image: url(../images/ico_end.gif);}
+
+#groups select { width: 150px; }
+
+.menutree li > a {
+    text-decoration: none;
+    line-height: 1.75em;
+    cursor:pointer;
+}
+.menutree li.blog-only > a {
+    border-bottom: 1px dashed;
+}
