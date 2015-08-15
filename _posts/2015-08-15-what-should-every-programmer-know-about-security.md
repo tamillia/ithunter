@@ -4,7 +4,7 @@ title: "Что полезно знать каждому программисту
 date: 2015-08-15 09:27:34
 category: development
 tags: [security, tips]
-published: false
+published: true
 ---
 <img src="https://pp.vk.me/c543107/v543107696/45d9/WFkpd0ZfWV0.jpg" class="img-responsive" /><br />
 
