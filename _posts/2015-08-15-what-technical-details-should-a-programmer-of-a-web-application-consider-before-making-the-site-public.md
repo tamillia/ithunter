@@ -43,8 +43,8 @@ published: false
 <li>Keep your system(s) up to date with the latest patches.</li>
 <li>Make sure your database connection information is secured.</li>
 <li>Keep yourself informed about the latest attack techniques and vulnerabilities affecting your platform.</li>
-<li>Read <a href="http://code.google.com/p/browsersec/wiki/Main">The Google Browser Security Handbook</a>.</li>
-<li>Read <a href="http://amzn.com/0470170778">The Web Application Hacker's Handbook</a>.</li>
+<li>Почитайте <a href="http://code.google.com/p/browsersec/wiki/Main">The Google Browser Security Handbook</a>.</li>
+<li>Почитайте <a href="http://amzn.com/0470170778">The Web Application Hacker's Handbook</a>.</li>
 <li>Consider <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">The principle of least privilege</a>. Try to run your app server <a href="https://security.stackexchange.com/questions/47576/do-simple-linux-servers-really-need-a-non-root-user-for-security-reasons">as non-root</a>. (<a href="http://tomcat.apache.org/tomcat-8.0-doc/security-howto.html#Non-Tomcat_settings">tomcat example</a>)</li>
 </ul>
 
@@ -121,3 +121,5 @@ published: false
 </ul>
 
 <p>Много вещей пропущено, не потому что они бесполезны, но потому что они слишком детализованы, выходят за рамки или идут слишком далеко для того, кто хочет увидеть обзор вещей, который было бы полезно знать. Не стесняйтесь предлагать что-то новое или изменить что-то из написанного, наверняка что-то пропущено или сделаны некоторые ошибки.</p>
+
+<a href="http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before"> Источник </a>
