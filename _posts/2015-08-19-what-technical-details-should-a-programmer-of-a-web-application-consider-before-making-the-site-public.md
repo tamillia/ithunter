@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Какие детали полезно знать каждому программисту перед тем, как сделать сайт доступным для широкой публики?"
-date: 2015-08-15 10:02:34
+date: 2015-08-19 10:02:34
 category: development
 tags: [web, tips, production, release]
 published: true
