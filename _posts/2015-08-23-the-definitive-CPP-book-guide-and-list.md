@@ -9,6 +9,8 @@ published: true
 
 <img src="http://cs628017.vk.me/v628017161/11cb2/zdZQO1WIgHw.jpg" /><br />
 
+
+
 ##**Начинающий**
 
 ###**Введение, без опыта программирования**
