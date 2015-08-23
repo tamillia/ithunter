@@ -2,7 +2,7 @@
 layout: post
 title: "Наиболее полный список книг по С++"
 date: 2015-08-23 10:45:30
-category: development
+category: learning
 tags: [С++, литература по С++, книги по С++, С++11, С++14]
 published: true 
 ---
