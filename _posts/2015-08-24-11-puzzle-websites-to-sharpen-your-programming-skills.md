@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "11 сайтов с головоломками для оттачивания навыков программирования"
+title: "15 сайтов с головоломками для оттачивания навыков программирования"
 date: 2015-08-24 20:35:00
 category: learning
 tags: [skills, solving, puzzles, problems]
@@ -71,7 +71,6 @@ _Ruby Quiz_ &mdash; собрание соревнований по програ�
 _Prolog Problems_ is suited to the Prolog programming language but people have provided solutions in Python, Ruby, Haskell, Scala and others. Working your way through these problems is a wonderful way to pick up a new language.
 
 <img src="http://www.improgrammer.net/wp-content/uploads/2015/06/Prolog-Problems.png" class="img-responsive">
-![Prolog Problems][16]
 
 ## 11. [Mind Cipher][17]
 
@@ -79,9 +78,29 @@ MindCipher &mdash; сайт-форум с великолепными логич�
 
 <img src="http://www.improgrammer.net/wp-content/uploads/2015/06/Mind-Cipher.png" class="img-responsive">
 
- [Источник](http://www.improgrammer.net/9-puzzle-websites-to-sharpen-your-programming-skills/ "Permalink to 9 Puzzle Websites to Sharpen Your Programming Skills")
+UPD: вот еще сайты с задачками:
 
+## 12. [Codeforces](http://codeforces.com/)
+
+<img src="http://s61.radikal.ru/i174/1508/2b/b82fab8e541c.png" class="img-responsive">
+
+Полноценный русскоязычный аналог уже упомянутого Topcoder.
  
+## 13. [Сборник задач от CppStudio](http://cppstudio.com/cat/285/)
+
+Задачки в основном на проверку знаний С++, однако реализуемы и на других языках программирования.
+
+## 14. [Codingame](https://www.codingame.com/)
+
+<img src="http://s019.radikal.ru/i624/1508/43/c6f3aa21c6ea.png" class="img-responsive" >
+
+Оттачиваем навыки программирования, решая задачки и проходя занимательный квест.
+
+## 15. [Timus Online Judge](http://acm.timus.ru/)
+
+Timus Online Judge — это крупнейший в России архив задач по программированию с автоматической проверяющей системой. Основной источник задач для архива — соревнования Уральского федерального университета, Чемпионаты Урала, Уральские четвертьфиналы ACM ICPC, Петрозаводские сборы по программированию.
+
+ [Источник](http://www.improgrammer.net/9-puzzle-websites-to-sharpen-your-programming-skills/ "Permalink to 9 Puzzle Websites to Sharpen Your Programming Skills")
 
 [1]: http://programmingpraxis.com/
 [2]: http://www.improgrammer.net/wp-content/uploads/2015/06/Programming-Praxis.png
