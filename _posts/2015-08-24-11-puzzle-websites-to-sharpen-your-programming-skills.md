@@ -4,7 +4,7 @@ title: "11 сайтов с головоломками для оттачиван�
 date: 2015-08-24 20:35:00
 category: learning
 tags: [skills, solving, puzzles, problems]
-published: false
+published: true
 ---
 
 <img src="https://theasder.github.io/img/coding-time.jpg" class="img-responsive">
