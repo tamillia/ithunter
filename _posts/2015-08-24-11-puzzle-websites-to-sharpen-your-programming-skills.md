@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "15 сайтов с головоломками для оттачивания навыков программирования"
+title: "20 сайтов с головоломками для оттачивания навыков программирования"
 date: 2015-08-24 20:35:00
 category: learning
 tags: [skills, solving, puzzles, problems]
@@ -11,7 +11,7 @@ published: true
 
 **Решение головоломок по программированию** &mdash; хороший способ развивать ваши логические способности и способности решать задачи. Также вы можете при этом ускорить освоение нового для Вас языка программирования, решая головоломки на этом языке.
 
-В этой статье мы рассмотрим 11 **самых популярных сайтов с головоломками по программированию**. 
+В этой статье мы рассмотрим 20 **самых популярных сайтов с головоломками по программированию**. 
 
 ## 1. [Codewars](https://www.codewars.com/r/QULJAg)
 
@@ -115,6 +115,13 @@ Timus Online Judge — это крупнейший в России архив з
 
 <img src="http://s020.radikal.ru/i721/1508/d0/688172003d1b.png" class="img-responsive">
 
+## 19. [E-olymp](http://www.e-olymp.com/ru/)
+
+<img src="http://s019.radikal.ru/i636/1508/cb/f3984f39d6c7.png"  class="img-responsive">
+
+## 20. [Empire of Code](https://empireofcode.com/)
+
+<img src="http://s017.radikal.ru/i421/1508/04/0330d74f2ef3.png" class="img-responsive">
 
  [Источник](http://www.improgrammer.net/9-puzzle-websites-to-sharpen-your-programming-skills/ "Permalink to 9 Puzzle Websites to Sharpen Your Programming Skills")
 
