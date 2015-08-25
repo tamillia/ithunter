@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "23 сайтов с головоломками для оттачивания навыков программирования"
+title: "24 сайтов с головоломками для оттачивания навыков программирования"
 date: 2015-08-24 20:35:00
 category: learning
 tags: [skills, solving, puzzles, problems]
@@ -11,7 +11,7 @@ published: true
 
 **Решение головоломок по программированию** &mdash; хороший способ развивать ваши логические способности и способности решать задачи. Также вы можете при этом ускорить освоение нового для Вас языка программирования, решая головоломки на этом языке.
 
-В этой статье мы рассмотрим 23 **самых популярных сайтов с головоломками по программированию**. 
+В этой статье мы рассмотрим 24 **самых популярных сайтов с головоломками по программированию**. 
 
 ## 1. [Codewars](https://www.codewars.com/r/QULJAg)
 
@@ -143,6 +143,11 @@ CodeChef &mdash; платформа для программистских сор
 
 <img src="http://s017.radikal.ru/i408/1508/03/e88a11b8eecc.png" class="img-responsive">
 
+## 24. [GoCode](http://gocode.io/)
+
+Практика на языке программирования Go в игровой форме.
+
+<img src="http://s008.radikal.ru/i306/1508/da/74e64edfadf2.png" class="img-responsive">
 
  [Источник](http://www.improgrammer.net/9-puzzle-websites-to-sharpen-your-programming-skills/ "Permalink to 9 Puzzle Websites to Sharpen Your Programming Skills")
 
