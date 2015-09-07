@@ -9,7 +9,7 @@ published: true
 
 <img src="http://cdn.trinixy.ru/pics3/20080428/google_02.jpg" /><br />
 
-<a href="http://theasder.github.io/projects/2014/05/30/project-ideas.html">Первая часть</a.>
+<a href="http://theasder.github.io/projects/2014/05/30/project-ideas.html">Первая часть</a>
 
 В двух статьях мы собрали разнообразные идеи проектов, которые можно добавить в резюме для летней стажировки. Как правило, такие проекты можно выполнить за 1-2 недели.
 
