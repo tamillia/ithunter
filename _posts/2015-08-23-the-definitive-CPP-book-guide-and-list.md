@@ -6,8 +6,8 @@ category: learning
 tags: [С++, литература по С++, книги по С++, С++11, С++14]
 published: true 
 ---
+<img src="http://cs628017.vk.me/v628017161/11cb2/zdZQO1WIgHw.jpg" class="img-responsive" /><br />
 
-<img src="http://cs628017.vk.me/v628017161/11cb2/zdZQO1WIgHw.jpg" class="img-responsive" /><br><br><br>
 
 
 ##**Начинающий**
