@@ -7,7 +7,9 @@ tags: [идеи, стажировка, проекты, резюме, разра�
 published: true 
 ---
 <img src="http://www.fresher.ru/images6/londonskij-ofis-google/1.jpg" class="img-responsive" /><br />
-<!--more-->
+
+<!-- more -->
+
 [Первая часть](http://theasder.github.io/projects/2014/05/30/project-ideas.html)
 
 [Вторая часть](http://theasder.github.io/development/2015/09/07/What-are-some-interesting-coding-projects-for-a-summer-internship-part-1.html)
