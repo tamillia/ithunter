@@ -7,7 +7,7 @@ tags: [идеи, стажировка, проекты, резюме, разра�
 published: true 
 ---
 
-<img src="http://www.fresher.ru/images6/londonskij-ofis-google/1.jpg" class="img-responsive" /><br><br><br>
+<img src="http://www.fresher.ru/images6/londonskij-ofis-google/1.jpg" class="img-responsive">
 
 [Первая часть](http://theasder.github.io/projects/2014/05/30/project-ideas.html)
 
