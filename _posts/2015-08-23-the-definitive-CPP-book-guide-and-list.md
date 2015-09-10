@@ -8,7 +8,7 @@ published: true
 ---
 <img src="http://cs628017.vk.me/v628017161/11cb2/zdZQO1WIgHw.jpg" class="img-responsive" /><br />
 
-
+<!--more-->
 
 ##**Начинающий**
 
