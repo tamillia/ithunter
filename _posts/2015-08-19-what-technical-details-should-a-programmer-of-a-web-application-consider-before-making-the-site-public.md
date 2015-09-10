@@ -6,7 +6,9 @@ category: development
 tags: [web, tips, production, release]
 published: true
 ---
-<img src="http://webplanet.com.ua/uploads/services/3_%D0%92%D0%B5%D0%B1-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3.jpg" class="img-responsive" />
+<img src="http://webplanet.com.ua/uploads/services/3_%D0%92%D0%B5%D0%B1-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3.jpg" class="img-responsive" /><br />
+
+О каких вещах полезно знать, прежде чем выкладывать сайт на всеобщее обозрение? Подробности по ссылке.
 
 <!-- more -->
 
