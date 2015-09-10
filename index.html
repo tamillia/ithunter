@@ -20,7 +20,7 @@ published: true
     {% for post in site.posts limit:5 %}
         <a href="{{ post.url }}"><h1> {{ post.title }} </h1></a></li>
         <p class="time"><span class="label label-default">{{ post.category }}</span> <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%d/%m/%Y" }} </p>
-        {{ post.excerpt }} 
+        {{ post.content | strip_html | truncatewords: 50 }}
         <div class="comm">
             <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}#disqus_thread">Comments supposed to be here.</a>
         </div><br />
