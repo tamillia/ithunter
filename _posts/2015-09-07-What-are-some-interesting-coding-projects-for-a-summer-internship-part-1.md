@@ -7,7 +7,7 @@ tags: [идеи, стажировка, проекты, резюме, разра�
 published: true 
 ---
 
-<img src="http://cdn.trinixy.ru/pics3/20080428/google_02.jpg" class = "img-responsive" /><br />
+<img src="http://cdn.trinixy.ru/pics3/20080428/google_02.jpg" class = "img-responsive" /><br /><br><br><br>
 
 <a href="http://theasder.github.io/projects/2014/05/30/project-ideas.html">Первая часть</a>
 
