@@ -29,7 +29,7 @@ list = filter(lambda x: len(x) > 0, list)
 {% highlight python linenos %}
 with open("/путь/к/файлу") as f:
     for line in f:
-        print line
+        print(line)
 {% endhighlight %}
    
 ## Ищем совпадения с помощью регулярного выражения
@@ -39,7 +39,7 @@ with open("/путь/к/файлу") as f:
 sentence = "this is a test, not testing."
 it = re.finditer('\\btest\\b', sentence)
 for match in it:
-    print "match position: " + str(match.start()) + "-" +   str(match.end())
+    print("match position: " + str(match.start()) + "-" +   str(match.end()))
 {% endhighlight %}      
 
 ## Поиск с помощью регулярного выражения
