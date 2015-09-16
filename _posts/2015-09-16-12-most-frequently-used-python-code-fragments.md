@@ -76,4 +76,7 @@ Python &mdash; один из наиболее популярных языков 
     if any(x in targetString for x in aList):
         print("true")
         
+        
+[Источник](http://www.programcreek.com/2015/05/most-frequently-used-python-code-fragments-for-java-developers/)
+        
 
