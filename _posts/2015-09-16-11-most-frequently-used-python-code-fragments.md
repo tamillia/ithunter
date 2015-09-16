@@ -88,7 +88,7 @@ anotherList.extend(aList)
 
 {% highlight python linenos %}
 for k, v in aDict.iteritems():
-    print(k+v)
+    print(k + v)
 {% endhighlight %}
 
 ## Проверить присутствует ли какой-нибудь элемент из списка строк в заданной строке
