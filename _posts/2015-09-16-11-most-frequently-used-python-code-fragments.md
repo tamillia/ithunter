@@ -60,7 +60,7 @@ cursor.execute(sql)
 results = cursor.fetchall()
  
 for row in results:
-    print row[0] + row[1]
+    print(row[0] + row[1])
  
 db.close()
 {% endhighlight %}
