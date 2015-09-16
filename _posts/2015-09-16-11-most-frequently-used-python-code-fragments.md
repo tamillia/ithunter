@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "11 наиболее часто используемых фрагментов кода на питоне"
+title: "11 наиболее часто используемых фрагментов кода на Python"
 date: 2015-09-16 18:42:43
 category: python
 tags: [python, snippets, code, examples]
@@ -15,67 +15,89 @@ Python &mdash; один из наиболее популярных языков 
 
 ## Фильтруем список
 
-    # убираем пустые строки в списке
-    list = [x for x in list if x.strip() != '']
-    # или
-    list = filter(lambda x: len(x) > 0, list)
-    
+
+{% highlight python linenos %}
+# убираем пустые строки в списке
+list = [x for x in list if x.strip() != '']
+# или
+list = filter(lambda x: len(x) > 0, list)
+{% endhighlight %}
+
 ## Читаем файл строчкой за строчкой
 
-    with open("/путь/к/файлу") as f:
-        for line in f:
-            print line
-    
+
+{% highlight python linenos %}
+with open("/путь/к/файлу") as f:
+    for line in f:
+        print line
+{% endhighlight %}
+   
 ## Ищем совпадения с помощью регулярного выражения
 
-    sentence = "this is a test, not testing."
-    it = re.finditer('\\btest\\b', sentence)
-    for match in it:
-        print "match position: " + str(match.start()) + "-" + str(match.end())
-        
+
+{% highlight python linenos %}
+sentence = "this is a test, not testing."
+it = re.finditer('\\btest\\b', sentence)
+for match in it:
+    print "match position: " + str(match.start()) + "-" +   str(match.end())
+{% endhighlight %}      
 
 ## Поиск с помощью регулярного выражения
 
-    m = re.search('\d+-\d+', line) # ищем строки, совпадающие по шаблону "число-число"
-    if m:
-        current = m.group(0)
-        
+{% highlight python linenos %}
+m = re.search('\d+-\d+', line) # ищем строки, совпадающие по шаблону "число-число"
+if m:
+    current = m.group(0)
+{% endhighlight %}
+       
 ## Кидаем запрос в базу данных
 
-    db = MySQLdb.connect("localhost", "username", "password", "dbname")
-    cursor = db.cursor()
-    sql = "select Column1, Column2 from Table1"
-    cursor.execute(sql)
-    results = cursor.fetchall()
-     
-    for row in results:
-        print row[0] + row[1]
-     
-    db.close()
-    
+{% highlight python linenos %}
+db = MySQLdb.connect("localhost", "username", "password", "dbname")
+cursor = db.cursor()
+sql = "select Column1, Column2 from Table1"
+cursor.execute(sql)
+results = cursor.fetchall()
+ 
+for row in results:
+    print row[0] + row[1]
+ 
+db.close()
+{% endhighlight %}
+   
 ## Соединяем элементы списка воедино с помощью заданного разделителя
 
-    theList = ["a", "b", "c"]
-    joinedString = ",".join(theList)
-    
+{% highlight python linenos %}
+theList = ["a", "b", "c"]
+joinedString = ",".join(theList)
+{% endhighlight %}
+  
 ## Убрать из списка элементы-дупликаты
 
-    targetList = list(set(targetList))
+{% highlight python linenos %}
+targetList = list(set(targetList))
+{% endhighlight %}
     
 ## Прикрепить один список к другому
 
-    anotherList.extend(aList)
-    
+{% highlight python linenos %}
+anotherList.extend(aList)
+{% endhighlight %}
+  
 ## Итерировать словарь
 
-    for k, v in aDict.iteritems():
-        print(k+v)
+{% highlight python linenos %}
+for k, v in aDict.iteritems():
+    print(k+v)
+{% endhighlight %}
 
 ## Проверить присутствует ли какой-нибудь элемент из списка строк в заданной строке
 
-    if any(x in targetString for x in aList):
-        print("true")
-        
+{% highlight python linenos %}
+if any(x in targetString for x in aList):
+    print("true")
+{% endhighlight %}
+     
         
 [Источник](http://www.programcreek.com/2015/05/most-frequently-used-python-code-fragments-for-java-developers/)
         
