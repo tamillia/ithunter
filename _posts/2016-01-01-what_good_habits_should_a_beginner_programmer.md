@@ -26,6 +26,6 @@ published: true
 
 И не брезгуйте уделить время грамотному и последовательному оформлению кода.
 
-Перевод: Даша Шевелева
+Перевод: Дарья Шевелева
 
 Оригинал: [Reddit]([https://www.reddit.com/r/learnprogramming/comments/3y9ga9/what_good_habits_should_a_beginner_programmer/])
