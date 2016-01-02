@@ -65,7 +65,7 @@ published: true
                 var url_publ = document.getElementById("publ").value;
                 out = "";
                 for(var i = 0; i < cont.length; i++)
-                    out += "<a target='_blank' href='http://vk.com/pages?oid=-" + url_publ + "&p=" + cont[i].replace(/\s+/g, "_") + "'>" + cont[i] + "</a><br />";
+                    out += "<a target='_blank' href='http://vk.com/pages?oid=" + url_publ + "&p=" + cont[i].replace(/\s+/g, "_") + "'>" + cont[i] + "</a><br />";
                 links.innerHTML = out;
                 setCookie("publ", url_publ);
                 setCookie("menu", out);
@@ -109,7 +109,7 @@ published: true
             }
             else
             {
-                document.getElementById("publ").value = "54530371";
+                document.getElementById("publ").value = "-54530371";
             }
             if(getCookie("menu") != undefined)
                 document.getElementById("links").innerHTML = getCookie("menu");
