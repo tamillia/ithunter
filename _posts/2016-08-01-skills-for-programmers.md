@@ -7,7 +7,7 @@ tags: [learning, skills]
 published: true
 ---
 
-<img src="http://s020.radikal.ru/i723/1601/bb/ec0ca9267eed.jpg" /><br />
+<img src="http://s020.radikal.ru/i723/1601/bb/ec0ca9267eed.jpg" class="img-responsive" /><br />
 Полезный список всего (или почти всего), что полезно знать программисту.
 
 <!-- more -->
