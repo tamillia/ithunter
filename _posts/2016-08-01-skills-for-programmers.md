@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Название"
+title: "Знания и навыки, полезные для каждого программиста"
 date: 2016-01-08 22:00:00
 category: skills
-tags: [тег1, skills]
+tags: [learning, skills]
 published: true
 ---
 
-<img src="ссылка на картинку" class="img-responsive" /><br />
+<img src="http://s020.radikal.ru/i723/1601/bb/ec0ca9267eed.jpg" class="img-responsive" /><br />
 Полезный список всего (или почти всего), что полезно знать программисту.
 
 <!-- more -->
