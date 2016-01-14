@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Чему хакеры могут научить веб-разработчиков?"
-date: 2016-01-15 22:00:00
+date: 2016-01-14 22:00:00
 category: skills
 tags: [learning, development]
 published: true
