@@ -7,9 +7,11 @@ tags: [learning, programming, coding]
 published: true
 ---
 
-<img src="http://suffagah.com/wp-content/uploads/2015/07/40-tavsiye-5.jpg"><br />
+<img src="http://suffagah.com/wp-content/uploads/2015/07/40-tavsiye-5.jpg"  class="img-responsive"><br />
 
+Эффективные советы по изучению и улучшению навыков программирования. 
 
+<!-- more -->
 
 ## **Учимся программировать: уроки первых дней.**
 
