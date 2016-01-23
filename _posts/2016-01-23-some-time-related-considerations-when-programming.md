@@ -8,7 +8,7 @@ author: "Софья Лепёхина"
 published: true
 ---
 
-<img src="https://theasder.github.io/img/monitor.jpg" class="img-responsive" /><br />
+<img src="https://theasder.github.io/img/monitor.gif" class="img-responsive" /><br />
 
 Основные сведения, которые полезно знать каждому программисту.
 
