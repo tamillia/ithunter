@@ -16,7 +16,7 @@ published: true
 
 ###1. [Enterprise Android: Programming Android Database Applications for the Enterprise](http://www.amazon.com/Enterprise-Android-Programming-Database-Applications/dp/1118183495/ref=sr_1_1?ie=UTF8&qid=1453798642&sr=8-1&keywords=Enterprise+Android)
 
-<img src="http://newfreeebook.com/bookimg/87/Enterprise-Android-Programming-Android-Database-Applications-for-the-Enterprise1118183495.jpg" class="img-responsive" /><br />
+<img src="img/Enterprise-Android-Programming-Android-Database-Applications-for-the-Enterprise1118183495.jpg" class="img-responsive" /><br />
 
 **Автор**: Zigurd Mednieks. 
 
@@ -24,7 +24,7 @@ published: true
 
 ###2. [Android Application Programming with OpenCV](http://www.amazon.com/Android-Application-Programming-OpenCV-Joseph-ebook/dp/B00FF8OL8Y/ref=sr_1_1?ie=UTF8&qid=1453798724&sr=8-1&keywords=Android+Application+Programming+with+OpenCV)
 
-<img src="https://static.bluebottlebiz.com/book/bookcover/7540a50ab78cf65278be2d220882d6dabf6d658c.jpg" class="img-responsive" /><br />
+<img src="img/7540a50ab78cf65278be2d220882d6dabf6d658c.jpg" class="img-responsive" /><br />
 
 **Автор**: Joseph Howse. 
 
@@ -32,7 +32,7 @@ published: true
 
 ###3. [Xamarin Mobile Application Development for Android](http://www.amazon.com/Xamarin-Mobile-Application-Development-Android/dp/1783559160/ref=sr_1_2?ie=UTF8&qid=1453798745&sr=8-2&keywords=Xamarin+Mobile+Application+Development+for+Android)
 
-<img src="http://www.gfxtra.com:8080/uploads/posts_images/4/6/465226/1cc451c66e7a2952a11724c6b24a460e.jpg" class="img-responsive" /><br />
+<img src="img/1cc451c66e7a2952a11724c6b24a460e.jpg" class="img-responsive" /><br />
 
 **Автор**: Mark Reynolds. 
 
@@ -48,7 +48,7 @@ published: true
 
 ###5. [Android Security Internals: An In-Depth Guide to Android's Security Architecture](http://www.amazon.com/Android-Security-Internals--Depth-Architecture/dp/1593275811/ref=sr_1_1?ie=UTF8&qid=1453798815&sr=8-1&keywords=Android+Security+Internals)
 
-<img src="https://www.safaribooksonline.com/library/view/android-security-internals/9781457185496/orm_front_cover.jpg" class="img-responsive" /><br />
+<img src="img/orm_front_cover.jpg" class="img-responsive" /><br />
 
 **Автор**: Nikolay Elenkov. 
 
@@ -56,7 +56,7 @@ published: true
 
 ###6. [Android Native Development Kit Cookbook](http://www.amazon.com/Android-Native-Development-Kit-Cookbook/dp/1849691509/ref=sr_1_1?ie=UTF8&qid=1453798542&sr=8-1&keywords=Android+Native+Development+Kit+Cookbook) 
 
-<img src="http://s3.amazonaws.com/hthings/live/products/101244.jpg" class="img-responsive" /><br />
+<img src="img/101244.jpg" class="img-responsive" /><br />
 
 **Автор**: Feipeng Liu. 
 
@@ -64,7 +64,7 @@ published: true
 
 ###7. [Android Developer Tools Essentials: Android Studio to Zipalign](http://www.amazon.com/Android-Developer-Tools-Essentials-Zipalign/dp/1449328210/ref=sr_1_1?ie=UTF8&qid=1453798569&sr=8-1&keywords=Android+Developer+Tools+Essentials) 
 
-<img src="http://imgv2-2-f.scribdassets.com/img/word_document/160325015/original/548c1cf76d/1419906986" class="img-responsive" /><br />
+<img src="img/1419906986.jpg" class="img-responsive" /><br />
 
 **Автор**: Mike Wolfson. 
 
@@ -72,7 +72,7 @@ published: true
 
 ###8. [Learning Pentesting for Android Devices](http://www.amazon.com/Learning-Pentesting-Android-Devices-Aditya/dp/1783288981/ref=sr_1_1?ie=UTF8&qid=1453798614&sr=8-1&keywords=Learning+Pentesting+for+Android+Devices) 
 
-<img src="http://pxhst.co/avaxhome/0c/a8/002ea80c.jpeg" class="img-responsive" /><br />
+<img src="img/002ea80c.jpeg" class="img-responsive" /><br />
 
 **Автор**: Aditya Gupta. 
 
@@ -80,7 +80,7 @@ published: true
 
 ###9. [Developing Android Applications with Adobe AIR](http://www.amazon.com/Developing-Android-Applications-Developer-Library-ebook/dp/B004W8ZL2I/ref=sr_1_1?ie=UTF8&qid=1453798194&sr=8-1&keywords=Developing+Android+Applications+with+Adobe+AIR) 
 
-<img src="https://www.safaribooksonline.com/library/view/developing-android-applications/9781449398682/orm_front_cover.jpg" class="img-responsive" /><br />
+<img src="img/orm_front_cover2.jpg" class="img-responsive" /><br />
 
 **Автор**: Véronique Brossier. 
 
@@ -88,7 +88,7 @@ published: true
 
 ###10. [Head First Android Development](http://www.amazon.com/Head-First-Android-Development-Griffiths/dp/1449362184/ref=sr_1_1?ie=UTF8&qid=1453798251&sr=8-1&keywords=Head+First+Android+Development) 
 
-<img src="https://camo.githubusercontent.com/268aa460c95dc723ee63b1869a0b4e762156d64b/68747470733a2f2f646f6772696666697468732e6769746875622e696f2f486561644669727374416e64726f69642f696d616765732f686661636f7665722e6a7067" class="img-responsive" /><br />
+<img src="img/68747470733a2f2f646f6772696666697468732e6769746875622e696f2f486561644669727374416e64726f69642f696d616765732f686661636f7665722e6a7067.jpg" class="img-responsive" /><br />
 
 **Автор**: Dawn Griffiths. 
 
