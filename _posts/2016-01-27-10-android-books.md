@@ -40,7 +40,7 @@ published: true
 
 ###4. [Introduction to Android Application Development: Android Essentials](http://www.amazon.com/Introduction-Android-Application-Development-Essentials/dp/0321940261/ref=sr_1_1?ie=UTF8&qid=1453798767&sr=8-1&keywords=Introduction+to+Android+Application+Development%2C+4th+Edition) 
 
-<img src="http://yuqme.kickass.safeproxy.eu/users/35/235/Lymrs9IZJH.png" class="img-responsive" /><br />
+<img src="img/Lymrs9IZJH.png" class="img-responsive" /><br />
 
 **Автор**: Joseph Annuzzi Jr. 
 
