@@ -7,7 +7,7 @@ tags: [learning, job, programming, бесплатное обучение про�
 published: true
 ---
 
-<img src="http://theasder.github.io/shutterstock_165020951-reduced1.gif" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/shutterstock_165020951-reduced1.gif" class="img-responsive" /><br />
 
 Эта статья для тех, кто хотел бы изменить свою профессию и научиться программировать. И сделать это бесплатно.
 
