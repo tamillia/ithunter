@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Обзор 10 книг по безопасности и взлому."
+title: "Обзор 10 книг по безопасности и взлому"
 date: 2016-01-29 22:00:00
 category: learning
 tags: [learning, hacking, programming, книги по безопасности и взлому, лучшие книги для хакеров, как стать хакером, обзор книг по безопасности и взлому, что почитать хакеру, полезная литература для хакеров]
@@ -63,7 +63,7 @@ published: true
 
 ###7. [Penetration Testing with Raspberry Pi](http://www.amazon.com/Penetration-Testing-Raspberry-Joseph-Muniz/dp/1784396435/ref=sr_1_1?ie=UTF8&qid=1453974484&sr=8-1&keywords=Penetration+Testing+with+Raspberry+Pi)
 
-<img src="http://www.pdfbooksplanet.org/uploads/posts/2015-03/1425468162_penetration-testing-with-raspberry-pi.jpg" class="img-responsive" style="width: 300px;" /><br />
+<img src="http://theasder.github.io/img/1425468162_penetration-testing-with-raspberry-pi.jpg" class="img-responsive" style="width: 300px;" /><br />
 
 **Автор:** Joseph Muniz.
 
