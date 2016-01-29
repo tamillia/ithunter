@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Самый широко используемый язык программирования сейчас и в ближайшем будущем"
+title: "Какой самый популярный язык программирования?"
 date: 2014-06-02 01:00:00
 category: technology
 tags: [языки программирования, must-know, кроссплатформенность]
+description: "Самый широко используемый язык программирования сейчас и в ближайшем будущем"
 published: true
 ---
 
 <img src="http://s020.radikal.ru/i717/1406/a9/7785637e5a8a.png" class="img-responsive"><br/>
 
-Этим языком является JavaScript. Почему? Вот, в чем причины:
+## Этим языком является JavaScript.
+Почему? Вот, в чем причины:
 
 1. JavaScript будет важным, пока люди используют браузер, то есть всегда.
 2. [JavaScript используется много где, вне браузера](https://en.wikipedia.org/wiki/JavaScript#Uses_outside_web_pages) и может быть скомпилирован из целого ряда языков программирования [https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS](https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS)

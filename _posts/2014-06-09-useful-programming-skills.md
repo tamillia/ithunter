@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Полезные программистские навыки, каждый из которых можно получить за несколько дней или меньше"
+title: "Полезные навыки для программистов" 
 date: 2014-06-09 18:42:00
 category: skills
 tags: [linux, git, computer science, statistics, common skills, python, javascript]
+description: "Список навыков для программитов. Каждый из навыков можно получить всего за несколько дней"
 published: true
 ---
 <img src="http://cs616329.vk.me/v616329696/bbd0/pY3lzEamW1c.jpg" class="img-responsive"><br/>
