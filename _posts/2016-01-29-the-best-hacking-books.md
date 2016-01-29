@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Обзор 10 книг по безопасности и взлому"
+title: "Обзор 8 книг по безопасности и взлому"
 date: 2016-01-29 22:00:00
 category: learning
 tags: [learning, hacking, programming, книги по безопасности и взлому, лучшие книги для хакеров, как стать хакером, обзор книг по безопасности и взлому, что почитать хакеру, полезная литература для хакеров]
@@ -9,7 +9,7 @@ published: true
 
 <img src="http://medicineinfo.net/wp-content/uploads/2015/03/wpid-post_20598_image.jpg" class="img-responsive" /><br />
 
-10 лучших книг по безопасности и взлому, которые полезно прочитать каждому разработчику.
+8 лучших книг по безопасности и взлому, которые полезно прочитать каждому разработчику.
 
 <!-- more -->
 
@@ -77,20 +77,6 @@ published: true
 
 Если вы разработчик с хорошими базовыми знаниями Objective-C, то эта книга для вас. Эта книга показывает несколько видов атак на iOS, а также, инструменты и методы, которые используют хакеры. Вы узнаете, как лучше защитить свои приложения и поймете насколько важно думать, как ваш противник.
 
-###9. [SAP BusinessObjects Dashboards 4.0 Cookbook](http://www.amazon.com/SAP-BusinessObjects-Dashboards-4-0-Cookbook/dp/1849681783/ref=sr_1_1?ie=UTF8&qid=1453974547&sr=8-1&keywords=SAP+BusinessObjects+Dashboards+4.0+Cookbook)
 
-<img src="http://i01.i.aliimg.com/wsphoto/v0/32316360481/SAP-font-b-Business-b-font-Objects-font-b-Dashboards-b-font-4-0-Cookbook-2011.jpg" class="img-responsive" style="width: 300px;" /><br />
-
-**Автор:** David Lai.
-
-В этой книге содержится очень много полезной информации, написанной в ясной и сжатой форме с примерами, чтобы читатели могли расширить свои возможности и научиться быстро выполнять конкретные задачи.
-
-###10. [Kinect Hacks: Tips & Tools for Motion and Pattern Detection](http://www.amazon.com/Kinect-Hacks-Motion-Pattern-Detection/dp/1449315208/ref=sr_1_1?ie=UTF8&qid=1453974561&sr=8-1&keywords=Kinect+Hacks)
-
-<img src="https://paperc.com/media/cover_images/1/2013/06/21/9781449361235/9781449361235.jpg" class="img-responsive" style="width: 300px;" /><br />
-
-**Автор:** Jared St. Jean.
-
-С помощью этой книги вы узнаете много способов создания интерфейса, которые реагируют на движения тела, жесты и на голос, используя набор инструментов, таких как openFrameworks, Processing IDE и OpenKinect. Не важно кто вы, художник, дизайнер или исследователь, эта книга поможет вам начать работу с Kinect.
 
 **Статью подготовила Софья Лепёхина**
