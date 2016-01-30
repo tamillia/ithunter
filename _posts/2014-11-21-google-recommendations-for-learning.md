@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Рекомендации Google по изучению"
+title: "Рекомендации Google по изучению программирования"
 date: 2014-12-06 17:15:25
 category: learning
 tags: [employment, google, guide, computer science]
+description: "Советы для студентов от Google. Список ресурсов и необходимых для программирования знаний и навыков."
 published: true
 ---
 
@@ -116,4 +117,4 @@ published: true
 
 Онлайн-ресурсы: [Вакансии Google](http://www.google.com/about/careers/)
 
-<b>Перевод написан Люсей Ширшовой.</b>
+<b>Перевод: Люся Ширшова.</b>

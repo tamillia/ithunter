@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Руководство для начинающих в Mongoose"
+title: "Руководство для начинающих по Mongoose"
 date: 2014-12-05 22:22:00
 category: tutorial
 tags: [webdev, back-end, databases, javascript, node, nodejs]
+description: "Процессы создания и хранения в MongoDB и Mongoose."
 published: true
 ---
 

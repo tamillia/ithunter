@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Какие навыки и знания нужны для работы, связанной с машинным обучением?"
+title: "Навыки и знания для работы, связанной с машинным обучением"
 date: 2014-08-24 19:55:00
 category: learning
 tags: [machine learning, artificial intelligence, hard-core]
+description: "Области знаний и ресурсы, которые пригодятся при изучении машинного обучения."
 published: true
 ---
 
 <img src="http://theasder.github.io/img/a88afb6d2c89.png" class="img-responsive">
 
-Есть репозиторий на гитхабе, которая поможет вам начать изучение. В ней содержится библиотеки фреймворки, связанные с машинным обучением. [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
+Есть репозиторий на гитхабе, который поможет вам начать изучение. В ней содержится библиотеки фреймворки, связанные с машинным обучением. [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
 1. Python/C++/R/Java - вам, возможно, захочется изучить все эти языки программирования в какой-то момент для получения работы, связанной с машинным обучением. Библиотеки Python'a Numpy и Scipy очень хороши, так как они схожи по функциональности с Matlab'ом, но могут быть легко интегрированы в веб-сервис и также быть использованными в Hadoop'e. С++ будет нужен для написания быстро работающего кода. Язык программирования R очень хорош для статистики и построения графиков, Hadoop написан на Java, поэтому вам может понадобиться реализовать мапперы(mappers) и преобразователи(reducers) на Java.
 

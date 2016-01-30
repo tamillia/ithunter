@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Пишем программу-загрузчик песен из постов ВКонтакте"
+title: "Пишем программу-загрузчик для музыки ВКонтакте"
 date: 2014-07-22 19:55:00
 category: tutorial
 tags: [python, vk, api]
+description: "Скрипт на Python для скачивания песен из постов из ВКонтакте"
 published: true
 ---
 
