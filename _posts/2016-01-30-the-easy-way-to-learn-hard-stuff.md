@@ -8,7 +8,7 @@ tags: [learning, skills, programming, как выучить новый язык 
 published: true
 ---
 
-<img src="https://theasder.github.io/img/education.gif" class="img-responsive" /><br />
+<img src="https://theasder.github.io/img/learn-code.jpg" class="img-responsive" /><br />
 
 Если вы хотите научиться программировать или же изучить новый язык программирования, но не знаете с чего начать, то эта статья для вас.
 
