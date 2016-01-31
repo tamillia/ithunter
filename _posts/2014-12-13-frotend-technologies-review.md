@@ -4,6 +4,7 @@ title: "Обзор используемых фронт-енд технологи
 date: 2014-12-13 10:22:00
 category: tools
 tags: [webdev, front-end, survey, review, technogies]
+description: "Наиболее популярные технологии для разработки фронт-енд проектов"
 published: true
 ---
 

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Шпаргалка: 15 практических примеров использования Unix команды ls"
+title: "15 практических примеров использования Unix команды ls"
 date: 2015-03-20 20:01:53
 category: tools
 tags: [unix, ls, console, terminal, superuser, cheatsheet]
+description: "Шпаргалка: Как использовать всю мощь команды ls."
 published: true
 ---
 <img src="https://theasder.github.io/img/terminal.png" class="img-responsive" /><br />

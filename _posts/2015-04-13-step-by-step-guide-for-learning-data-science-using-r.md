@@ -4,6 +4,7 @@ title: "Пошаговое руководство для изучения Data S
 date: 2015-04-13
 category: learning
 tags: [r, data science, big data]
+description: "Пособие по R, которое поможет начать изучение с нуля и пройти этот путь быстро и эффективно."
 published: true
 ---
 <img src="http://theasder.github.io/img/data.jpg" class="img-responsive" /><br/>

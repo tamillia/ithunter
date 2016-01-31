@@ -4,6 +4,7 @@ title: "Как понять, что пишешь читабельный и ле�
 date: 2015-04-09 12:03:28
 category: development
 tags: [code, keep-it-simple-stupid, coding]
+description: "Советы и принципы, которые помогут определить уровень читабельности кода."
 published: true
 ---
 <img src="https://theasder.github.io/img/wtfm.jpg" class="img-responsive" /><br />
