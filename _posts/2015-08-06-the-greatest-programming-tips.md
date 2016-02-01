@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Программисты: какие уловки и хитрости вы узнали самостоятельно за годы кодинга?"
+title: "Какие уловки и хитрости, которые я узнал за годы кодинга"
 date: 2015-08-06 17:15:25
 category: development
 tags: [самообразование, советы программистам, литература для программистов]
+description: "Что может быть лучше практического совета от опытного программиста?"
 published: true
 ---
 <img src="http://cs622618.vk.me/v622618696/37adf/7FKI5LVQizU.jpg" class="img-responsive" /> <br/><br/>
@@ -97,6 +98,6 @@ published: true
 
 9 женщин не могут родить ребёнка за месяц. Прочитайте «Мифический человеко-месяц» **Фреда Брукса**.
 
-*Источник: [Quora](https://www.quora.com/Computer-Programmers/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding?srid=OkVz&share=1)* 
+Источник: [Quora](https://www.quora.com/Computer-Programmers/What-are-the-greatest-programming-tips-and-tricks-you-have-learned-on-your-own-by-years-of-coding?srid=OkVz&share=1)
 
-*Перевод: Анна Кучерявая*
+**Перевод: Анна Кучерявая**

@@ -4,6 +4,7 @@ title: "Список идей для начинающих программист
 date: 2015-04-17 17:54:25
 category: projects
 tags: [games, novice, ideas, gamedev]
+description: "Список идей, с помощью которых можно получить практические навыки программирования."
 published: true
 ---
 <img src="https://theasder.github.io/img/pacman.png" class="img-responsive" /><br />
@@ -91,4 +92,6 @@ published: true
 
 *Варианты*: В игру можно добавить, например, третьего игрока со своим цветом фишек или изменить число квадратов игрового поля.
 Эта игра описана в главе 10 книги [«Making Games with Python & Pygame»](http://inventwithpython.com/pygame/chapter10.html) 
+
+**Статью подготовил: Артём Дрёмов**
 
