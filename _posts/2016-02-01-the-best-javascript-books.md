@@ -8,7 +8,7 @@ tags: [learning, javascript, programming, книги по разработке �
 published: true
 ---
 
-<img src="http://vilnadumka.com.ua/wp-content/uploads/2015/09/97705e801479b1836f2b38d593a89e36.jpg.crop_display.jpg" class="img-responsive" style="width: 800px;" /><br />
+<img src="http://theasder.github.io/img/js.jpg" class="img-responsive" style="width: 800px;" /><br />
 
 Если вы хотите изучить JavaScript или улучшить свои знания в этой области, то эта статья для вас.
 
