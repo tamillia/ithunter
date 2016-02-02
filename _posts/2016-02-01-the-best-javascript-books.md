@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "9 лучших книг по разработке на JavaScript"
+title: "Обзор 9 лучших книг по разработке на JavaScript"
 date: 2016-02-01 22:00:00
-description: Если вы хотите изучить JavaScript или улучшить свои знания в этой области, то эта статья для вас.
+description: "Если вы хотите изучить JavaScript или улучшить свои знания в этой области, то эта статья для вас."
 category: learning
 tags: [learning, javascript, programming, книги по разработке на JavaScript, как разрабатывать JavaScript приложения, лучшие книги по JavaScript]
 published: true
 ---
 
-<img src="http://theasder.github.io/img/js.jpg" class="img-responsive" style="width: 800px;" /><br />
+<img src="http://vilnadumka.com.ua/wp-content/uploads/2015/09/97705e801479b1836f2b38d593a89e36.jpg.crop_display.jpg" class="img-responsive" style="width: 800px;" /><br />
 
 Если вы хотите изучить JavaScript или улучшить свои знания в этой области, то эта статья для вас.
 
@@ -20,7 +20,7 @@ published: true
 
 **Автор:** Rami Sarieddine. 
 
-В этой книге вы узнаете новые функции HTML5 и CSS3, научитесь с нуля разрабатывать JavaScript приложения и настраивать проверку подлинности.
+В этой книге вы узнаете о новых функциях HTML5 и CSS3, научитесь с нуля разрабатывать JavaScript приложения и настраивать проверку подлинности.
 
 ###2. [Google Maps JavaScript API Cookbook](http://www.amazon.com/Google-Maps-JavaScript-API-Cookbook/dp/1849698821/ref=sr_1_1?ie=UTF8&qid=1454250520&sr=8-1&keywords=Google+Maps+JavaScript+API+Cookbook)
 
@@ -28,7 +28,7 @@ published: true
 
 **Автор:** Alper Dincer.
 
-Эта книга научит вас использовать Google maps в своих собственных целях: отображать карты на мобильных устройствах, разрабатывать картографические приложения и многое другое. Также эта книга включает в себя множество примеров кода и скриншоты для эффективного обучения.
+Эта книга научит вас использовать Google Maps в своих собственных целях: отображать карты на мобильных устройствах, разрабатывать картографические приложения и многое другое. Также эта книга включает в себя множество примеров кода и скриншоты для эффективного обучения.
 
 ###3. [Object-Oriented JavaScript: Create scalable, reusable high-quality JavaScript applications and libraries ](http://www.amazon.com/Object-Oriented-JavaScript-high-quality-applications-libraries/dp/1847194141/ref=sr_1_3?ie=UTF8&qid=1454250352&sr=8-3&keywords=Object-Oriented+JavaScript)
 
@@ -36,7 +36,7 @@ published: true
 
 **Автор:** Stoyan Stefanov.
 
-При помощи этой книги вы научитесь создавать масштабируемые JavaScript приложения, используя понятия объективно-ориентированного программирования. Данная книги подходит как для начинающих, так и для опытных веб-разработчиков, кто хочет решать проблемы веб-разработки с помощью JavaScript.
+При помощи этой книги вы научитесь создавать масштабируемые JavaScript приложения, используя понятия из объективно-ориентированного программирования. Данная книга подходит как для начинающих, так и для опытных веб-разработчиков, и для тех, кто хочет решать проблемы веб-разработки с помощью JavaScript.
 
 ###4. [The Problem with Native JavaScript APIs](http://www.amazon.com/Problem-Native-JavaScript-APIs-ebook/dp/B008MYLMHG/ref=sr_1_1?ie=UTF8&qid=1454250413&sr=8-1&keywords=The+Problem+with+Native+JavaScript+APIs)
 
@@ -60,7 +60,7 @@ published: true
 
 **Автор:** Douglas Crockford.
 
-Автор раскрывает все хорошие стороны, которые делают JavaScript выдающимся объектно-ориентированным языком. Вы детально узнаете все основы JavaScript: функции, синтаксис, стиль и многое другое.
+Автор раскрывает о всех достоинствах JavaScript, которые делают его выдающимся объектно-ориентированным языком. Вы детально узнаете все основы JavaScript: функции, синтаксис, стиль и многое другое.
 
 ###7. [Learning JavaScript: A Hands-On Guide to the Fundamentals of Modern JavaScript](http://www.amazon.com/Learning-JavaScript-Hands--Fundamentals-Modern/dp/0321832744/ref=sr_1_3?ie=UTF8&qid=1454249975&sr=8-3&keywords=Learning+JavaScript)
 
@@ -76,7 +76,7 @@ published: true
 
 **Автор:**  Cody Lindley.
 
-Благодаря этой книге вы изучите создание объектов JavaScript, краткое и доступное описание ECMA-262 на реальных примерах кода, будете работать со строками, числами и булевыми объектами и значениями, узнаете как использовать null-значения, встроенный объект math и многое другое.
+Благодаря этой книге вы изучите создание объектов JavaScript, найдёте краткое и доступное описание ECMA-262 на реальных примерах кода, будете работать со строками, числами и булевыми объектами и значениями, узнаете как использовать null-значения, встроенный объект math и многое другое.
 
 ###9. [Getting Started with Meteor.js JavaScript Framework](http://www.amazon.com/Getting-Started-Meteor-js-JavaScript-Framework/dp/1782160825/ref=sr_1_2?ie=UTF8&qid=1454250024&sr=8-2&keywords=Getting+Started+with+Meteor.js+JavaScript+Framework)
 
