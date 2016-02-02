@@ -35,6 +35,4 @@ published: true
 <p>Обзор второй пятерки книг будет опубликован в ближайшее время.</p>
 
 Источник: <a href="http://skillkit.ru/kariera/10-must-read-knig-dlya-molodogo-programmera.html">Skillkit</a>
-
-**Перевод: Артём Дрёмов**
 		
