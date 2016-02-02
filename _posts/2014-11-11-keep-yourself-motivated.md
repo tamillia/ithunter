@@ -4,7 +4,7 @@ title: "Лучший способ мотивировировать себя"
 date: 2014-11-11 19:55:00
 category: learning
 tags: [motivation, routine, procrastination]
-description:"Мотивация для долговременных и краткосрочных целей"
+description: "Мотивация для долговременных и краткосрочных целей"
 published: true
 ---
 
