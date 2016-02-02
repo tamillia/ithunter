@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Интересные проекты, которые можно разработать за одну или две недели для добавления в резюме для стажировки (часть 3)"
+title: "Проекты для добавления в резюме для стажировки (часть 3)"
 date: 2015-09-09 18:32:44
 category: development
 tags: [идеи, стажировка, проекты, резюме, разработка]
+description: "Проекты, которые можно разработать за одну или две недели."
 published: true 
 ---
 <img src="http://www.fresher.ru/images6/londonskij-ofis-google/1.jpg" class="img-responsive" /><br />

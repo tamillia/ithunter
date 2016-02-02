@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Привычки начинающего программиста, которые помогут начать разрабатывать как можно раньше"
+title: "Как начать разрабатывать как можно раньше?"
 date: 2016-01-01 12:16:02
 category: learning
 tags: [novice, habits, psychology]
+description: "Привычки начинающего программиста, которые помогут начать разрабатывать как можно раньше"
 published: true
 ---
 <img src="https://theasder.github.io/img/code2.jpg" class="img-responsive" /><br />
