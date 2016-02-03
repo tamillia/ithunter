@@ -16,37 +16,37 @@ published: true
 
 Онлайн-обучение, основанное на написании проектов, является отличным способом саморазвития. Кроме того, вы сразу заняты созданием отличного портфолио для дальнейшего трудоустройства.
 
-##1. [The Odin Project](http://www.theodinproject.com/)
+## 1. [The Odin Project](http://www.theodinproject.com/)
 
 <img src="http://cs630824.vk.me/v630824062/12021/zjh1cXMplSY.jpg" class="img-responsive" /><br />
 
 _The Odin Project_ &mdash; представляет собой собрание лучших ресурсов по изучению веб-разработки: видео, курсы, статьи, с помощью которых вы создадите множество проектов в процессе обучения. Более того, вы сможете работать в паре с другими учениками.
 
-##2. [CodenameCRUD](http://codenamecrud.ru/)
+## 2. [CodenameCRUD](http://codenamecrud.ru/)
 
 <img src="http://cs630824.vk.me/v630824062/12035/wrubkJI19w4.jpg" class="img-responsive" /><br />
 
 _CodenameCRUD_ &mdash; по сути является русскоязычной версией Odin Progect, о котором упоминалось выше. Здесь вы также можете смотреть видео, читать книги и разные статьи, создавать десятки проектов и работать в паре с другими учениками. 
 
-##3. [FreeCodeCamp](http://www.freecodecamp.com/) 
+## 3. [FreeCodeCamp](http://www.freecodecamp.com/) 
 
 <img src="http://cs630824.vk.me/v630824062/1203f/od3fmA5N1dI.jpg" class="img-responsive" /><br />
 
 _FreeCodeCamp_ &mdash; ресурс, рассчитанный на новичков, предполагает обязательную работу в паре. Представляет собой пошаговые уроки, состоящие из задач разной сложности. По окончанию вы будете знать несколько языков программирования, портфолио из трех проектов и несколько сертификатов.
 
-##4. [NewCoder](http://newcoder.io/)
+## 4. [NewCoder](http://newcoder.io/)
 
 <img src="http://cs630824.vk.me/v630824062/12017/a_HP76sKtks.jpg" class="img-responsive" /><br />
 
 _NewCoder_ &mdash; состоит из уроков, предполагающих написание проекта на Python, каждый из которых разделен на несколько этапов, описывающих цели урока и процесс работы. Также включают в себя списки различных полезных ресурсов для пополнения своих знаний и улучшения полученных навыков.
 
-##5. [Viking Code School Prep](http://www.vikingcodeschool.com/) 
+## 5. [Viking Code School Prep](http://www.vikingcodeschool.com/) 
 
 <img src="http://cs630824.vk.me/v630824062/1200d/XDDik1ojFMk.jpg" class="img-responsive" /><br />
 
 _Viking Code School Prep_ &mdash; это онлайн-ресурс, состоящий из пяти этапов, при помощи которого вы изучите все, что касается веб-разработки. По окончанию обучения у вас будет портфолио приложений и вы будете готовы столкнуться со всеми трудностями работы веб-разработчика.
 
-##6. [Code4Startup](https://code4startup.com/) 
+## 6. [Code4Startup](https://code4startup.com/) 
 
 <img src="http://cs630824.vk.me/v630824062/1202b/twycI2swZis.jpg" class="img-responsive" /><br />
 
