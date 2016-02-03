@@ -14,7 +14,7 @@ published: true
 
 <!-- more -->
 
-##Книги
+## Книги
 
 * [Карьера программиста. Как устроиться на работу в Google, Microsoft или другую ведущую IT-компанию](http://www.ozon.ru/context/detail/id/29561974/) &mdash; Гейл Лакман
 
@@ -22,9 +22,9 @@ published: true
 
 * [Искусство программирования](http://www.ozon.ru/context/detail/id/1335648/) &mdash; Дональд Кнут
 
-##Сообщества и блоги
+## Сообщества и блоги
 
-* [Algorithm Geeks](https://groups.google.com/forum/#!forum/algogeeks) &mdash; группа в гугл
+* [Algorithm Geeks](https://groups.google.com/forum/# !forum/algogeeks) &mdash; группа в гугл
 
 * [CodeKata](http://codekata.com/)
 
@@ -32,7 +32,7 @@ published: true
 
 * [The Daily WTF &mdash; серия Bring Your Own Code](http://thedailywtf.com/series/bring-your-own-code) 
 
-##Игровые сайты
+## Игровые сайты
 
 * [CodeChef](https://www.codechef.com/)
 
@@ -46,7 +46,7 @@ published: true
 
 * [Google Code Jam](https://code.google.com/codejam/contests.html) &mdash; алгоритмические головоломки.
 
-##Сервисы, связанные с языками программирования
+## Сервисы, связанные с языками программирования
 
 * [4Clojure](http://www.4clojure.com/) (Clojure) &mdash; ресурс, помогающий выучить язык с помощью решения интерактивных проблем. 
 
@@ -56,7 +56,7 @@ published: true
 
 * [Ruby Quiz](http://rubyquiz.com/) (Ruby) &mdash; еженедельные задачи по программированию.
 
-##Сервисы с онлайн проверкой
+## Сервисы с онлайн проверкой
 
 * [Codingbat](http://codingbat.com/) &mdash; много задач по программированию от простых до действительно сложных. Доступно в Java и Python.
 
@@ -76,7 +76,7 @@ published: true
 
 * [Rosalind](http://rosalind.info/problems/locations/) &mdash; алгоритмы и биоинформатика.
 
-##Список платформ для проведения конкурсов
+## Список платформ для проведения конкурсов
 
 * [Career Cup](http://www.careercup.com/) 
 
@@ -88,5 +88,5 @@ published: true
 
 Перевод: Софья Лепёхина
 
-[Источник](http://programmers.stackexchange.com/questions/756/where-can-i-find-programming-puzzles-and-challenges?answertab=votes#tab-top)
+[Источник](http://programmers.stackexchange.com/questions/756/where-can-i-find-programming-puzzles-and-challenges?answertab=votes# tab-top)
 

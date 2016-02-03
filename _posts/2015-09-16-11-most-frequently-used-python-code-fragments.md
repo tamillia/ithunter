@@ -14,17 +14,17 @@ Python &mdash; один из наиболее популярных языков 
 
 <!-- more -->
 
-## Фильтруем список
+##  Фильтруем список
 
 
 {% highlight python linenos %}
-# убираем пустые строки в списке
+#  убираем пустые строки в списке
 list = [x for x in list if x.strip() != '']
-# или
+#  или
 list = filter(lambda x: len(x) > 0, list)
 {% endhighlight %}
 
-## Читаем файл строчкой за строчкой
+##  Читаем файл строчкой за строчкой
 
 
 {% highlight python linenos %}
@@ -33,7 +33,7 @@ with open("/путь/к/файлу") as f:
         print(line)
 {% endhighlight %}
    
-## Ищем совпадения с помощью регулярного выражения
+##  Ищем совпадения с помощью регулярного выражения
 
 
 {% highlight python linenos %}
@@ -43,15 +43,15 @@ for match in it:
     print("match position: " + str(match.start()) + "-" +   str(match.end()))
 {% endhighlight %}      
 
-## Поиск с помощью регулярного выражения
+##  Поиск с помощью регулярного выражения
 
 {% highlight python linenos %}
-m = re.search('\d+-\d+', line) # ищем строки, совпадающие по шаблону "число-число"
+m = re.search('\d+-\d+', line) #  ищем строки, совпадающие по шаблону "число-число"
 if m:
     current = m.group(0)
 {% endhighlight %}
        
-## Кидаем запрос в базу данных
+##  Кидаем запрос в базу данных
 
 {% highlight python linenos %}
 db = MySQLdb.connect("localhost", "username", "password", "dbname")
@@ -66,33 +66,33 @@ for row in results:
 db.close()
 {% endhighlight %}
    
-## Соединяем элементы списка воедино с помощью заданного разделителя
+##  Соединяем элементы списка воедино с помощью заданного разделителя
 
 {% highlight python linenos %}
 theList = ["a", "b", "c"]
 joinedString = ",".join(theList)
 {% endhighlight %}
   
-## Убрать из списка элементы-дупликаты
+##  Убрать из списка элементы-дупликаты
 
 {% highlight python linenos %}
 targetList = list(set(targetList))
 {% endhighlight %}
     
-## Прикрепить один список к другому
+##  Прикрепить один список к другому
 
 {% highlight python linenos %}
 anotherList.extend(aList)
 {% endhighlight %}
   
-## Итерировать словарь
+##  Итерировать словарь
 
 {% highlight python linenos %}
 for k, v in aDict.iteritems():
     print(k + v)
 {% endhighlight %}
 
-## Проверить присутствует ли какой-нибудь элемент из списка строк в заданной строке
+##  Проверить присутствует ли какой-нибудь элемент из списка строк в заданной строке
 
 {% highlight python linenos %}
 if any(x in targetString for x in aList):
