@@ -2,7 +2,7 @@
 layout: post
 title: "27 iOS библиотек с открытым исходным кодом, которые помогут улучшить процесс разработки"
 date: 2016-02-04 22:00:00
-description: Полезная информация для iOS разработчиков.
+description: "Полезная информация для iOS разработчиков."
 category: tools
 tags: [learning, iOS, programming, полезные ресурсы для iOS разработчиков, библиотеки для iOS]
 published: true
