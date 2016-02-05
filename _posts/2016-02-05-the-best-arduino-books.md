@@ -8,7 +8,7 @@ tags: "learning, arduino, programming, книги по разработке на
 published: true
 ---
 
-<img src="http://italiaevent.it/components/com_djclassifieds/images/4270_elettronica.jpg" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/4270_elettronica.gif" class="img-responsive" /><br />
 
 Если вы хотите разрабатывать электронные проекты на Arduino, но еще не имеете опыта, то вам поможет эта статья. Полезно к прочтению и опытным разработчикам.
 
@@ -16,7 +16,7 @@ published: true
 
 ## 1. [Arduino for Secret Agents](http://www.amazon.com/Arduino-Secret-Agents-Marco-Schwartz/dp/1783986085/ref=sr_1_1?ie=UTF8&qid=1454583053&sr=8-1&keywords=Arduino+for+Secret+Agents)
 
-<img src="https://www.packtpub.com/sites/default/files/6088OS.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/6088OS.jpg" class="img-responsive" style="max-width:400px" /><br />
 
 **Автор:** Marco Schwartz. 
 
@@ -24,7 +24,7 @@ published: true
 
 ## 2. [Intel Galileo Blueprints](http://www.amazon.com/Intel-Galileo-Blueprints-Marco-Schwartz/dp/1785281429/ref=sr_1_1?ie=UTF8&qid=1454583164&sr=8-1&keywords=Intel+Galileo+Blueprints)
 
-<img src="https://www.packtpub.com/sites/default/files/1426OS_Intel%20Galileo%20Blueprints_.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/1426OS_Intel%20Galileo%20Blueprints_.jpg" class="img-responsive" style="max-width:400px" /><br />
 
 **Автор:** Marco Schwartz.
 
@@ -32,7 +32,7 @@ published: true
 
 ## 3. [Intel Galileo Networking Cookbook](http://www.amazon.com/Intel-Galileo-Networking-Cookbook-Schwartz/dp/1785281194/ref=sr_1_1?ie=UTF8&qid=1454583186&sr=8-1&keywords=Intel+Galileo+Networking+Cookbook)
 
-<img src="https://www.packtpub.com/sites/default/files/1198OS_Intel%20Galileo%20Networking%20Cookbook.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/1198OS_Intel%20Galileo%20Networking%20Cookbook.jpg" style="max-width:400px" class="img-responsive" /><br />
 
 **Автор:** Marco Schwartz.
 
@@ -40,7 +40,7 @@ published: true
 
 ## 4. [openFrameworks Essentials](http://www.amazon.com/openFrameworks-Essentials-Denis-Perevalov/dp/1784396141/ref=sr_1_1?ie=UTF8&qid=1454583206&sr=8-1&keywords=openFrameworks+Essentials)
 
-<img src="https://www.packtpub.com/sites/default/files/6145OS_3855_OpenFramework%20Essentials.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/6145OS_3855_OpenFramework%20Essentials.jpg" style="max-width:400px" class="img-responsive" /><br />
 
 **Автор:** Denis Perevalov.
 
@@ -48,7 +48,7 @@ published: true
 
 ## 5. [Python Programming for Arduino](http://www.amazon.com/Python-Programming-Arduino-Pratik-Desai/dp/1783285931/ref=sr_1_1?ie=UTF8&qid=1454582708&sr=8-1&keywords=Python+Programming+for+Arduino)
 
-<img src="https://www.packtpub.com/sites/default/files/2798_5938OS_Python%20Programming%20for%20Arduino_cov.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/2798_5938OS_Python%20Programming%20for%20Arduino_cov.jpg" style="max-width:400px" class="img-responsive" /><br />
 
 **Автор:** Pratik Desai.
 
@@ -56,7 +56,7 @@ published: true
 
 ## 6. [Arduino Wearable Projects](http://www.amazon.com/Arduino-Wearable-Projects-Tony-Olsson/dp/1785283308/ref=sr_1_1?ie=UTF8&qid=1454582941&sr=8-1&keywords=Arduino+Wearable+Projects)
 
-<img src="https://www.packtpub.com/sites/default/files/B04332_MockupCover_Normal.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/B04332_MockupCover_Normal.jpg" style="max-width:400px" class="img-responsive" /><br />
 
 **Автор:** Tony Olsson.
 
@@ -64,7 +64,7 @@ published: true
 
 ## 7. [Intel Galileo and Intel Galileo Gen 2: API Features and Arduino Projects for Linux Programmers](http://www.amazon.com/Intel-Galileo-Gen-Features-Programmers/dp/1430268395/ref=sr_1_1?ie=UTF8&qid=1454583078&sr=8-1&keywords=Intel+Galileo+and+Intel+Galileo+Gen+2)
 
-<img src="http://ecx.images-amazon.com/images/I/514fpeAJyGL._SX331_BO1,204,203,200_.jpg" class="img-responsive" /><br />
+<img src="http://ecx.images-amazon.com/images/I/514fpeAJyGL._SX331_BO1,204,203,200_.jpg" style="max-width:400px" class="img-responsive" /><br />
 
 **Автор:** Manoel Ramon.
 
@@ -72,7 +72,7 @@ published: true
 
 ## 8. [Arduino Sketches: Tools and Techniques for Programming Wizardry](http://www.amazon.com/Arduino-Sketches-Techniques-Programming-Wizardry/dp/1118919602/ref=sr_1_1?ie=UTF8&qid=1454583091&sr=8-1&keywords=Arduino+Sketches)
 
-<img src="http://i66.fastpic.ru/big/2015/0402/15/30c6521723fc63ac6ec5bf2c90a00715.jpg" class="img-responsive" /><br />
+<img src="http://i66.fastpic.ru/big/2015/0402/15/30c6521723fc63ac6ec5bf2c90a00715.jpg" style="max-width:400px" class="img-responsive" /><br />
 
 **Автор:**  James A. Langbridge.
 
@@ -80,7 +80,7 @@ published: true
 
 ## 9. [Arduino Development Cookbook](http://www.amazon.com/Arduino-Development-Cookbook-Cornel-Amariei/dp/1783982942/ref=sr_1_1?ie=UTF8&qid=1454582893&sr=8-1&keywords=Arduino+Development+Cookbook)
 
-<img src="https://www.packtpub.com/sites/default/files/2943OS.jpg" class="img-responsive" /><br />
+<img src="https://www.packtpub.com/sites/default/files/2943OS.jpg" class="img-responsive" style="max-width:400px" /><br />
 
 **Автор:** Cornel Amariei.
 
@@ -88,7 +88,7 @@ published: true
 
 ## 10. [Getting Started with Arduino: The Open Source Electronics Prototyping Platform](http://www.amazon.com/Getting-Started-Arduino-Electronics-Prototyping/dp/1449363334/ref=sr_1_1?ie=UTF8&qid=1454583305&sr=8-1&keywords=Make%3A+Getting+Started+with+Arduino%2C+3rd+Edition)
 
-<img src="http://ecx.images-amazon.com/images/I/518-nCqunOL._SX322_BO1,204,203,200_.jpg" class="img-responsive" /><br />
+<img src="http://ecx.images-amazon.com/images/I/518-nCqunOL._SX322_BO1,204,203,200_.jpg" class="img-responsive" style="max-width:400px" /><br />
 
 **Автор:** Massimo Banzi.
 
