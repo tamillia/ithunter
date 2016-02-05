@@ -23,9 +23,9 @@ published: true
         {{ post.content | split:"<!-- more -->" | first }}
         <div class="comm">
             <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}#disqus_thread">Comments supposed to be here.</a>
-        </div><br />
+        </div><br /><!--
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- После поста -->
+         После поста 
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-6621414197364714"
@@ -33,7 +33,7 @@ published: true
              data-ad-format="auto"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        </script> -->
     {% endfor %}
 </div>
 
