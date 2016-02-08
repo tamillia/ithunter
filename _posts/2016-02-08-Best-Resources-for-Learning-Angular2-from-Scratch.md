@@ -2,7 +2,7 @@
 layout: post
 title: "Лучшие ресурсы для изучения Angular 2 с нуля"
 date: 2016-02-08 2:00:00
-description: "Большая подборка полезных ресурсов для изучения Angular 2, которая поможет вам построить план изучения Angular"
+description: "Большая подборка полезных ресурсов, которая поможет вам построить план изучения Angular 2."
 category: learning
 tags: "angular2, angular 2, learning, programming, angular 2 бета-версия, angular 2 как изучить, angular 2 уроки, материалы по angular, хочу изучить angular с чего начать, "
 published: true
@@ -10,7 +10,7 @@ published: true
 
 <img src="http://theasder.github.io/img/00-angular2-logo-featured.gif" class="img-responsive" /><br />
 
-Большая подборка полезных ресурсов для изучения Angular 2, которая поможет вам построить план изучения Angular.
+Большая подборка полезных ресурсов, которая поможет вам построить план изучения Angular 2.
 
 <!-- more -->
 
