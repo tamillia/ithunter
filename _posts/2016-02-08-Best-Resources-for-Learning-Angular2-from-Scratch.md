@@ -8,7 +8,7 @@ tags: "angular2, angular 2, learning, programming, angular 2 бета-верси
 published: true
 ---
 
-<img src="http://theasder.github.io/img/00-angular2-logo-featured.gif" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/00-angular2-logo-featured.jpg" class="img-responsive" /><br />
 
 Большая подборка полезных ресурсов, которая поможет вам построить план изучения Angular 2.
 
