@@ -18,7 +18,9 @@ published: true
 
 <p>«Прагматичный программист» — это книга-откровение. Если у тебя есть выбор что почитать ее или что либо другое, выбирай «Программиста». Автор не ставил себе целью погрузиться в тайны программирования, однако он проделал отличную работу, чтобы сделать из вчерашнего студента, рабочего программиста. Причем не такого, для которого его работа с кодом это продолжение любимого хобби, а такого, который станет настоящим членом команды и будет писать на профессиональном уровне.</p>
 
-<h4>Непрерывная поставка // Continuous Delivery</h4><strong>Читать книгу:</strong> <a href="http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912" target="_blank">оригинал</a>.<p>Полностью эта книга называется «Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation», издательство Addison Wesley. Она рассматривает вопросы релизов: как сделать их чаще и проще, и как включить их в процесс непрерывного обновления вашего ПО. Все утверждения в книге разбираются на конкретных примерах, с четкой методологией, набором инструментов и подсказками по автоматизации процесса.</p>
+<h4>Непрерывная поставка // Continuous Delivery</h4><strong>Читать книгу:</strong> <a href="http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912" target="_blank">оригинал</a>.
+
+<p>Полностью эта книга называется «Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation», издательство Addison Wesley. Она рассматривает вопросы релизов: как сделать их чаще и проще, и как включить их в процесс непрерывного обновления вашего ПО. Все утверждения в книге разбираются на конкретных примерах, с четкой методологией, набором инструментов и подсказками по автоматизации процесса.</p>
 
 <h4>Чистый код // Clean Code</h4>
 <p><strong>Clean Code: </strong><a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882" target="_blank">оригинал</a> || <a href="http://www.ozon.ru/context/detail/id/5011068/" target="_blank">перевод</a>.</p>
