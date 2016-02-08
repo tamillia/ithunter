@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Лучшие ресурсы для изучения Angular 2 с нуля"
-date: 2016-02-07 2:00:00
+date: 2016-02-08 2:00:00
 description: "Большая подборка полезных ресурсов для изучения Angular 2, которая поможет вам построить план изучения Angular"
 category: learning
 tags: "angular2, angular 2, learning, programming, angular 2 бета-версия, angular 2 как изучить, angular 2 уроки, материалы по angular, хочу изучить angular с чего начать, "
