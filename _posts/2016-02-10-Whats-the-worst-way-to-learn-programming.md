@@ -8,7 +8,7 @@ tags: "как научиться программировать, програм�
 published: true
 ---
 
-<img src="http://mywebexile.de/demo/clix/images/prev/workspace05.jpg" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/workspace05.jpg" class="img-responsive" /><br />
 
 Что нужно и что не нужно делать, когда начинаешь изучать программирование.
 
