@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Скрытые фичи Python"
-date: 2016-02-13 0:00:00
+date: 2016-02-13 2:00:00
 description: "Наименее известные, но полезные фичи в языке программирования Python."
 category: python
 tags: "python, learning, programming, скрытые фичи Python, неизвестные фичи Python, полезные факты о Python"
