@@ -8,7 +8,7 @@ tags: "командная строка, команды, командная ст�
 published: true
 ---
 
-<img src="http://blog.editoreye.com/content/images/2015/04/Hands-Typing-On-Laptop-With-Smartphone-And-Coffee-1.jpg" class="img-responsive" /><br />
+<img src="http://theasder.github.io/img/hands.jpg" class="img-responsive" /><br />
 
 Полезные приемы, которые помогут вам почувствовать всю мощь командной строки Unix.
 
