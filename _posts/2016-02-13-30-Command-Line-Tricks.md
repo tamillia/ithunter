@@ -183,11 +183,13 @@ wget -m http://www.example.com/
 ```
 
 * Делает рамку вокруг текста.
+
 ```
 function box(){ t="$1xxxx";c=${2:-=}; echo ${t//?/$c}; echo "$c $1 $c"; echo ${t//?/$c}; } 
 ```
 
 * Находит дубликаты изображений в текущем каталоге.
+
 ```
 shasum *.jpg | awk {'print $1'} | sort | uniq -c | grep -v " 1 " 
 ```
