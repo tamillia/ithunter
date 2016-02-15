@@ -193,3 +193,18 @@ function box(){ t="$1xxxx";c=${2:-=}; echo ${t//?/$c}; echo "$c $1 $c"; echo ${t
 ```
 shasum *.jpg | awk {'print $1'} | sort | uniq -c | grep -v " 1 " 
 ```
+
+Перевод: Софья Лепёхина
+
+
+[Источник](https://twitter.com/climagic)
+
+**Читайте также:**
+
+[Лучшие ресурсы для изучения Angular 2 с нуля](http://theasder.github.io/learning/2016/02/08/Best-Resources-for-Learning-Angular2-from-Scratch.html)
+
+[Простой способ выучить что-то сложное](http://theasder.github.io/learning/2016/01/30/the-easy-way-to-learn-hard-stuff.html)
+
+[30 ресурсов с головоломками и задачами по программированию](http://theasder.github.io/learning/2016/01/21/where-can-I-find-programming-puzzles-and-challenges.html)
+
+
