@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "11 наиболее часто используемых фрагментов кода на Python"
+title: "11 часто используемых фрагментов кода на Python"
 date: 2015-09-16 18:42:43
 category: python
-tags: [python, snippets, code, examples]
+tags: "snippets, code, examples, python, для начинающих, язык программирования python, язык python, обучение python, питон язык программирования"
 description: "В этой статье мы познакомим вас с некоторыми из наиболее популярными фрагментами кода."
 published: true
 ---
@@ -99,7 +99,9 @@ if any(x in targetString for x in aList):
     print("true")
 {% endhighlight %}
      
+**Перевод: Артём Дрёмов**
         
 [Источник](http://www.programcreek.com/2015/05/most-frequently-used-python-code-fragments-for-java-developers/)
         
-
+**Читайте также:**
+[Интересные приёмы для Python](http://theasder.github.io/python/2014/02/11/python-tricks.html)

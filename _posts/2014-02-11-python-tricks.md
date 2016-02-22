@@ -3,7 +3,7 @@ layout: post
 title: "Интересные приёмы для Python"
 date: 2014-02-11 17:15:25
 category: python
-tags: [приемы, python]
+tags: "python, для начинающих, язык программирования python, язык python, обучение python, питон язык программирования"
 description: "Хитрости и полезные операции на языке программирования Python."
 published: true
 ---
@@ -248,3 +248,8 @@ Bolt, Green, Johnson, Mom = range(4)
 >>> calculator['minus'](9,3)
 6
 {% endhighlight %}
+
+**Статью подготовил Артём Дрёмов**
+
+**Читайте также:**
+[11 часто используемых фрагментов кода на Python](http://theasder.github.io/python/2015/09/16/11-most-frequently-used-python-code-fragments.html)

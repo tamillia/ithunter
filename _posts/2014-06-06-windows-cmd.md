@@ -3,7 +3,7 @@ layout: post
 title: "Командная строка Windows"
 date: 2014-06-06 18:42:00
 category: tools
-tags: [windows, cmd, power user]
+tags: "командная строка windows, команды windows, cmd команды, командная строка, команды командной строки"
 description: "Запуск cmd. Функции командной строки Windows. Команды cmd."
 published: true
 ---
