@@ -2,7 +2,7 @@
 layout: post
 title: "Бесплатные ресурсы для изучения NodeJS"
 date: 2016-02-28 2:00:00
-description: "Подборка ресурсов для тех, кто хочет начать использовать Node.js. "
+description: "Подборка ресурсов для тех, кто хочет начать использовать Node.js в своих проектах."
 category: learning
 tags: "Node.JS, NodeJS, Node.JS ресурсы, использование Node.JS, Node.JS для начинающих, изучение Node.JS"
 published: true
@@ -10,7 +10,7 @@ published: true
 
 <img src="http://theasder.github.io/img/node-logo.jpg" class="img-responsive" /><br />
 
-Эрик Терсптра представляет некоторые ресурсы для тех, кто хочет начать использовать Node.js. 
+Подборка ресурсов для тех, кто хочет начать использовать Node.js в своих проектах.
 
 <!-- more -->
 
