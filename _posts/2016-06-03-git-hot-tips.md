@@ -4,7 +4,7 @@ title: "17 приемов работы с git, о которых вы могли
 date: 2016-06-03 10:07:52
 category: tools
 tags: [git, cvs, система контроля версий, трюки, фишки, github, почему я раньше этого не знал]
-published: false
+published: true
 ---
 
 <img src="https://theasder.github.io/img/git.jpg" class="img-responsive" /><br />
