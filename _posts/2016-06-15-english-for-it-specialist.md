@@ -7,7 +7,7 @@ tags: [изучение, английский, english, englishdom, learning]
 published: true
 ---
 
-<img src="https://tproger.azureedge.net/wp-content/uploads/2016/06/2-2.png?33a167" class="img-responsive"><br>
+<img src="https://theasder.github.io/img/2-2.png" class="img-responsive"><br>
 
 В медицине вопрос «учить или не учить» латынь вообще не стоит: поступил в мед, значит, будешь ее знать, и без вариантов. Было бы рационально так же поступать с английским для IT-специалистов, т.к. этот язык — стандарт IT-индустрии. Однако, знание английского языка продолжает носить добровольный характер, и рынку не хватает специалистов с хорошим английским. Не думаем, что ситуация будет такой и в дальнейшем, ведь высокий уровень заработной платы программиста, знающего английский, очень мотивирует к обучению.
 
@@ -19,7 +19,7 @@ published: true
 
 ## Хочешь понимать, говори на одном языке
 
-<img class="img-responsive" src="https://tproger.azureedge.net/wp-content/uploads/2016/06/1.png?33a167" alt="1" width="243" height="201"><br>
+<img class="img-responsive" src="https://theasder.github.io/img/1.png" alt="1" width="243" height="201"><br>
 
 У программистов развит профессиональный сленг, и его термины обычно происходят из английского. Например, фраза: «Чуваки, собираюсь подебажить, дайте туториал &nbsp; JS» означает, что программисту нужна инструкция по JavaScript, чтобы исправить ошибки в программе. Еще пример: «Весь день фиксим и холиварим» — это «Исправляем баги и спорим».
 
@@ -58,6 +58,6 @@ published: true
 * <a href="https://www.youtube.com/user/hussey17" target="_blank">Brad Hussey</a>,
 * <a href="https://www.youtube.com/user/webinaction" target="_blank">Dr Richard Stibbard</a> и другие.
 
-При таком комплексном подходе и регулярных занятиях результат не заставит себя ждать. <hr>
+При таком комплексном подходе и регулярных занятиях результат не заставит себя ждать. 
 
-Материал подготовлен онлайн-школой английского <a href="https://goo.gl/XWJ5Tn" target="_blank">EnglishDom</a>. Ждем вас на занятия в Skype.</p>
+Материал подготовлен онлайн-школой английского <a href="https://goo.gl/XWJ5Tn" target="_blank">EnglishDom</a>. Ждем вас на занятия в Skype.
