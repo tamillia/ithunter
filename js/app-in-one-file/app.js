@@ -13,7 +13,7 @@ app.controller('main', function ($scope, $http) {
 
     $scope.city = "";
     $scope.language = "";
-    $scope.itemsPerPage = 10;
+    $scope.itemsPerPage = 20;
     $scope.currentPage = 0;
 
     $scope.cityFilter = function(proger) {
@@ -23,7 +23,7 @@ app.controller('main', function ($scope, $http) {
             return false;
         } else if ($scope.city != "" && proger['location'] !== null) {
             // console.log(proger['location'], $scope.city);
-            return proger['location'].indexOf($scope.city) !== -1;
+            return proger['location'].toLowerCase().indexOf($scope.city.toLowerCase()) !== -1;
         } else {
             return true;
         }
@@ -35,10 +35,9 @@ app.controller('main', function ($scope, $http) {
         } else if (proger['languages'] == null) {
             return false;
         } else if ($scope.language != "" && proger['languages'] !== null) {
-            console.log(proger['languages'], $scope.language + "'");
-            console.log(proger['languages'], $scope.language + ":");
-            return proger['languages'].indexOf($scope.language + "'") !== -1 || 
-                   proger['languages'].indexOf($scope.language + ':') !== -1;
+            return proger['languages'].toLowerCase().indexOf($scope.language.toLowerCase() + "'") !== -1 || 
+                   proger['languages'].toLowerCase().indexOf($scope.language.toLowerCase() + ':') !== -1 || 
+                   proger['languages'].toLowerCase().indexOf($scope.language.toLowerCase() + ' ') !== -1;
         } else {
             return true;
         }
