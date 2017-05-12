@@ -23,6 +23,10 @@ app.controller('main', function ($scope, $http) {
             return false;
         } else if ($scope.city != "" && proger['location'] !== null) {
             // console.log(proger['location'], $scope.city);
+            if ($scope.city.toLowerCase() == "москва") {
+                return proger['location'].toLowerCase().indexOf("moscow") !== -1 ||
+                        proger['location'].toLowerCase().indexOf("москва") !== -1;
+            }
             return proger['location'].toLowerCase().indexOf($scope.city.toLowerCase()) !== -1;
         } else {
             return true;
